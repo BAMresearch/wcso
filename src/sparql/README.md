@@ -1,11 +1,13 @@
 # Sparql checks
 
-[SPARQL](https://www.w3.org/TR/rdf-sparql-query/) is a W3C standard query language for RDF. This directory contains useful SPARQL queries for perfoming over the ontology.
+[SPARQL](https://www.w3.org/TR/rdf-sparql-query/) is a W3C standard
+query language for RDF. This directory contains useful SPARQL queries
+for perfoming over the ontology.
 
 SPARQL can be executed on a triplestore or directly on any OWL
-file. The queries here are all executed on either wcso-edit.owl or
+file. The queries here are all executed on either wcso-edit.obo or
 downstream products in the [ontology](../ontology/) folder. We use
-`robot` as this allows easy execution over any OWL file.
+`robot` as this allows easy execution over any Obo-format or OWL file.
 
 We break the queries into 3 categories:
 

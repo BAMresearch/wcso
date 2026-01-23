@@ -3,7 +3,7 @@ title: "Wet-Chemical Syntheses (WeChemSyn) Ontology"
 github_org: BAMresearch
 git_main_branch: main
 repo: wcso
-uribase: https://w3id.org/
+uribase: https://w3id.org
 uribase_suffix: wcso
 
 release_artefacts:

@@ -9,6 +9,9 @@
 # ----------------------------------------
 # More information: https://github.com/INCATools/ontology-development-kit/
 
+# Fingerprint of the configuration file when this Makefile was last generated
+CONFIG_HASH=                ec2c92898aec3b6fec8dd2c196db7a5775f27fd3db0e499879bf0efdf24ea668
+
 
 # ----------------------------------------
 # Standard Constants
@@ -16,9 +19,9 @@
 # these can be overwritten on the command line
 
 OBOBASE=                    http://purl.obolibrary.org/obo
-URIBASE=                    http://purl.obolibrary.org/obo
+URIBASE=                    https://w3id.org
 ONT=                        wcso
-ONTBASE=                    http://purl.obolibrary.org/obo/wcso
+ONTBASE=                    https://w3id.org/wcso
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
 MAKE_FAST=                  $(MAKE) IMP=false PAT=false COMP=false MIR=false
@@ -59,9 +62,9 @@ ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
 
-FORMATS = $(sort  owl obo owl)
+FORMATS = $(sort  owl ttl owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-full $(ONT)-base )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full $(ONT)-simple )
 
 ifeq ($(ODK_DEBUG),yes)
 ODK_DEBUG_FILE = debug.log
@@ -101,7 +104,7 @@ PAT = true
 all: all_odk
 
 .PHONY: all_odk
-all_odk: odkversion test custom_reports all_assets
+all_odk: odkversion config_check test custom_reports all_assets
 
 .PHONY: test
 test: odkversion validate_idranges reason_test sparql_test robot_reports $(REPORTDIR)/validate_profile_owl2dl_$(ONT).owl.txt
@@ -123,6 +126,12 @@ reason_test: $(EDIT_PREPROCESSED)
 odkversion:
 	@echo "ODK Makefile $(ODK_VERSION_MAKEFILE)"
 	@odk-info --tools
+.PHONY: config_check
+config_check:
+	@if [ "$$(tr -d '\r' < $(ONT)-odk.yaml | sha256sum | cut -c1-64)" = "$(CONFIG_HASH)" ]; then \
+		echo "Repository is up-to-date." ; else \
+		echo "Your ODK configuration has changed since this Makefile was generated. You may need to run 'make update_repo'." ; fi
+
 
 $(TMPDIR) $(REPORTDIR) $(MIRRORDIR) $(IMPORTDIR) $(COMPONENTSDIR) $(SUBSETDIR):
 	mkdir -p $@
@@ -178,7 +187,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS = 
+IMPORTS =  pmdco
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -347,6 +356,13 @@ $(REPORTDIR)/release-diff.md: $(ONT).owl $(TMPDIR)/current-release.owl
 # Imports: Seeding system 
 # ------------------------
 
+# pre_seed.txt contains all entities referenced from the -edit file
+# and its components
+PRESEED=$(TMPDIR)/pre_seed.txt
+$(PRESEED): $(SRCMERGED)
+	$(ROBOT) query --input $< --format --csv \
+		       --query $(SPARQLDIR)/terms.sparql $@
+
 $(SRCMERGED): $(EDIT_PREPROCESSED) $(OTHER_SRC)
 	$(ROBOT) remove --input $< --select imports --trim false \
 		 merge $(foreach src, $(OTHER_SRC), --input $(src)) \
@@ -354,6 +370,24 @@ $(SRCMERGED): $(EDIT_PREPROCESSED) $(OTHER_SRC)
 
 $(EDIT_PREPROCESSED): $(SRC)
 	$(ROBOT) convert --input $< --format ofn --output $@
+
+SIMPLESEED=$(TMPDIR)/simple_seed.txt
+
+$(SIMPLESEED): $(SRCMERGED) $(ONTOLOGYTERMS)
+	$(ROBOT) query -f csv -i $< --query ../sparql/simple-seed.sparql $@.tmp &&\
+	cat $@.tmp $(ONTOLOGYTERMS) | sort | uniq >  $@ &&\
+	echo "http://www.geneontology.org/formats/oboInOwl#SubsetProperty" >> $@ &&\
+	echo "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty" >> $@
+
+# seed.txt contains all entities to import in addition to those defined
+# in the individual _terms.txt files.
+IMPORTSEED = $(TMPDIR)/seed.txt
+$(IMPORTSEED): $(PRESEED) | $(TMPDIR)
+	cat $^ | sort | uniq > $@
+
+T_IMPORTSEED = --term-file $(IMPORTSEED)
+
+ANNOTATION_PROPERTIES=rdfs:label rdfs:comment IAO:0000119 IAO:0000115 IAO:0000116 IAO:0000112 skos:definition skos:example skos:comment 
 
 # ----------------------------------------
 # Import modules
@@ -364,8 +398,33 @@ $(EDIT_PREPROCESSED): $(SRC)
 
 ifeq ($(IMP),true)
 
-## Default module type ()
+## Default module type (slme)
+$(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms.txt \
+			   $(IMPORTSEED) | all_robot_plugins
+	$(ROBOT) annotate --input $< --remove-annotations \
+		 odk:normalize --add-source true \
+		 extract --term-file $(IMPORTDIR)/$*_terms.txt $(T_IMPORTSEED) \
+		         --force true --copy-ontology-annotations true \
+		         --individuals include \
+		         --method BOT \
+		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+		        --term-file $(IMPORTDIR)/$*_terms.txt $(T_IMPORTSEED) \
+		        --select complement --select annotation-properties \
+		 odk:normalize --base-iri https://w3id.org \
+		               --subset-decls true --synonym-decls true \
+		 repair --merge-axiom-annotations true \
+		 $(ANNOTATE_CONVERT_FILE)
+
 .PRECIOUS: $(IMPORTDIR)/%_import.owl
+
+## Module for ontology: pmdco (mirror)
+$(IMPORTDIR)/pmdco_import.owl: $(MIRRORDIR)/pmdco.owl | all_robot_plugins
+	$(ROBOT) annotate --input $< --remove-annotations \
+		 odk:normalize --base-iri https://w3id.org \
+		               --subset-decls true --synonym-decls true \
+		               --add-source true \
+		 repair --merge-axiom-annotations true \
+		 $(ANNOTATE_CONVERT_FILE)
 
 endif # IMP=true
 
@@ -400,6 +459,13 @@ no-mirror-refresh-%:
 ifeq ($(MIR),true)
 
 
+## ONTOLOGY: pmdco
+.PHONY: mirror-pmdco
+.PRECIOUS: $(MIRRORDIR)/pmdco.owl
+mirror-pmdco: | $(TMPDIR)
+	$(ROBOT) convert -I https://w3id.org/pmd/co/3.0.0-rc2 -o $(TMPDIR)/$@.owl
+
+
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
 	if [ -f $(TMPDIR)/mirror-$*.owl ]; then if cmp -s $(TMPDIR)/mirror-$*.owl $@ ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." &&\
 		cp $(TMPDIR)/mirror-$*.owl $@; fi; fi
@@ -422,8 +488,8 @@ $(SUBSETDIR)/%.owl: $(ONT).owl | $(SUBSETDIR) all_robot_plugins
 .PRECIOUS: $(SUBSETDIR)/%.owl
 
 
-$(SUBSETDIR)/%.obo: $(SUBSETDIR)/%.owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
+$(SUBSETDIR)/%.ttl: $(SUBSETDIR)/%.owl
+	$(ROBOT) convert --input $< --check false -f ttl -o $@.tmp.ttl && mv $@.tmp.ttl $@
 
 
 # ---------------------------------------------
@@ -444,10 +510,15 @@ endif
 # ----------------------------------------
 
 
-$(ONT)-full.obo: $(ONT)-full.owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
-$(ONT)-base.obo: $(ONT)-base.owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
+$(ONT)-base.ttl: $(ONT)-base.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f ttl -o $@.tmp.ttl && mv $@.tmp.ttl $@
+$(ONT)-full.ttl: $(ONT)-full.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f ttl -o $@.tmp.ttl && mv $@.tmp.ttl $@
+$(ONT)-simple.ttl: $(ONT)-simple.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f ttl -o $@.tmp.ttl && mv $@.tmp.ttl $@
 # ----------------------------------------
 # Release artefacts: main release artefacts
 # ----------------------------------------
@@ -456,12 +527,13 @@ $(ONT).owl: $(ONT)-full.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert -o $@.tmp.owl && mv $@.tmp.owl $@
 
-$(ONT).obo: $(ONT).owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
+$(ONT).ttl: $(ONT).owl
+	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f ttl -o $@.tmp.ttl && mv $@.tmp.ttl $@
 # -----------------------------------------------------
 # Release artefacts: variants (base, full, simple, etc)
 # -----------------------------------------------------
-SHARED_ROBOT_COMMANDS = 
+SHARED_ROBOT_COMMANDS = remove --term owl:Nothing
 
 $(ONTOLOGYTERMS): $(SRCMERGED)
 	$(ROBOT) query -f csv -i $< --query ../sparql/wcso_terms.sparql $@
@@ -489,6 +561,19 @@ $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 		reason --reasoner $(REASONER) --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
 		relax $(RELAX_OPTIONS) \
 		reduce -r $(REASONER) $(REDUCE_OPTIONS) \
+		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+# foo-simple: (edit->reason,relax,reduce,drop imports, drop every axiom which contains an entity outside the "namespaces of interest")
+# drop every axiom: filter --term-file keep_terms.txt --trim true
+#	remove --select imports --trim false
+$(ONT)-simple.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(SIMPLESEED) $(IMPORT_FILES) | all_robot_plugins
+	$(ROBOT_RELEASE_IMPORT_MODE) \
+		reason --reasoner $(REASONER) --equivalent-classes-allowed asserted-only --exclude-tautologies structural --annotate-inferred-axioms false \
+		relax $(RELAX_OPTIONS) \
+		remove --axioms equivalent \
+		filter --term-file $(SIMPLESEED) --select "annotations ontology anonymous self" --trim true --signature true \
+		reduce -r $(REASONER) $(REDUCE_OPTIONS) \
+		odk:normalize --base-iri https://w3id.org --subset-decls true --synonym-decls true \
+		repair --merge-axiom-annotations true \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 # ----------------------------------------
 # Debugging Tools
