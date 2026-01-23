@@ -1,10 +1,11 @@
 prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix obo: <http://purl.obolibrary.org/obo/>
+prefix wcso: <https://w3id.org/wcso>
 
 SELECT ?prefix (COUNT(DISTINCT ?cls) AS ?numberOfClasses) WHERE 
 {
   ?cls a owl:Class .
   FILTER (!isBlank(?cls))
-  BIND( STRBEFORE(STRAFTER(str(?cls),"http://purl.obolibrary.org/obo/"), "_") AS ?prefix)
+  BIND( STRBEFORE(STRAFTER(str(?cls),"https://w3id.org/wcso"), "_") AS ?prefix)
 }
 GROUP BY ?prefix

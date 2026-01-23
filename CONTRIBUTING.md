@@ -1,8 +1,8 @@
-# Contributing to Nanoparticle Ontology
+# Contributing to Wet-Chemical Syntheses (WeChemSyn) Ontology
 
 :+1: First of all: Thank you for taking the time to contribute!
 
-The following is a set of guidelines for contributing to WCSO. 
+The following is a set of guidelines for contributing to Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO). 
 These guidelines are not strict rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 ## Table Of Contents
