@@ -1,8 +1,6 @@
-
 ![Build Status](https://github.com/BAMresearch/wcso/actions/workflows/qc.yml/badge.svg)
-# 
 
-## Introduction
+## WeChemSyn Ontology (WCSO)
 
 The Wet-Chemical Syntheses (WeChemSyn) ontology (WCSO) provides a semantic framework for the structured representation of knowledge related to the production of (nano)particles by wet-chemical synthesis. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, WCSO supports the formalization and integration of nanoparticle-related data across experimental workflows, processes, and material properties. It builds upon the PMD Core Ontology (PMDco), a mid-level ontology created within the Platform MaterialDigital (PMD) project which is grounded in the Basic Formal Ontology (BFO). By adhering to BFO as a foundational ontology, WCSO ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs in the materials science and engineering domain.
 
