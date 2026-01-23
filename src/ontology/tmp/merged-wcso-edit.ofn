@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/wcso.owl#>)
+Prefix(:=<https://w3id.org/wcso/wcso.owl#>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
@@ -8,12 +8,12 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/wcso.owl>
+Ontology(<https://w3id.org/wcso/wcso.owl>
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/WCSO_0000000>))
+Declaration(Class(<https://w3id.org/wcso/WCSO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -25,7 +25,7 @@ Declaration(AnnotationProperty(dcterms:title))
 
 AnnotationAssertion(rdfs:label dcterms:description "description")
 
-# Annotation Property: dcterms:license (license)
+# Annotation Property: dcterms:license (dcterms:license)
 
 AnnotationAssertion(rdfs:label dcterms:license "license")
 
@@ -39,9 +39,9 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/WCSO_0000000> (root node)
+# Class: <https://w3id.org/wcso/WCSO_0000000> (root node)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WCSO_0000000> "root node"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/wcso/WCSO_0000000> "root node"@en)
 
 
 )

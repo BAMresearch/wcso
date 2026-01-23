@@ -1,0 +1,2 @@
+term
+https://w3id.org/wcso/WCSO_0000000

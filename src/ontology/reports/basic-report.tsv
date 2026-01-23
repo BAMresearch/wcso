@@ -61,7 +61,6 @@
 <http://purl.obolibrary.org/obo/CHEBI_22927>		
 <https://w3id.org/pmd/co/PMD_0025008>		
 <https://w3id.org/pmd/co/PMD_0001019>		
-<http://purl.obolibrary.org/obo/WCSO_0000000>		
 <http://purl.obolibrary.org/obo/IAO_0000104>	"A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."@en	
 <https://w3id.org/pmd/co/PMD_0000809>		
 <https://w3id.org/pmd/co/PMD_0000013>		
@@ -348,6 +347,7 @@
 <https://w3id.org/pmd/co/PMD_0025004>		
 <https://w3id.org/pmd/co/PMD_0050066>		
 <https://w3id.org/pmd/co/PMD_0050042>		
+<https://w3id.org/wcso/WCSO_0000000>		
 <https://w3id.org/pmd/co/PMD_0050151>		
 <https://w3id.org/pmd/co/PMD_0000805>		
 <https://w3id.org/pmd/co/PMD_0000057>		
