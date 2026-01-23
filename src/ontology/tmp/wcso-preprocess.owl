@@ -174,7 +174,7 @@ AnnotationAssertion(skos:example <https://w3id.org/wcso/WCSO_0000007> "Die WCSOp
 AnnotationAssertion(skos:example <https://w3id.org/wcso/WCSO_0000007> "The WCSOparticles were precipitated by adding Ethanol."@en)
 SubClassOf(<https://w3id.org/wcso/WCSO_0000007> obo:BFO_0000015)
 
-# Class: <https://w3id.org/wcso/WCSO_0000008> (Waschen)
+# Class: <https://w3id.org/wcso/WCSO_0000008> (wash)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/wcso/WCSO_0000008> "Waschen"@de)
 AnnotationAssertion(rdfs:label <https://w3id.org/wcso/WCSO_0000008> "wash"@en)
@@ -461,7 +461,7 @@ AnnotationAssertion(skos:definition <https://w3id.org/wcso/WCSO_0000034> "Die Ro
 AnnotationAssertion(skos:example <https://w3id.org/wcso/WCSO_0000034> "The rotation speed during a stirring process was 400 revolutions per minute (qudt:REV-PER-MIN)."@en)
 SubClassOf(<https://w3id.org/wcso/WCSO_0000034> co:PMD_0000008)
 
-# Class: <https://w3id.org/wcso/WCSO_0000035> (flow rate)
+# Class: <https://w3id.org/wcso/WCSO_0000035> (Durchsatz)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/wcso/WCSO_0000035> "Durchsatz"@de)
 AnnotationAssertion(rdfs:label <https://w3id.org/wcso/WCSO_0000035> "flow rate"@en)

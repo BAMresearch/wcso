@@ -195,7 +195,7 @@ AnnotationAssertion(skos:example <https://w3id.org/wcso/WCSO_0000007> "Die WCSOp
 AnnotationAssertion(skos:example <https://w3id.org/wcso/WCSO_0000007> "The WCSOparticles were precipitated by adding Ethanol."@en)
 SubClassOf(<https://w3id.org/wcso/WCSO_0000007> obo:BFO_0000015)
 
-# Class: <https://w3id.org/wcso/WCSO_0000008> (wash)
+# Class: <https://w3id.org/wcso/WCSO_0000008> (Waschen)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/wcso/WCSO_0000008> "Waschen"@de)
 AnnotationAssertion(rdfs:label <https://w3id.org/wcso/WCSO_0000008> "wash"@en)
