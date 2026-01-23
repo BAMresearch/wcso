@@ -416,7 +416,7 @@ AnnotationAssertion(rdfs:label :WCSO_0000029 "Die Konzentration ist eine intensi
 AnnotationAssertion(rdfs:label :WCSO_0000029 "Konzentration"@de)
 AnnotationAssertion(rdfs:label :WCSO_0000029 "concentration"@en)
 AnnotationAssertion(skos:definition :WCSO_0000029 "A concentration is an intensive quality that denotes the amount of a substance relative to the volume of a mixture or solution."@en)
-SubClassOf(:WCSO_0000029 co:PMD_0020131)
+SubClassOf(:WCSO_0000029 obo:BFO_0000145)
 
 # Class: :WCSO_0000030 (mass concentration)
 
