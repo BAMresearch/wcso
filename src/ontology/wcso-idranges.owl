@@ -16,7 +16,7 @@ Ontology: <http://purl.obolibrary.org/obo/wcso/wcso-idranges.owl>
 
 Annotations: 
     idsfor: "WCSO",
-    idprefix: "http://purl.obolibrary.org/obo/WCSO_",
+    idprefix: "https://w3id.org/wcso/WCSO_",
     iddigits: 7
 
 AnnotationProperty: idprefix:

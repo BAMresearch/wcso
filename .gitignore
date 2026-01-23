@@ -67,3 +67,8 @@ src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
 
 # End of ODK-managed rules
+
+# Start of wcso-specific ignore rules
+
+*.properties
+/src/metadata

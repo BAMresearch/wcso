@@ -1,0 +1,5 @@
+jupyter
+notebook
+pandas
+owlready2
+rdflib
