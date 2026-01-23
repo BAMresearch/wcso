@@ -1,0 +1,17 @@
+site_name: Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO)
+site_url: https://BAMresearch.github.io/wcso/docs/
+theme: readthedocs
+#theme: mkdocs
+#theme: material
+
+nav:
+- Welcome: index.md
+- Introduction: intro.md
+- Versions: versions.md
+- Cite: cite.md
+- Contributing: contributing.md
+- Publications: publications.md
+- Acknowledgements: acknowledgements.md
+
+plugins:
+- d2
