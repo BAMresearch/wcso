@@ -1,25 +1,24 @@
 ?cls	?pred	?val	?synType
-<http://purl.obolibrary.org/obo/WCSO_0000000>	<http://www.w3.org/2000/01/rdf-schema#label>	"root node"@en	
 <http://purl.obolibrary.org/obo/CHEBI_27573>	<http://www.w3.org/2000/01/rdf-schema#label>	"silicon atom"	
 <https://w3id.org/pmd/co/PMD_0020202>	<http://www.w3.org/2000/01/rdf-schema#label>	"crack"@en	
 <https://w3id.org/pmd/co/PMD_0000965>	<http://www.w3.org/2000/01/rdf-schema#label>	"surface layer (fiat object part)"@en	
 <https://w3id.org/pmd/co/PMD_0020040>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of gold"@en	
 <https://w3id.org/pmd/co/PMD_0050056>	<http://www.w3.org/2000/01/rdf-schema#label>	"alumina"@en	
 <http://purl.obolibrary.org/obo/CHEBI_18291>	<http://www.w3.org/2000/01/rdf-schema#label>	"manganese atom"	
+<http://purl.obolibrary.org/obo/CHEBI_22977>	<http://www.w3.org/2000/01/rdf-schema#label>	"cadmium atom"	
 <https://w3id.org/pmd/co/PMD_0000503>	<http://www.w3.org/2000/01/rdf-schema#label>	"ASTM grainsize"@en	
 <https://w3id.org/pmd/co/PMD_0000542>	<http://www.w3.org/2000/01/rdf-schema#label>	"cnc welding machine"@en	
 <https://w3id.org/pmd/co/PMD_0000542>	<http://www.w3.org/2000/01/rdf-schema#label>	"CNC-Schweißmaschine"@de	
 <http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"@en	
-<http://purl.obolibrary.org/obo/CHEBI_22977>	<http://www.w3.org/2000/01/rdf-schema#label>	"cadmium atom"	
 <https://w3id.org/pmd/co/PMD_0000808>	<http://www.w3.org/2000/01/rdf-schema#label>	"joining by shaping"@en	
 <https://w3id.org/pmd/co/PMD_0000808>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fügen Durch Umformen"@de	
 <https://w3id.org/pmd/co/PMD_0000957>	<http://www.w3.org/2000/01/rdf-schema#label>	"structural property analyzing process"@en	
 <https://w3id.org/pmd/co/PMD_0000957>	<http://www.w3.org/2000/01/rdf-schema#label>	"Struktur Eigenschaften Analyseverfahren"@de	
 <https://w3id.org/pmd/co/PMD_0020032>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of tungsten"@en	
 <https://w3id.org/pmd/co/PMD_0050048>	<http://www.w3.org/2000/01/rdf-schema#label>	"kaolinite"@en	
-<https://w3id.org/pmd/co/PMD_0050026>	<http://www.w3.org/2000/01/rdf-schema#label>	"phenolic resins"@en	
 <https://w3id.org/pmd/co/PMD_0025017>	<http://www.w3.org/2000/01/rdf-schema#label>	"outer diameter"@en	
 <https://w3id.org/pmd/co/PMD_0025017>	<http://www.w3.org/2000/01/rdf-schema#label>	"Außendurchmesser"@de	
+<https://w3id.org/pmd/co/PMD_0050026>	<http://www.w3.org/2000/01/rdf-schema#label>	"phenolic resins"@en	
 <https://w3id.org/pmd/co/PMD_0025003>	<http://www.w3.org/2000/01/rdf-schema#label>	"metallic grain structure"@en	
 <https://w3id.org/pmd/co/PMD_0020067>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of magnesium"@en	
 <http://purl.obolibrary.org/obo/CHEBI_33385>	<http://www.w3.org/2000/01/rdf-schema#label>	"thorium"	
@@ -65,14 +64,14 @@
 <http://purl.obolibrary.org/obo/CHEBI_27363>	<http://www.w3.org/2000/01/rdf-schema#label>	"zinc atom"	
 <https://w3id.org/pmd/co/PMD_0000556>	<http://www.w3.org/2000/01/rdf-schema#label>	"chromatography process"@en	
 <https://w3id.org/pmd/co/PMD_0000556>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chromatographieverfahren"@de	
-<https://w3id.org/pmd/co/PMD_0200008>	<http://www.w3.org/2000/01/rdf-schema#label>	"modelling"@en	
-<https://w3id.org/pmd/co/PMD_0200008>	<http://www.w3.org/2000/01/rdf-schema#label>	"Modellieren"@de	
 <https://w3id.org/pmd/co/PMD_0000636>	<http://www.w3.org/2000/01/rdf-schema#label>	"extensometer"@en	
 <https://w3id.org/pmd/co/PMD_0000867>	<http://www.w3.org/2000/01/rdf-schema#label>	"nanoindentation process"@en	
 <https://w3id.org/pmd/co/PMD_0000867>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nanoindentationsverfahren"@de	
-<https://w3id.org/pmd/co/PMD_0050109>	<http://www.w3.org/2000/01/rdf-schema#label>	"lead glass"@en	
+<https://w3id.org/pmd/co/PMD_0200008>	<http://www.w3.org/2000/01/rdf-schema#label>	"modelling"@en	
+<https://w3id.org/pmd/co/PMD_0200008>	<http://www.w3.org/2000/01/rdf-schema#label>	"Modellieren"@de	
 <https://w3id.org/pmd/co/PMD_0000853>	<http://www.w3.org/2000/01/rdf-schema#label>	"crystallographic texture"@en	
 <http://purl.obolibrary.org/obo/CHEBI_59999>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical substance"	
+<https://w3id.org/pmd/co/PMD_0050109>	<http://www.w3.org/2000/01/rdf-schema#label>	"lead glass"@en	
 <https://w3id.org/pmd/co/PMD_0050060>	<http://www.w3.org/2000/01/rdf-schema#label>	"titania"@en	
 <https://w3id.org/pmd/co/PMD_0020082>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of neodymium"@en	
 <https://w3id.org/pmd/co/PMD_0001011>	<http://www.w3.org/2000/01/rdf-schema#label>	"welding device"@en	
@@ -483,16 +482,16 @@
 <https://w3id.org/pmd/co/PMD_0020171>	<http://www.w3.org/2000/01/rdf-schema#label>	"phase boundary (spatial)"@en	
 <https://w3id.org/pmd/co/PMD_0000532>	<http://www.w3.org/2000/01/rdf-schema#label>	"biological property analyzing process"@en	
 <https://w3id.org/pmd/co/PMD_0000532>	<http://www.w3.org/2000/01/rdf-schema#label>	"Biologische Eigenschaften Analyseverfahren"@de	
+<https://w3id.org/pmd/co/PMD_0000977>	<http://www.w3.org/2000/01/rdf-schema#label>	"textile joining"@en	
+<https://w3id.org/pmd/co/PMD_0000977>	<http://www.w3.org/2000/01/rdf-schema#label>	"Textiles Fügen"@de	
 <https://w3id.org/pmd/co/PMD_0000612>	<http://www.w3.org/2000/01/rdf-schema#label>	"disassembling"@en	
 <https://w3id.org/pmd/co/PMD_0000612>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zerlegen"@de	
 <https://w3id.org/pmd/co/PMD_0000939>	<http://www.w3.org/2000/01/rdf-schema#label>	"soldering function"@en	
 <https://w3id.org/pmd/co/PMD_0000939>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lötfunktion"@de	
 <https://w3id.org/pmd/co/PMD_0000890>	<http://www.w3.org/2000/01/rdf-schema#label>	"connected material entity aggregate"@en	
-<https://w3id.org/pmd/co/PMD_0000977>	<http://www.w3.org/2000/01/rdf-schema#label>	"textile joining"@en	
-<https://w3id.org/pmd/co/PMD_0000977>	<http://www.w3.org/2000/01/rdf-schema#label>	"Textiles Fügen"@de	
 <http://purl.obolibrary.org/obo/OBI_0001931>	<http://www.w3.org/2000/01/rdf-schema#label>	"scalar value specification"	
-<http://purl.obolibrary.org/obo/CHEBI_33367>	<http://www.w3.org/2000/01/rdf-schema#label>	"darmstadtium"	
 <https://w3id.org/pmd/co/PMD_0050016>	<http://www.w3.org/2000/01/rdf-schema#label>	"polystyrene"@en	
+<http://purl.obolibrary.org/obo/CHEBI_33367>	<http://www.w3.org/2000/01/rdf-schema#label>	"darmstadtium"	
 <https://w3id.org/pmd/co/PMD_0000562>	<http://www.w3.org/2000/01/rdf-schema#label>	"coarse grained simulation"@en	
 <https://w3id.org/pmd/co/PMD_0000562>	<http://www.w3.org/2000/01/rdf-schema#label>	"Coarse Grained Simulation"@de	
 <http://purl.obolibrary.org/obo/BFO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"entity"@en	
@@ -540,9 +539,9 @@
 <https://w3id.org/pmd/co/PMD_0000784>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hochleistungsflüssigkeitschromatographiesystem"@de	
 <https://w3id.org/pmd/co/PMD_0000819>	<http://www.w3.org/2000/01/rdf-schema#label>	"light microscopy"@en	
 <https://w3id.org/pmd/co/PMD_0000819>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lichtmikroskopie"@de	
+<https://w3id.org/pmd/co/PMD_0000857>	<http://www.w3.org/2000/01/rdf-schema#label>	"microstructure"@en	
 <https://w3id.org/pmd/co/PMD_0200005>	<http://www.w3.org/2000/01/rdf-schema#label>	"drawing forming"@en	
 <https://w3id.org/pmd/co/PMD_0200005>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ziehformen"@de	
-<https://w3id.org/pmd/co/PMD_0000857>	<http://www.w3.org/2000/01/rdf-schema#label>	"microstructure"@en	
 <https://w3id.org/pmd/co/PMD_0050007>	<http://www.w3.org/2000/01/rdf-schema#label>	"high-density polyethylene"@en	
 <https://w3id.org/pmd/co/PMD_0000968>	<http://www.w3.org/2000/01/rdf-schema#label>	"temperature change device"@en	
 <https://w3id.org/pmd/co/PMD_0000968>	<http://www.w3.org/2000/01/rdf-schema#label>	"Temperaturänderungswerkzeug"@de	
@@ -600,18 +599,18 @@
 <https://w3id.org/pmd/co/PMD_0000513>	<http://www.w3.org/2000/01/rdf-schema#label>	"Alterungsprozess"@de	
 <https://w3id.org/pmd/co/PMD_0000617>	<http://www.w3.org/2000/01/rdf-schema#label>	"dynamic mechanical analyzer"@en	
 <https://w3id.org/pmd/co/PMD_0000617>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dynamischer mechanischer Analysator"@de	
+<https://w3id.org/pmd/co/PMD_0020093>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of vanadium"@en	
 <https://w3id.org/pmd/co/PMD_0000798>	<http://www.w3.org/2000/01/rdf-schema#label>	"ion microscopy"@en	
 <https://w3id.org/pmd/co/PMD_0000798>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ionenmikroskopie"@de	
-<https://w3id.org/pmd/co/PMD_0020093>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of vanadium"@en	
 <https://w3id.org/pmd/co/PMD_0000878>	<http://www.w3.org/2000/01/rdf-schema#label>	"optical property analyzing process"@en	
 <https://w3id.org/pmd/co/PMD_0000878>	<http://www.w3.org/2000/01/rdf-schema#label>	"Optische Eigenschaften Analyseverfahren"@de	
 <https://w3id.org/pmd/co/PMD_0050071>	<http://www.w3.org/2000/01/rdf-schema#label>	"boride ceramics"@en	
 <https://w3id.org/pmd/co/PMD_0000567>	<http://www.w3.org/2000/01/rdf-schema#label>	"coating device"@en	
 <https://w3id.org/pmd/co/PMD_0000567>	<http://www.w3.org/2000/01/rdf-schema#label>	"Beschichtungsgerät"@de	
-<https://w3id.org/pmd/co/PMD_0000647>	<http://www.w3.org/2000/01/rdf-schema#label>	"forming by bending"@en	
-<https://w3id.org/pmd/co/PMD_0000647>	<http://www.w3.org/2000/01/rdf-schema#label>	"Biegeumformen"@de	
 <https://w3id.org/pmd/co/PMD_0001022>	<http://www.w3.org/2000/01/rdf-schema#label>	"x-ray computed tomography system"@en	
 <https://w3id.org/pmd/co/PMD_0001022>	<http://www.w3.org/2000/01/rdf-schema#label>	"Röntgen-Computertomographiesystem"@de	
+<https://w3id.org/pmd/co/PMD_0000647>	<http://www.w3.org/2000/01/rdf-schema#label>	"forming by bending"@en	
+<https://w3id.org/pmd/co/PMD_0000647>	<http://www.w3.org/2000/01/rdf-schema#label>	"Biegeumformen"@de	
 <https://w3id.org/pmd/co/PMD_0000633>	<http://www.w3.org/2000/01/rdf-schema#label>	"environmental chamber"@en	
 <https://w3id.org/pmd/co/PMD_0000633>	<http://www.w3.org/2000/01/rdf-schema#label>	"Umweltschrank"@de	
 <http://purl.obolibrary.org/obo/CHEBI_33348>	<http://www.w3.org/2000/01/rdf-schema#label>	"tantalum atom"	
@@ -629,9 +628,9 @@
 <https://w3id.org/pmd/co/PMD_0050122>	<http://www.w3.org/2000/01/rdf-schema#label>	"specialty glasses"@en	
 <http://purl.obolibrary.org/obo/CHEBI_25555>	<http://www.w3.org/2000/01/rdf-schema#label>	"nitrogen atom"	
 <http://purl.obolibrary.org/obo/CHEBI_25107>	<http://www.w3.org/2000/01/rdf-schema#label>	"magnesium atom"	
-<https://w3id.org/pmd/co/PMD_0050114>	<http://www.w3.org/2000/01/rdf-schema#label>	"phosphate glass"@en	
 <https://w3id.org/pmd/co/PMD_0000981>	<http://www.w3.org/2000/01/rdf-schema#label>	"thermal property"@en	
 <https://w3id.org/pmd/co/PMD_0000877>	<http://www.w3.org/2000/01/rdf-schema#label>	"optical property"@en	
+<https://w3id.org/pmd/co/PMD_0050114>	<http://www.w3.org/2000/01/rdf-schema#label>	"phosphate glass"@en	
 <http://purl.obolibrary.org/obo/CHEBI_30415>	<http://www.w3.org/2000/01/rdf-schema#label>	"astatine atom"	
 <http://purl.obolibrary.org/obo/CHEBI_28685>	<http://www.w3.org/2000/01/rdf-schema#label>	"molybdenum atom"	
 <https://w3id.org/pmd/co/PMD_0000926>	<http://www.w3.org/2000/01/rdf-schema#label>	"scratch testing process"@en	
@@ -642,9 +641,9 @@
 <https://w3id.org/pmd/co/PMD_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"workflow node"@en	
 <https://w3id.org/pmd/co/PMD_0000904>	<http://www.w3.org/2000/01/rdf-schema#label>	"primary shaping from the granular or powdered state"@en	
 <https://w3id.org/pmd/co/PMD_0000904>	<http://www.w3.org/2000/01/rdf-schema#label>	"Urformen Aus Dem Körnerförmigen Oder Pulverförmigen Zustand"@de	
-<https://w3id.org/pmd/co/PMD_0050149>	<http://www.w3.org/2000/01/rdf-schema#label>	"amorphous metal glass"@en	
 <https://w3id.org/pmd/co/PMD_0020133>	<http://www.w3.org/2000/01/rdf-schema#label>	"mass"@en	
 <http://purl.obolibrary.org/obo/BFO_0000035>	<http://www.w3.org/2000/01/rdf-schema#label>	"process boundary"@en	
+<https://w3id.org/pmd/co/PMD_0050149>	<http://www.w3.org/2000/01/rdf-schema#label>	"amorphous metal glass"@en	
 <https://w3id.org/pmd/co/PMD_0000588>	<http://www.w3.org/2000/01/rdf-schema#label>	"creep testing machine"@en	
 <https://w3id.org/pmd/co/PMD_0000588>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kriechprüfmaschine"@de	
 <http://purl.obolibrary.org/obo/CHEBI_33346>	<http://www.w3.org/2000/01/rdf-schema#label>	"rutherfordium atom"	
@@ -670,9 +669,9 @@
 <https://w3id.org/pmd/co/PMD_0000917>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rheometer"@de	
 <https://w3id.org/pmd/co/PMD_0000903>	<http://www.w3.org/2000/01/rdf-schema#label>	"primary shaping from the gaseous or vapor state"@en	
 <https://w3id.org/pmd/co/PMD_0000903>	<http://www.w3.org/2000/01/rdf-schema#label>	"Urformen Aus Dem Gasförmigen Oder Dampfförmigen Zustand"@de	
+<http://purl.obolibrary.org/obo/CHEBI_30430>	<http://www.w3.org/2000/01/rdf-schema#label>	"indium atom"	
 <https://w3id.org/pmd/co/PMD_0000898>	<http://www.w3.org/2000/01/rdf-schema#label>	"pressure measuring function"@en	
 <https://w3id.org/pmd/co/PMD_0000898>	<http://www.w3.org/2000/01/rdf-schema#label>	"Druckmessfunktion"@de	
-<http://purl.obolibrary.org/obo/CHEBI_30430>	<http://www.w3.org/2000/01/rdf-schema#label>	"indium atom"	
 <https://w3id.org/pmd/co/PMD_0000941>	<http://www.w3.org/2000/01/rdf-schema#label>	"spalling testing process"@en	
 <https://w3id.org/pmd/co/PMD_0000941>	<http://www.w3.org/2000/01/rdf-schema#label>	"Abplatzprüfverfahren"@de	
 <https://w3id.org/pmd/co/PMD_0000054>	<http://www.w3.org/2000/01/rdf-schema#label>	"heating function"@en	
@@ -725,8 +724,8 @@
 <https://w3id.org/pmd/co/PMD_0000665>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gravimetrischer Analysator"@de	
 <https://w3id.org/pmd/co/PMD_0000813>	<http://www.w3.org/2000/01/rdf-schema#label>	"knife"@en	
 <https://w3id.org/pmd/co/PMD_0000813>	<http://www.w3.org/2000/01/rdf-schema#label>	"Messer"@de	
-<https://w3id.org/pmd/co/PMD_0050001>	<http://www.w3.org/2000/01/rdf-schema#label>	"covalent bond"@en	
 <https://w3id.org/pmd/co/PMD_0000882>	<http://www.w3.org/2000/01/rdf-schema#label>	"phase boundary (realization)"@en	
+<https://w3id.org/pmd/co/PMD_0050001>	<http://www.w3.org/2000/01/rdf-schema#label>	"covalent bond"@en	
 <https://w3id.org/pmd/co/PMD_0020204>	<http://www.w3.org/2000/01/rdf-schema#label>	"pore"@en	
 <https://w3id.org/pmd/co/PMD_0020042>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of cadmium"@en	
 <https://w3id.org/pmd/co/PMD_0000962>	<http://www.w3.org/2000/01/rdf-schema#label>	"Überkritische Fluidchromatographie Verfahren"@de	
@@ -858,9 +857,9 @@
 <https://w3id.org/pmd/co/PMD_0000010>	<http://www.w3.org/2000/01/rdf-schema#label>	"workflow function"@en	
 <https://w3id.org/pmd/co/PMD_0000919>	<http://www.w3.org/2000/01/rdf-schema#label>	"sample role"@en	
 <https://w3id.org/pmd/co/PMD_0000919>	<http://www.w3.org/2000/01/rdf-schema#label>	"Probe-Rolle"@de	
+<http://purl.obolibrary.org/obo/OBI_0000379>	<http://www.w3.org/2000/01/rdf-schema#label>	"mechanical function"@en	
 <https://w3id.org/pmd/co/PMD_0001019>	<http://www.w3.org/2000/01/rdf-schema#label>	"x-ray spectroscopy"@en	
 <https://w3id.org/pmd/co/PMD_0001019>	<http://www.w3.org/2000/01/rdf-schema#label>	"Röntgenspektroskopie"@de	
-<http://purl.obolibrary.org/obo/OBI_0000379>	<http://www.w3.org/2000/01/rdf-schema#label>	"mechanical function"@en	
 <https://w3id.org/pmd/co/PMD_0001005>	<http://www.w3.org/2000/01/rdf-schema#label>	"viscometry"@en	
 <https://w3id.org/pmd/co/PMD_0001005>	<http://www.w3.org/2000/01/rdf-schema#label>	"Viskosimetrie"@de	
 <https://w3id.org/pmd/co/PMD_0000581>	<http://www.w3.org/2000/01/rdf-schema#label>	"compression testing process"@en	
@@ -869,8 +868,8 @@
 <https://w3id.org/pmd/co/PMD_0000526>	<http://www.w3.org/2000/01/rdf-schema#label>	"atomic structure"@en	
 <http://purl.obolibrary.org/obo/CHEBI_33331>	<http://www.w3.org/2000/01/rdf-schema#label>	"yttrium atom"	
 <https://w3id.org/pmd/co/PMD_0000996>	<http://www.w3.org/2000/01/rdf-schema#label>	"triple point"@en	
-<https://w3id.org/pmd/co/PMD_0050134>	<http://www.w3.org/2000/01/rdf-schema#label>	"conductive glass"@en	
 <https://w3id.org/pmd/co/PMD_0020068>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of zinc"@en	
+<https://w3id.org/pmd/co/PMD_0050134>	<http://www.w3.org/2000/01/rdf-schema#label>	"conductive glass"@en	
 <http://purl.obolibrary.org/obo/CHEBI_27007>	<http://www.w3.org/2000/01/rdf-schema#label>	"tin atom"	
 <https://w3id.org/pmd/co/PMD_0050120>	<http://www.w3.org/2000/01/rdf-schema#label>	"crown glass"@en	
 <https://w3id.org/pmd/co/PMD_0000512>	<http://www.w3.org/2000/01/rdf-schema#label>	"aggregate state"@en	
@@ -911,8 +910,8 @@
 <https://w3id.org/pmd/co/PMD_0020028>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of indium"@en	
 <https://w3id.org/pmd/co/PMD_0000953>	<http://www.w3.org/2000/01/rdf-schema#label>	"structural and chemical decay"@en	
 <https://w3id.org/pmd/co/PMD_0050044>	<http://www.w3.org/2000/01/rdf-schema#label>	"stoneware"@en	
-<https://w3id.org/pmd/co/PMD_0020132>	<http://www.w3.org/2000/01/rdf-schema#label>	"size"@en	
 <https://w3id.org/pmd/co/PMD_0050148>	<http://www.w3.org/2000/01/rdf-schema#label>	"borate-based bioactive glass"@en	
+<https://w3id.org/pmd/co/PMD_0020132>	<http://www.w3.org/2000/01/rdf-schema#label>	"size"@en	
 <http://purl.obolibrary.org/obo/CHEBI_33373>	<http://www.w3.org/2000/01/rdf-schema#label>	"promethium atom"	
 <https://w3id.org/pmd/co/PMD_0000776>	<http://www.w3.org/2000/01/rdf-schema#label>	"hardness testing process"@en	
 <https://w3id.org/pmd/co/PMD_0000776>	<http://www.w3.org/2000/01/rdf-schema#label>	"Härteprüfverfahren"@de	
@@ -931,8 +930,8 @@
 <https://w3id.org/pmd/co/PMD_0020145>	<http://www.w3.org/2000/01/rdf-schema#label>	"educt"@en	
 <https://w3id.org/pmd/co/PMD_0000812>	<http://www.w3.org/2000/01/rdf-schema#label>	"joining function"@en	
 <https://w3id.org/pmd/co/PMD_0000812>	<http://www.w3.org/2000/01/rdf-schema#label>	"Verbindungsfunktion"@de	
-<http://purl.obolibrary.org/obo/CHEBI_49696>	<http://www.w3.org/2000/01/rdf-schema#label>	"krypton atom"	
 <https://w3id.org/pmd/co/PMD_0050000>	<http://www.w3.org/2000/01/rdf-schema#label>	"bond"@en	
+<http://purl.obolibrary.org/obo/CHEBI_49696>	<http://www.w3.org/2000/01/rdf-schema#label>	"krypton atom"	
 <https://w3id.org/pmd/co/PMD_0020203>	<http://www.w3.org/2000/01/rdf-schema#label>	"notch"@en	
 <https://w3id.org/pmd/co/PMD_0020041>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of argon"@en	
 <https://w3id.org/pmd/co/PMD_0000067>	<http://www.w3.org/2000/01/rdf-schema#label>	"output assignment"@en	
@@ -948,9 +947,9 @@
 <https://w3id.org/pmd/co/PMD_0020106>	<http://www.w3.org/2000/01/rdf-schema#label>	"polycrystal"@en	
 <https://w3id.org/pmd/co/PMD_0050139>	<http://www.w3.org/2000/01/rdf-schema#label>	"cobalt-borosilicate glass"@en	
 <https://w3id.org/pmd/co/PMD_0050090>	<http://www.w3.org/2000/01/rdf-schema#label>	"bismuth strontium calcium copper oxide"@en	
-<https://w3id.org/pmd/co/PMD_0020161>	<http://www.w3.org/2000/01/rdf-schema#label>	"activity (thermodynamic)"@en	
 <https://w3id.org/pmd/co/PMD_0000894>	<http://www.w3.org/2000/01/rdf-schema#label>	"precision lathe"@en	
 <https://w3id.org/pmd/co/PMD_0000894>	<http://www.w3.org/2000/01/rdf-schema#label>	"Präzisionsdrehmaschine"@de	
+<https://w3id.org/pmd/co/PMD_0020161>	<http://www.w3.org/2000/01/rdf-schema#label>	"activity (thermodynamic)"@en	
 <https://w3id.org/pmd/co/PMD_0000833>	<http://www.w3.org/2000/01/rdf-schema#label>	"Herstellungsprozess"@de	
 <https://w3id.org/pmd/co/PMD_0000833>	<http://www.w3.org/2000/01/rdf-schema#label>	"manufacturing process"@en	
 <http://purl.obolibrary.org/obo/CHEBI_30687>	<http://www.w3.org/2000/01/rdf-schema#label>	"osmium atom"	
@@ -958,11 +957,11 @@
 <https://w3id.org/pmd/co/PMD_0000602>	<http://www.w3.org/2000/01/rdf-schema#label>	"device"@en	
 <https://w3id.org/pmd/co/PMD_0000602>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gerät"@de	
 <https://w3id.org/pmd/co/PMD_0050013>	<http://www.w3.org/2000/01/rdf-schema#label>	"polyvinyl chloride"@en	
+<https://w3id.org/pmd/co/PMD_0050155>	<http://www.w3.org/2000/01/rdf-schema#label>	"shape"@en	
+<https://w3id.org/pmd/co/PMD_0050155>	<http://www.w3.org/2000/01/rdf-schema#label>	"Form"@de	
 <https://w3id.org/pmd/co/PMD_0000825>	<http://www.w3.org/2000/01/rdf-schema#label>	"magnetic property"@en	
 <https://w3id.org/pmd/co/PMD_0000663>	<http://www.w3.org/2000/01/rdf-schema#label>	"kristallit"@de	
 <https://w3id.org/pmd/co/PMD_0000663>	<http://www.w3.org/2000/01/rdf-schema#label>	"crystallite"@en	
-<https://w3id.org/pmd/co/PMD_0050155>	<http://www.w3.org/2000/01/rdf-schema#label>	"shape"@en	
-<https://w3id.org/pmd/co/PMD_0050155>	<http://www.w3.org/2000/01/rdf-schema#label>	"Form"@de	
 <https://w3id.org/pmd/co/PMD_0000811>	<http://www.w3.org/2000/01/rdf-schema#label>	"joining device"@en	
 <https://w3id.org/pmd/co/PMD_0000811>	<http://www.w3.org/2000/01/rdf-schema#label>	"Verbindungsgerät"@de	
 <https://w3id.org/pmd/co/PMD_0000929>	<http://www.w3.org/2000/01/rdf-schema#label>	"shear testing process"@en	
@@ -998,9 +997,9 @@
 <https://w3id.org/pmd/co/PMD_0000557>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chromatographiesystem"@de	
 <https://w3id.org/pmd/co/PMD_0000788>	<http://www.w3.org/2000/01/rdf-schema#label>	"impact testing process"@en	
 <https://w3id.org/pmd/co/PMD_0000788>	<http://www.w3.org/2000/01/rdf-schema#label>	"Schlagprüfverfahren"@de	
+<https://w3id.org/pmd/co/PMD_0050050>	<http://www.w3.org/2000/01/rdf-schema#label>	"glass-ceramics"@en	
 <https://w3id.org/pmd/co/PMD_0000854>	<http://www.w3.org/2000/01/rdf-schema#label>	"micrometer gauge"@en	
 <https://w3id.org/pmd/co/PMD_0000854>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bügelmessschraube"@de	
-<https://w3id.org/pmd/co/PMD_0050050>	<http://www.w3.org/2000/01/rdf-schema#label>	"glass-ceramics"@en	
 <https://w3id.org/pmd/co/PMD_0020047>	<http://www.w3.org/2000/01/rdf-schema#label>	"portion of phosphorus"@en	
 <https://w3id.org/pmd/co/PMD_0000543>	<http://www.w3.org/2000/01/rdf-schema#label>	"calibration device role"@en	
 <https://w3id.org/pmd/co/PMD_0000543>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kalibrierungsgeräterolle"@de	
@@ -1017,10 +1016,10 @@
 <http://purl.obolibrary.org/obo/CHEBI_49631>	<http://www.w3.org/2000/01/rdf-schema#label>	"gallium atom"	
 <https://w3id.org/pmd/co/PMD_0060009>	<http://www.w3.org/2000/01/rdf-schema#label>	"specification datum"@en	
 <http://purl.obolibrary.org/obo/UO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"time unit"	
-<https://w3id.org/pmd/co/PMD_0000573>	<http://www.w3.org/2000/01/rdf-schema#label>	"coating from the plastic state"@en	
-<https://w3id.org/pmd/co/PMD_0000573>	<http://www.w3.org/2000/01/rdf-schema#label>	"Beschichten Aus Dem Plastischen Zustand"@de	
 <https://w3id.org/pmd/co/PMD_0000974>	<http://www.w3.org/2000/01/rdf-schema#label>	"tensile testing process"@en	
 <https://w3id.org/pmd/co/PMD_0000974>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zugprüfverfahren"@de	
+<https://w3id.org/pmd/co/PMD_0000573>	<http://www.w3.org/2000/01/rdf-schema#label>	"coating from the plastic state"@en	
+<https://w3id.org/pmd/co/PMD_0000573>	<http://www.w3.org/2000/01/rdf-schema#label>	"Beschichten Aus Dem Plastischen Zustand"@de	
 <http://purl.obolibrary.org/obo/CHEBI_30512>	<http://www.w3.org/2000/01/rdf-schema#label>	"silver atom"	
 <http://purl.obolibrary.org/obo/CHEBI_24433>	<http://www.w3.org/2000/01/rdf-schema#label>	"group"	
 <https://w3id.org/pmd/co/PMD_0000790>	<http://www.w3.org/2000/01/rdf-schema#label>	"index of refraction"@en	
@@ -1103,10 +1102,10 @@
 <http://purl.obolibrary.org/obo/IAO_0000109>	<http://www.w3.org/2000/01/rdf-schema#label>	"measurement datum"@en	
 <https://w3id.org/pmd/co/PMD_0000524>	<http://www.w3.org/2000/01/rdf-schema#label>	"assembling process"@en	
 <https://w3id.org/pmd/co/PMD_0000524>	<http://www.w3.org/2000/01/rdf-schema#label>	"Assemblierungsprozess"@de	
-<https://w3id.org/pmd/co/PMD_0000889>	<http://www.w3.org/2000/01/rdf-schema#label>	"pore growth"@en	
 <https://w3id.org/pmd/co/PMD_0050085>	<http://www.w3.org/2000/01/rdf-schema#label>	"magnetic ceramics (ferrites)"@en	
-<https://w3id.org/pmd/co/PMD_0000007>	<http://www.w3.org/2000/01/rdf-schema#label>	"vector field specification"@en	
+<https://w3id.org/pmd/co/PMD_0000889>	<http://www.w3.org/2000/01/rdf-schema#label>	"pore growth"@en	
 <https://w3id.org/pmd/co/PMD_0050082>	<http://www.w3.org/2000/01/rdf-schema#label>	"dielectric ceramics"@en	
+<https://w3id.org/pmd/co/PMD_0000007>	<http://www.w3.org/2000/01/rdf-schema#label>	"vector field specification"@en	
 <http://purl.obolibrary.org/obo/CHEBI_33359>	<http://www.w3.org/2000/01/rdf-schema#label>	"rhodium atom"	
 <http://purl.obolibrary.org/obo/CHEBI_49666>	<http://www.w3.org/2000/01/rdf-schema#label>	"iridium atom"	
 <https://w3id.org/pmd/co/PMD_0000578>	<http://www.w3.org/2000/01/rdf-schema#label>	"compounding"@en	
@@ -1136,12 +1135,12 @@
 <https://w3id.org/pmd/co/PMD_0050147>	<http://www.w3.org/2000/01/rdf-schema#label>	"phosphate-based bioactive glass"@en	
 <http://purl.obolibrary.org/obo/CHEBI_22927>	<http://www.w3.org/2000/01/rdf-schema#label>	"bromine atom"	
 <https://w3id.org/pmd/co/PMD_0000888>	<http://www.w3.org/2000/01/rdf-schema#label>	"polymer"@en	
+<https://w3id.org/pmd/co/PMD_0050133>	<http://www.w3.org/2000/01/rdf-schema#label>	"functional glass"@en	
 <http://purl.obolibrary.org/obo/OBI_0000070>	<http://www.w3.org/2000/01/rdf-schema#label>	"assay"@en	
 <https://w3id.org/pmd/co/PMD_0000937>	<http://www.w3.org/2000/01/rdf-schema#label>	"soldering device"@en	
 <https://w3id.org/pmd/co/PMD_0000937>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lötgerät"@de	
 <https://w3id.org/pmd/co/PMD_0000775>	<http://www.w3.org/2000/01/rdf-schema#label>	"hardness testing machine"@en	
 <https://w3id.org/pmd/co/PMD_0000775>	<http://www.w3.org/2000/01/rdf-schema#label>	"Härteprüfmaschine"@de	
-<https://w3id.org/pmd/co/PMD_0050133>	<http://www.w3.org/2000/01/rdf-schema#label>	"functional glass"@en	
 <https://w3id.org/pmd/co/PMD_0000992>	<http://www.w3.org/2000/01/rdf-schema#label>	"time series"@en	
 <http://purl.obolibrary.org/obo/CHEBI_24061>	<http://www.w3.org/2000/01/rdf-schema#label>	"fluorine atom"	
 <http://purl.obolibrary.org/obo/IAO_0000078>	<http://www.w3.org/2000/01/rdf-schema#label>	"curation status specification"@en	
@@ -1166,8 +1165,8 @@
 <https://w3id.org/pmd/co/PMD_0000936>	<http://www.w3.org/2000/01/rdf-schema#label>	"Schlitten"@de	
 <https://w3id.org/pmd/co/PMD_0000774>	<http://www.w3.org/2000/01/rdf-schema#label>	"hardness tester"@en	
 <https://w3id.org/pmd/co/PMD_0000774>	<http://www.w3.org/2000/01/rdf-schema#label>	"Härteprüfgerät"@de	
-<https://w3id.org/pmd/co/PMD_0050096>	<http://www.w3.org/2000/01/rdf-schema#label>	"hydroxyapatite"@en	
 <https://w3id.org/pmd/co/PMD_0050138>	<http://www.w3.org/2000/01/rdf-schema#label>	"iron-borosilicate glass"@en	
+<https://w3id.org/pmd/co/PMD_0050096>	<http://www.w3.org/2000/01/rdf-schema#label>	"hydroxyapatite"@en	
 <https://w3id.org/pmd/co/PMD_0020160>	<http://www.w3.org/2000/01/rdf-schema#label>	"microconstituent (phase mixture)"@en	
 <https://w3id.org/pmd/co/PMD_0000832>	<http://www.w3.org/2000/01/rdf-schema#label>	"manufacturing function"@en	
 <https://w3id.org/pmd/co/PMD_0000832>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fertigungsfunktion"@de	
@@ -1208,6 +1207,7 @@
 <https://w3id.org/pmd/co/PMD_0000550>	<http://www.w3.org/2000/01/rdf-schema#label>	"Stoffeigenschaft Ändern"@de	
 <https://w3id.org/pmd/co/PMD_0000550>	<http://www.w3.org/2000/01/rdf-schema#label>	"changing properties of material"@en	
 <http://purl.obolibrary.org/obo/BFO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"occurrent"@en	
+<https://w3id.org/wcso/WCSO_0000000>	<http://www.w3.org/2000/01/rdf-schema#label>	"root node"@en	
 <http://purl.obolibrary.org/obo/UO_0000164>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"weight-volume percentage"	
 <http://purl.obolibrary.org/obo/UO_0000164>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"(w/v)"	
 <http://purl.obolibrary.org/obo/UO_0000163>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"weight-weight percentage"	
