@@ -11227,7 +11227,7 @@ co:PMD_0200008 rdf:type owl:Class ;
 
 ###  https://w3id.org/wcso/WCSO_0000029
 <https://w3id.org/wcso/WCSO_0000029> rdf:type owl:Class ;
-                                     rdfs:subClassOf co:PMD_0020131 ;
+                                     rdfs:subClassOf obo:BFO_0000145 ;
                                      rdfs:label "Die Konzentration ist eine intensive Eigenschaft, die die Menge eines Stoffes im Verhältnis zum Volumen eines Gemisches oder einer Lösung angibt."@de ,
                                                 "Konzentration"@de ,
                                                 "concentration"@en ;

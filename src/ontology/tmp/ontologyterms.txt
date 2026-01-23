@@ -1,9 +1,9 @@
 term
+https://w3id.org/wcso/WCSO_0000027
+https://w3id.org/wcso/WCSO_0000028
 https://w3id.org/wcso/WCSO_0000029
 https://w3id.org/wcso/WCSO_0000000
 https://w3id.org/wcso/WCSO_0000037
-https://w3id.org/wcso/WCSO_0000027
-https://w3id.org/wcso/WCSO_0000028
 https://w3id.org/wcso/WCSO_0000015
 https://w3id.org/wcso/WCSO_0000025
 https://w3id.org/wcso/WCSO_0000032
