@@ -3939,6 +3939,196 @@
   } ]
 }, {
   "@id" : "_:genid811",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000055"
+  } ]
+}, {
+  "@id" : "_:genid812",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000968"
+  } ]
+}, {
+  "@id" : "_:genid813",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000055"
+  } ]
+}, {
+  "@id" : "_:genid814",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000968"
+  } ]
+}, {
+  "@id" : "_:genid815",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid816"
+  } ]
+}, {
+  "@id" : "_:genid816",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/pmd/co/PMD_0000054"
+    }, {
+      "@id" : "https://w3id.org/pmd/co/PMD_0000781"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid819",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000967"
+  } ]
+}, {
+  "@id" : "_:genid820",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid821"
+  } ]
+}, {
+  "@id" : "_:genid821",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/pmd/co/PMD_0000780"
+    }, {
+      "@id" : "https://w3id.org/pmd/co/PMD_0000968"
+    }, {
+      "@id" : "https://w3id.org/wcso/WCSO_0000027"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid825",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid826"
+  } ]
+}, {
+  "@id" : "_:genid826",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/pmd/co/PMD_0000054"
+    }, {
+      "@id" : "https://w3id.org/pmd/co/PMD_0000781"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid829",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000967"
+  } ]
+}, {
+  "@id" : "_:genid830",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid831"
+  } ]
+}, {
+  "@id" : "_:genid831",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/pmd/co/PMD_0000780"
+    }, {
+      "@id" : "https://w3id.org/pmd/co/PMD_0000968"
+    }, {
+      "@id" : "https://w3id.org/wcso/WCSO_0000027"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid835",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid836"
+  } ]
+}, {
+  "@id" : "_:genid836",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/wcso/WCSO_0000027"
+    }, {
+      "@id" : "https://w3id.org/wcso/WCSO_0000028"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid839",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid840"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid85"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000139"
+  } ]
+}, {
+  "@id" : "_:genid840",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/wcso/WCSO_0000027"
+    }, {
+      "@id" : "https://w3id.org/wcso/WCSO_0000028"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid843",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000009"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/wcso/WCSO_0000037"
+  } ]
+}, {
+  "@id" : "_:genid844",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/pmd/co/PMD_0000848"
@@ -3951,7 +4141,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid814",
+  "@id" : "_:genid847",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -3963,7 +4153,17 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid818",
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000035"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid851",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -3975,7 +4175,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid822",
+  "@id" : "_:genid855",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -3989,7 +4189,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid827",
+  "@id" : "_:genid860",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4003,7 +4203,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid832",
+  "@id" : "_:genid865",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4015,7 +4215,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid836",
+  "@id" : "_:genid869",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4047,26 +4247,16 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid84",
+  "@id" : "_:genid88",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "_:genid85"
+    "@id" : "_:genid89"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000139"
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000121"
   } ]
 }, {
-  "@id" : "_:genid85",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
-    }, {
-      "@id" : "http://purl.obolibrary.org/obo/BFO_0000035"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid850",
+  "@id" : "_:genid883",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4086,7 +4276,17 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid858",
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000038"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000148"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid891",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4102,7 +4302,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid864",
+  "@id" : "_:genid897",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4116,7 +4316,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid869",
+  "@id" : "_:genid902",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4136,7 +4336,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid877",
+  "@id" : "_:genid910",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4156,16 +4356,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid88",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "_:genid89"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000121"
-  } ]
-}, {
-  "@id" : "_:genid885",
+  "@id" : "_:genid918",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4177,7 +4368,16 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid889",
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000038"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000139"
+  } ]
+}, {
+  "@id" : "_:genid922",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4189,17 +4389,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid89",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://purl.obolibrary.org/obo/BFO_0000038"
-    }, {
-      "@id" : "http://purl.obolibrary.org/obo/BFO_0000148"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid893",
+  "@id" : "_:genid926",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4213,7 +4403,16 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid898",
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000148"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000121"
+  } ]
+}, {
+  "@id" : "_:genid931",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -4225,7 +4424,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid902",
+  "@id" : "_:genid935",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
   "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
     "@list" : [ {
@@ -4259,7 +4458,25 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid917",
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000136"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000136"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000017"
+  } ]
+}, {
+  "@id" : "_:genid950",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
   "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
     "@list" : [ {
@@ -4281,234 +4498,6 @@
     }, {
       "@id" : "https://w3id.org/pmd/co/PMD_0020125"
     } ]
-  } ]
-}, {
-  "@id" : "_:genid92",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000038"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000139"
-  } ]
-}, {
-  "@id" : "_:genid927",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid931"
-    }, {
-      "@id" : "_:genid929"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid933"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid929",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000016"
-  } ]
-}, {
-  "@id" : "_:genid93",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000148"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000121"
-  } ]
-}, {
-  "@id" : "_:genid931",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000053"
-  } ]
-}, {
-  "@id" : "_:genid933",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000091"
-  } ]
-}, {
-  "@id" : "_:genid934",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid938"
-    }, {
-      "@id" : "_:genid936"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid940"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid936",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000019"
-  } ]
-}, {
-  "@id" : "_:genid938",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000053"
-  } ]
-}, {
-  "@id" : "_:genid94",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/IAO_0000136"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
-  } ]
-}, {
-  "@id" : "_:genid940",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000086"
-  } ]
-}, {
-  "@id" : "_:genid941",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid945"
-    }, {
-      "@id" : "_:genid943"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid947"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid943",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000023"
-  } ]
-}, {
-  "@id" : "_:genid945",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000053"
-  } ]
-}, {
-  "@id" : "_:genid947",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000087"
-  } ]
-}, {
-  "@id" : "_:genid948",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid952"
-    }, {
-      "@id" : "_:genid950"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid954"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid95",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/IAO_0000136"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000017"
-  } ]
-}, {
-  "@id" : "_:genid950",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000034"
-  } ]
-}, {
-  "@id" : "_:genid952",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000053"
-  } ]
-}, {
-  "@id" : "_:genid954",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000085"
   } ]
 }, {
   "@id" : "_:genid96",
@@ -4533,6 +4522,198 @@
     }, {
       "@id" : "http://purl.obolibrary.org/obo/IAO_0000428"
     } ]
+  } ]
+}, {
+  "@id" : "_:genid960",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid964"
+    }, {
+      "@id" : "_:genid962"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid966"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid962",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000016"
+  } ]
+}, {
+  "@id" : "_:genid964",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000053"
+  } ]
+}, {
+  "@id" : "_:genid966",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000091"
+  } ]
+}, {
+  "@id" : "_:genid967",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid971"
+    }, {
+      "@id" : "_:genid969"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid973"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid969",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000019"
+  } ]
+}, {
+  "@id" : "_:genid971",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000053"
+  } ]
+}, {
+  "@id" : "_:genid973",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000086"
+  } ]
+}, {
+  "@id" : "_:genid974",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid978"
+    }, {
+      "@id" : "_:genid976"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid980"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid976",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000023"
+  } ]
+}, {
+  "@id" : "_:genid978",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000053"
+  } ]
+}, {
+  "@id" : "_:genid980",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000087"
+  } ]
+}, {
+  "@id" : "_:genid981",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid985"
+    }, {
+      "@id" : "_:genid983"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid987"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid983",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000034"
+  } ]
+}, {
+  "@id" : "_:genid985",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000053"
+  } ]
+}, {
+  "@id" : "_:genid987",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000085"
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/BFO_0000001",
@@ -9391,6 +9572,9 @@
     "@id" : "http://purl.obolibrary.org/obo/UO_0000000"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/elements/1.1/license",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "dc:license"
@@ -9415,27 +9599,19 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/description",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "description"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "dcterms:license"
-  }, {
-    "@value" : "license"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/source",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "title"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://usefulinc.com/ns/doap#repository",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -25493,21 +25669,1208 @@
 }, {
   "@id" : "https://w3id.org/wcso/WCSO_0000000",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "Adopted from ISO 21253-2:2019(en), 3.11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Erhalten"
+  }, {
+    "@language" : "en",
+    "@value" : "yield"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.allotrope.org/ontologies/quality#AFQ_0000227"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0020148"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Das Ergeben ist eine extensive Qualität, die das Material beschreibt, das bei bzw. nach einem Prozess oder Synthese-Schritt hergestellt bzw. erhalten wurde."
+  }, {
+    "@language" : "en",
+    "@value" : "The yield is an extensive quality describing the material that is produced by or obtained after a process or synthesis step."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Synthese gab (\"yielded\") das Produkt als weißes Pulver."
+  }, {
+    "@language" : "en",
+    "@value" : "The synthesis yielded the product as a white powder."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "Adopted from ISO 1213-1:2020"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ausbeute (Prozent)"
+  }, {
+    "@language" : "en",
+    "@value" : "yield percentage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002855"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/wcso/WCSO_0000000"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Die Ausbeute (in Prozent) ist die Menge eines Produkts das aus einem Produktionsprozess erhalten wurde, ausgedrückt in Prozent der (stöchiometrisch) am stärksten limitierenden Größe."
+  }, {
+    "@language" : "en",
+    "@value" : "The yield percentage is the amount of a product that was obtained from a production process, expressed as a percentage of the (stoichiometrically) most limiting component."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Synthese ergab das Produkt als weißes Pulver mit einer Ausbeute von 75%."
+  }, {
+    "@language" : "en",
+    "@value" : "The synthesis yielded the product as a white powder (75%)."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "In analogy to yield percentage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ausbeute (Masse)"
+  }, {
+    "@language" : "en",
+    "@value" : "yield mass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/wcso/WCSO_0000000"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Die Ausbeute (als Masse) beschreibt die Masse eines Produkts das aus einem Produktionsprozess erhalten wurde."
+  }, {
+    "@language" : "en",
+    "@value" : "The yield mass is a yield denoting the mass of a product that was obtained from a production process."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Synthese ergab das Produkt als weißes Pulver mit einer Ausbeute von 100 mg."
+  }, {
+    "@language" : "en",
+    "@value" : "The synthesis yielded the product as a white powder (100 mg)."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Entfernen"
+  }, {
+    "@language" : "en",
+    "@value" : "remove"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.allotrope.org/ontologies/function#AFFN_0000108"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Der Vorgang, bei dem einer oder mehrere Teile einer Mischung entfernt werden, wobei mindestens ein Teil der Mischung zurückbleibt."
+  }, {
+    "@language" : "en",
+    "@value" : "Removing is a process that denotes the act of removing one or more constituents from a mixture, leaving at least one other constituent behind."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Das Lösungsmittel wurde im Vakuum entfernt."
+  }, {
+    "@language" : "en",
+    "@value" : "The solvent was removed in vacuo."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Schallbehandlung"
+  }, {
+    "@language" : "en",
+    "@value" : "sonication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://champ-project.org/images/ontology/cao.owl#CAO_000195"
+  }, {
+    "@id" : "http://purl.allotrope.org/ontologies/process#AFP_0002293"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0001707"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/NCIT_C81871"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Eine Technik, bei der Schall eingesetzt wird um die Komponenten einer Probe zu agitieren oder zu verteilen."
+  }, {
+    "@language" : "en",
+    "@value" : "Sonication is a process describing a technique that uses sound energy to agitate or disrupt the components of a sample."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Partikel wurden durch Schallbehandlung der Mischung dispergiert."
+  }, {
+    "@language" : "en",
+    "@value" : "Sonication of the mixture resulted in the dispersion of the WCSOmaterial."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "Adopted from OBI_0302886"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Adopted from OBI_0302886:  Centrifugation is a process separating molecules by size or density using centrifugal forces generated by a spinning rotor. G-forces of several hundred thousand times gravity are generated in ultracentrifugation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Zentrifugieren"
+  }, {
+    "@language" : "en",
+    "@value" : "centrifuge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OBI_0302886"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A process for separating components of a mixture by density using centrifugal forces generated by a spinning rotor."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Prozess zur Trennung von Komponenten einer Mischung gemäß ihrer Dichte durch den Einfluss von Zentrifugalkräften eines sich drehenden Rotors."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die WCSOpartikel wurden aus der Dispersion durch Zentrifugation abgetrennt."
+  }, {
+    "@language" : "en",
+    "@value" : "The WCSOparticles were Adopted from ISOlated from the dispersion using centrifugation."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002772"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Entgasen"
+  }, {
+    "@language" : "en",
+    "@value" : "degas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002772"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A preparative step involving the removal of dissolved gases from a sample."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein präparativer Schritt, bei dem gelöstes Gas aus einer Probe entfernt wird."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Das Lösungsmittel wurde im Vakuum entgast."
+  }, {
+    "@language" : "en",
+    "@value" : "The solvent was degassed in vacuo."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "Adopted from ISO 11074:2015, 6.4.30"
+  }, {
+    "@value" : "Adopted from ISO 23044:2020(en), 3.1.11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ausfällen"
+  }, {
+    "@language" : "en",
+    "@value" : "precipitate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A process that involves the formation of separable solid products from a liquid solution or dispersion."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Prozess, bei dem abtrennbare Feststoffe aus einer flüssigen Lösung oder Dispersion erhalten werden."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die WCSOpartikel wurden durch die Zugabe von Ethanol ausgefällt."
+  }, {
+    "@language" : "en",
+    "@value" : "The WCSOparticles were precipitated by adding Ethanol."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Waschen"
+  }, {
+    "@language" : "en",
+    "@value" : "wash"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OBI_0302888"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Ein Prozess, bei dem ein Material das als Verunreinigung aftritt unter Anwendung einer oder mehrerer Zyklen einer Lösung entfernt wird."
+  }, {
+    "@language" : "en",
+    "@value" : "Washing is a process by which a material entity acting as contaminant is removed by application of one or more cycles of solution."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die WCSOpartikel wurden drei Mal mit Ethanol gewaschen um überschüssige Ausgangsmateriualien zu entfernen."
+  }, {
+    "@language" : "en",
+    "@value" : "The WCSOparticles were washed three times with water to remove excess starting materials."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0001474"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Abkühlen"
+  }, {
+    "@language" : "en",
+    "@value" : "cool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0001474"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/wcso/WCSO_0000011"
+  }, {
+    "@id" : "_:genid813"
+  }, {
+    "@id" : "_:genid814"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid811"
+  }, {
+    "@id" : "_:genid812"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Der Transfer von Wärmeenergie von einer Probe in die Umegbung."
+  }, {
+    "@language" : "en",
+    "@value" : "The transfer of thermal energy from a sample to its surrounding environment."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Lösung wurde in einem Eisbad auf 0°C abgekühlt."
+  }, {
+    "@language" : "en",
+    "@value" : "The solution was cooled to 0°C with an ice bath."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "Adopted from ISO 28401:2024"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Stoppen (einer chemischen Reaktion)"
+  }, {
+    "@language" : "en",
+    "@value" : "quench"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002917"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An action that results in stopping or significantly slowing down a physical process or a chemical reaction."
+  }, {
+    "@language" : "de",
+    "@value" : "Eine Technik, bei der ein physikalischer Prozess oder eine chemische Reaktion angehalten oder signifikant verlangsamt wird."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Reaktion wurde durch Wasserzugabe gestoppt."
+  }, {
+    "@language" : "en",
+    "@value" : "The reaction was quenched through the addition of water."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002770"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Aufheizen"
+  }, {
+    "@language" : "en",
+    "@value" : "heat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002770"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  }, {
+    "@id" : "_:genid825"
+  }, {
+    "@id" : "_:genid829"
+  }, {
+    "@id" : "_:genid830"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid815"
+  }, {
+    "@id" : "_:genid819"
+  }, {
+    "@id" : "_:genid820"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A sample preparation step involving the increase in temperature of a sample."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein präparativer Schritt, bei dem die Temperatur einer Probe erhöht wird."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Probe wurde auf 100°C geheizt."
+  }, {
+    "@language" : "en",
+    "@value" : "The sample was heated to 100°C."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Rühren"
+  }, {
+    "@language" : "en",
+    "@value" : "stir"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  }, {
+    "@id" : "_:genid839"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid835"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A process that involves the mechanical agitation of a sample, typically in a circular motion."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Prozess, bei dem eine eine Probe mechanisch bewegt wird, typischerweise in einer kreisförmigen Bewegung."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Das Salz wurde unter Rühren aufgelöst."
+  }, {
+    "@language" : "en",
+    "@value" : "The salt was dissolved under stirring."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "Adopted from ISO 1213-1:2020"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Mischen"
+  }, {
+    "@language" : "en",
+    "@value" : "mix"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0001685"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Die Kombination von zwei oder mehr Materialien mit unterschiedlichen Eigenschaften."
+  }, {
+    "@language" : "en",
+    "@value" : "The combination of two or more materials of different characteristics."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die beiden Lösungen wurden gemischt."
+  }, {
+    "@language" : "en",
+    "@value" : "The two solutions were mixed."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0001549"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Trocknen"
+  }, {
+    "@language" : "en",
+    "@value" : "dry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0001549"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Ein Prozess, bei dem ein Lösungsmittel von einer Substanz entfernt wird."
+  }, {
+    "@language" : "en",
+    "@value" : "The process of removing a solvent from a substance."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die WCSOpartikel wurden unter Vakuum bei 80°C getrocknet."
+  }, {
+    "@language" : "en",
+    "@value" : "The WCSOparticles were dried under vacuum at 80°C."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Hinzufügen"
+  }, {
+    "@language" : "en",
+    "@value" : "add"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  }, {
+    "@id" : "_:genid843"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Ein Prozess, bei dem eine physische Entität zu einer vorhandenen Entität oder Sammlung hinzugefügt wird."
+  }, {
+    "@language" : "en",
+    "@value" : "The process of adding a physical entity to an existing entity or collection."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Wasser wurde dem Kolben hinzugefügt."
+  }, {
+    "@language" : "en",
+    "@value" : "Water was added to the flask."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "Adopted from ISO 1213-1:2020(en), 6.1.4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Filtern"
+  }, {
+    "@language" : "en",
+    "@value" : "filter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PROCO_0000050"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A process for separating solids from liquids by allowing the liquid to pass through a fine, porous mesh that retains the solids."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Prozess, bei dem Feststoffe von Flüssigkeiten abgetrennt werden, indem die Flüssigkeit durch ein feines, poröses Netzwerk geleitet wird, das die Feststoffe zurückhält."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Partikel wurden durch Filtration vfon der Lösung getrennt."
+  }, {
+    "@language" : "en",
+    "@value" : "The particles were separated from the solution by filtration."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002773"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Auflösen"
+  }, {
+    "@language" : "en",
+    "@value" : "dissolve"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002773"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A mixing step where a soluble component is mixed with a liquid component."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Mischungsschritt, bei dem eine lösliche Komponente mit einer flüssigen Komponente gemischt wird."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Das Salz wurde unter Rühren aufgelöst."
+  }, {
+    "@language" : "en",
+    "@value" : "The salt was dissolved under stirring."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "Adopted from ISO/IEC 23094-2:2021(en), 3.38"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Partitionierung"
+  }, {
+    "@language" : "en",
+    "@value" : "partition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.allotrope.org/ontologies/process#AFP_0003403"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A process, in which a substance is allowed to distribute between two or more immiscible phases at equilibrium."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Prozess, bei dem eine Substanz sich über zwei oder mehr Phasen im Gleichgewicht verteilen kann."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Das Salz partitionierte in die wässrige Phase."
+  }, {
+    "@language" : "en",
+    "@value" : "The salt partitioned into the aqueous phase."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Erhalten"
+  }, {
+    "@language" : "en",
+    "@value" : "recover"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Ein Vorgang, bei dem eine Entität aus einer Sammlung anderer Entitäten erhalten wird."
+  }, {
+    "@language" : "en",
+    "@value" : "The act of obtaining an entity from a collection of other entities."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Partikel wurden durch Zentrifugation der Lösung erhalten."
+  }, {
+    "@language" : "en",
+    "@value" : "The particles were recovered from the dispersion by centrifugation."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "“Synthesis.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/synthesis, Accessed 06/26/2025"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Synthetisieren"
+  }, {
+    "@language" : "en",
+    "@value" : "synthesize"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Die Herstellung einer Substanz durch die Vereinigung chemischer Elemente, Gruppen oder einfacherer Verbindungen oder durch den Abbau einer komplexen Verbindung."
+  }, {
+    "@language" : "en",
+    "@value" : "The production of a substance by the union of chemical elements, groups, or simpler compounds or by the degradation of a complex compound."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Partikel wurden gemäß einer zuvor publizierten Prozedur synthetisiert."
+  }, {
+    "@language" : "en",
+    "@value" : "The particles were synthesized following a previously published procedure."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "Adopted from ISO/TS 23303:2020(en), 3.2.9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Aufbereitung"
+  }, {
+    "@language" : "de",
+    "@value" : "Veredelung"
+  }, {
+    "@language" : "en",
+    "@value" : "purify"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Ein Prozess, bei dem Verunreinigungen und ungewünschte Komponenten entfernt werden."
+  }, {
+    "@language" : "en",
+    "@value" : "The process of eliminating impurities and undesired components."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Substanz wurde durch Waschen mit Wasser aufgereinigt."
+  }, {
+    "@language" : "en",
+    "@value" : "The substance was purified by washing it with water."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCIT_C61575"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Extrahieren"
+  }, {
+    "@language" : "en",
+    "@value" : "extract"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCIT_C61575"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Der Vorgang des Adopted from ISOlierens, einschließlich des Prozesses, etwas aus einer Mischung oder Verbindung mit chemischen, physikalischen oder mechanischen Mitteln zu gewinnen."
+  }, {
+    "@language" : "en",
+    "@value" : "The act of pulling out, including the process of obtaining something from a mixture or compound by chemical or physical or mechanical means."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Verbindung wurde aus der wässrigen Phase mit Ether extrahiert."
+  }, {
+    "@language" : "en",
+    "@value" : "The compound was extracted from the aqueous phase with ether."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "Adopted from ISO 21457:2010(en), 3.1.17"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Anpassung pH-Wert"
+  }, {
+    "@language" : "en",
+    "@value" : "adjust pH value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Changing the activity of protons (Hydrogen ions) in solution by adding substances such as acids or bases that influence the acidity or basicity of the solution."
+  }, {
+    "@language" : "de",
+    "@value" : "Ändern der Protonenaktivität (Aktivität von Wasserstoffionen) in Lösung durch hinzufügen von Substanzen wie Säuren oder Basen, die den sauren oder basischen Charakter der Lösung ändern."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Der pH Wert wurde durch Zugabe 1 molarer Natronlauge auf 7 eingestellt."
+  }, {
+    "@language" : "en",
+    "@value" : "The pH was adjusted to 7 by adding 1 molar sodium hydroxide solution."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002771"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Anreichern"
+  }, {
+    "@language" : "en",
+    "@value" : "concentrate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002771"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A preparative step where the concentration of one component is increased."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein präparativer Schritt, bei dem die Konzentration einer Komponente erhöht wird."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Lösung wurde im Vakuum aufkonzentriert."
+  }, {
+    "@language" : "en",
+    "@value" : "The solution was concentrated in vacuo."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000025",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Wiederholen"
+  }, {
+    "@language" : "en",
+    "@value" : "repeat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Ein Prozess, bei dem eine vorige Aktion erneut ausgeführt wird."
+  }, {
+    "@language" : "en",
+    "@value" : "The process of conducting a previous action again."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "de",
+    "@value" : "Die Waschschritte wurden drei Mal wiederholt."
+  }, {
+    "@language" : "en",
+    "@value" : "The washing steps were repeated three times."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "root node"
+    "@value" : "quench chemically"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHMO_0002917"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/wcso/WCSO_0000015"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An action that results in stopping or significantly slowing down a physical process or a chemical reaction by adding a substance."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "The reaction was quenched through the addition of water."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Beheizbarer Magnetrührer"
+  }, {
+    "@language" : "en",
+    "@value" : "heated magnetic stirrer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000602"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A heated magnetic stirrer is a device that is used to heat and simultaneously stir liquids in a laboratory vessel by combining an integrated heating plate with a magnetic stirring mechanism, thereby ensuring both controlled temperature and uniform mixing."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein beheizbarer Magnetrührer ist ein Gerät, das dazu verwendet wird, Flüssigkeiten in einem Laborgefäß gleichzeitig zu erhitzen und zu rühren, indem es eine integrierte Heizplatte mit einem magnetischen Rührmechanismus kombiniert und so sowohl eine kontrollierte Temperatur als auch eine gleichmäßige Durchmischung gewährleistet."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000028",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Rührfisch"
+  }, {
+    "@language" : "en",
+    "@value" : "stir fish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000602"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A stir fish is a device that is used to stir liquids in a laboratory vessel by means of a rotating magnetic field, enabling homogeneous mixing without direct mechanical contact."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Rührfisch ist ein Gerät, das dazu verwendet wird, Flüssigkeiten in einem Laborgefäß durch ein rotierendes Magnetfeld zu rühren, wodurch eine homogene Durchmischung ohne direkten mechanischen Kontakt ermöglicht wird."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000029",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Die Konzentration ist eine intensive Eigenschaft, die die Menge eines Stoffes im Verhältnis zum Volumen eines Gemisches oder einer Lösung angibt."
+  }, {
+    "@language" : "de",
+    "@value" : "Konzentration"
+  }, {
+    "@language" : "en",
+    "@value" : "concentration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0020131"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A concentration is an intensive quality that denotes the amount of a substance relative to the volume of a mixture or solution."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Massenkonzentration"
+  }, {
+    "@language" : "en",
+    "@value" : "mass concentration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/wcso/WCSO_0000029"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A mass concentration is a concentration that denotes the mass of a substance per unit volume of a mixture or solution."
+  }, {
+    "@language" : "de",
+    "@value" : "Die Massenkonzentration ist eine Konzentration, die die Masse eines Stoffes pro Volumeneinheit eines Gemisches oder einer Lösung angibt."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Molare Masse"
+  }, {
+    "@language" : "en",
+    "@value" : "molar mass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0020133"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Die Molare Masse ist eine universelle intensive Größe, die das Verhältnis aus Masse zu Stoffmenge eines Stoffes beschreibt."
+  }, {
+    "@language" : "en",
+    "@value" : "The molar mass is a universal intensive quality representing the unit mass of a portion of matter per unit amount of substance."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000032",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Molmenge"
+  }, {
+    "@language" : "en",
+    "@value" : "molar amount"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0020148"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Die Molmenge ist eine extensive Eigenschaft, die die Stoffmenge in Mol angibt."
+  }, {
+    "@language" : "en",
+    "@value" : "The molar amount is an extensive quality that denotes the quantity of substance expressed in moles."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000033",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Behälter"
+  }, {
+    "@language" : "en",
+    "@value" : "container"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000602"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A container is a device that is used to hold, store, or transport substances or objects."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Behälter ist ein Gerät, das verwendet wird, um Stoffe oder Objekte aufzunehmen, zu lagern oder zu transportieren."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000034",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The possibly corresponding unit \"Revolution per Minute\" is a unit for 'Angular Velocity' expressed as rev/min. One revolution per minute is equivalent to 1/60 hertz. Alternative symbols to be used may be “RPM”, \"r/min”, and “rpm”."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Rotationsgeschwindigkeit"
+  }, {
+    "@language" : "en",
+    "@value" : "rotation speed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000008"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "de",
+    "@value" : "Drehgeschwindigkeit"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A rotation speed is a process characteristic that denotes the number of rotations per unit time of a rotating object."
+  }, {
+    "@language" : "de",
+    "@value" : "Die Rotationsgeschwindigkeit ist eine Prozesseigenschaft, die die Anzahl der Umdrehungen pro Zeiteinheit eines rotierenden Objekts angibt."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "The rotation speed during a stirring process was 400 revolutions per minute (qudt:REV-PER-MIN)."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000035",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Durchsatz"
+  }, {
+    "@language" : "en",
+    "@value" : "flow rate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000008"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "de",
+    "@value" : "Durchflussmenge"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A flow rate is a process characteristic that denotes the volume of a substance passing per unit time."
+  }, {
+    "@language" : "de",
+    "@value" : "Die Flussrate ist eine Prozesseigenschaft, die das Volumen eines Stoffes angibt, das pro Zeiteinheit fließt."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000036",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The CAS number may provide a globally accepted identifier for chemical substances."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "CAS Nummer"
+  }, {
+    "@language" : "en",
+    "@value" : "CAS number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0020000"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Die CAS-Nummer ist ein Identifikator, der einen eindeutigen numerischen Code bezeichnet, der von dem Chemical Abstracts Service einer chemischen Substanz zugewiesen wird."
+  }, {
+    "@language" : "en",
+    "@value" : "The CAS number is an identifier that denotes a unique numerical code assigned by the Chemical Abstracts Service to a chemical substance."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000037",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "What it measures: the added quantity (mass, amount of substance, volume, count, etc.) per time.\nWhat it does not necessarily mean: it is not automatically “net increase” of the system (that would be a net change rate). Addition rate is about the incoming addition action itself."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Zugaberate"
+  }, {
+    "@language" : "en",
+    "@value" : "addition rate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000008"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "de",
+    "@value" : "Additionsrate"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An addition rate is a process attribute that characterizes an addition process by specifying the ratio of the quantity added to the duration over which it is added."
+  }, {
+    "@language" : "de",
+    "@value" : "Die Zugaberate ist ein Prozessattribut, das einen Zugabeprozess dadurch charakterisiert, dass es das Verhältnis der zugegebenen Menge zur Zeitdauer angibt, über die diese Zugabe erfolgt."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "Typical units: kg/s, mol/s, m³/h, items/min, etc."
+  }, {
+    "@language" : "de",
+    "@value" : "Typische Einheiten: kg/s, mol/s, m³/h, Stück/min usw."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000047",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Dispersives System"
+  }, {
+    "@language" : "en",
+    "@value" : "dispersive system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000027"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A dispersive system is a multiphase mixture in which one phase (the dispersed phase) is finely distributed within another phase (the continuous phase)."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein disperses System ist ein mehrphasiges Gemisch, bei dem eine Phase (die disperse Phase) fein in einer anderen Phase (der kontinuierlichen Phase) verteilt ist."
+  } ]
+}, {
+  "@id" : "https://w3id.org/wcso/WCSO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Die Heizrate kann für einen Prozess als Parameter festgelegt und / oder gemessen werden"
+  }, {
+    "@language" : "en",
+    "@value" : "The heating rate can be set as a parameter for a process and/or measured."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Heizrate"
+  }, {
+    "@language" : "en",
+    "@value" : "heating rate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/pmd/co/PMD_0000008"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A heating rate is a process attribute that describes the speed at which the temperature of an object or system changes per unit of time."
+  }, {
+    "@language" : "de",
+    "@value" : "Eine Heizrate ist ein Prozessattribut, welches die Geschwindigkeit beschreibt, mit der sich die Temperatur eines Objekts oder Systems pro Zeiteinheit ändert."
   } ]
 }, {
   "@id" : "https://w3id.org/wcso/wcso-full.owl",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@id" : "https://w3id.org/wcso/"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://orcid.org/0000-0002-3717-7104"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-7094-5371"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-3383-9999"
+  }, {
+    "@id" : "https://orcid.org/0009-0002-7960-3666"
+  } ],
   "http://purl.org/dc/terms/description" : [ {
-    "@value" : "None"
+    "@language" : "de",
+    "@value" : "Die WCSOparticle Ontology (wcso) bietet einen semantischen Rahmen für die strukturierte Darstellung von Wissen über die Herstellung und Charakterisierung von WCSOpartikeln aus chemischer Sicht. wcso wurde an der Bundesanstalt für Materialforschung und -prüfung (BAM) in Berlin entwickelt und unterstützt die Formalisierung und Integration von Daten zu WCSOpartikeln über experimentelle Arbeitsabläufe, Prozesse und Materialeigenschaften hinweg. Sie baut auf der PMD Core Ontology (PMDco) auf, einer Mid-Level-Ontologie, die im Rahmen des Projekts Platform MaterialDigital (PMD) entwickelt wurde und die auf der Basic Formal Ontology (BFO) basiert. Durch die Verwendung der BFO als grundlegende Ontologie gewährleistet wcso die semantische Interoperabilität mit einer Vielzahl von BFO-konformen Ontologien und Wissensgraphen im Bereich der Materialwissenschaften und Werkstofftechnik."
+  }, {
+    "@language" : "en",
+    "@value" : "The WCSOparticle Ontology (wcso) provides a semantic framework for the structured representation of knowledge related to the production and characterization of WCSOparticles from a chemical perspective. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, wcso supports the formalization and integration of WCSOparticle-related data across experimental workflows, processes, and material properties. It builds upon the PMD Core Ontology (PMDco), a mid-level ontology created within the Platform MaterialDigital (PMD) project which is grounded in the Basic Formal Ontology (BFO). By adhering to BFO as a foundational ontology, wcso ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs in the materials science and engineering domain."
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@id" : "https://creativecommons.org/licenses/unspecified"
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
   } ],
   "http://purl.org/dc/terms/title" : [ {
-    "@value" : ""
+    "@value" : "WCSOparticle Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://w3id.org/wcso/releases/2026-01-23/wcso-full.owl"

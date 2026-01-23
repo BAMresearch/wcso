@@ -1,8 +1,14 @@
 <https://w3id.org/wcso/wcso-full.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/wcso/wcso-full.owl> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/wcso/releases/2026-01-23/wcso-full.owl> .
-<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/description> "None" .
-<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/unspecified> .
-<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/title> "" .
+<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/elements/1.1/identifier> <https://w3id.org/wcso/> .
+<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3717-7104> .
+<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-7094-5371> .
+<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0003-3383-9999> .
+<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/creator> <https://orcid.org/0009-0002-7960-3666> .
+<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/description> "Die WCSOparticle Ontology (wcso) bietet einen semantischen Rahmen für die strukturierte Darstellung von Wissen über die Herstellung und Charakterisierung von WCSOpartikeln aus chemischer Sicht. wcso wurde an der Bundesanstalt für Materialforschung und -prüfung (BAM) in Berlin entwickelt und unterstützt die Formalisierung und Integration von Daten zu WCSOpartikeln über experimentelle Arbeitsabläufe, Prozesse und Materialeigenschaften hinweg. Sie baut auf der PMD Core Ontology (PMDco) auf, einer Mid-Level-Ontologie, die im Rahmen des Projekts Platform MaterialDigital (PMD) entwickelt wurde und die auf der Basic Formal Ontology (BFO) basiert. Durch die Verwendung der BFO als grundlegende Ontologie gewährleistet wcso die semantische Interoperabilität mit einer Vielzahl von BFO-konformen Ontologien und Wissensgraphen im Bereich der Materialwissenschaften und Werkstofftechnik."@de .
+<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/description> "The WCSOparticle Ontology (wcso) provides a semantic framework for the structured representation of knowledge related to the production and characterization of WCSOparticles from a chemical perspective. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, wcso supports the formalization and integration of WCSOparticle-related data across experimental workflows, processes, and material properties. It builds upon the PMD Core Ontology (PMDco), a mid-level ontology created within the Platform MaterialDigital (PMD) project which is grounded in the Basic Formal Ontology (BFO). By adhering to BFO as a foundational ontology, wcso ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs in the materials science and engineering domain."@en .
+<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/title> "WCSOparticle Ontology" .
 <https://w3id.org/wcso/wcso-full.owl> <http://www.w3.org/2002/07/owl#versionInfo> "2026-01-23" .
 # 
 # 
@@ -43,6 +49,9 @@
 <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en .
 <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000119> "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w" .
 <http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/2000/01/rdf-schema#label> "definition source"@en .
+# 
+# http://purl.org/dc/elements/1.1/identifier
+<http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/elements/1.1/source
 <http://purl.org/dc/elements/1.1/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -10349,7 +10358,534 @@ _:genid810 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # 
 # https://w3id.org/wcso/WCSO_0000000
 <https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/2000/01/rdf-schema#label> "root node"@en .
+<https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0020148> .
+<https://w3id.org/wcso/WCSO_0000000> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO 21253-2:2019(en), 3.11" .
+<https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/2000/01/rdf-schema#label> "Erhalten"@de .
+<https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/2000/01/rdf-schema#label> "yield"@en .
+<https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.allotrope.org/ontologies/quality#AFQ_0000227> .
+<https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/2004/02/skos/core#definition> "Das Ergeben ist eine extensive Qualität, die das Material beschreibt, das bei bzw. nach einem Prozess oder Synthese-Schritt hergestellt bzw. erhalten wurde."@de .
+<https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/2004/02/skos/core#definition> "The yield is an extensive quality describing the material that is produced by or obtained after a process or synthesis step."@en .
+<https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/2004/02/skos/core#example> "Die Synthese gab (\"yielded\") das Produkt als weißes Pulver."@de .
+<https://w3id.org/wcso/WCSO_0000000> <http://www.w3.org/2004/02/skos/core#example> "The synthesis yielded the product as a white powder."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000001
+<https://w3id.org/wcso/WCSO_0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/wcso/WCSO_0000000> .
+<https://w3id.org/wcso/WCSO_0000001> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO 1213-1:2020" .
+<https://w3id.org/wcso/WCSO_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "Ausbeute (Prozent)"@de .
+<https://w3id.org/wcso/WCSO_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "yield percentage"@en .
+<https://w3id.org/wcso/WCSO_0000001> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0002855> .
+<https://w3id.org/wcso/WCSO_0000001> <http://www.w3.org/2004/02/skos/core#definition> "Die Ausbeute (in Prozent) ist die Menge eines Produkts das aus einem Produktionsprozess erhalten wurde, ausgedrückt in Prozent der (stöchiometrisch) am stärksten limitierenden Größe."@de .
+<https://w3id.org/wcso/WCSO_0000001> <http://www.w3.org/2004/02/skos/core#definition> "The yield percentage is the amount of a product that was obtained from a production process, expressed as a percentage of the (stoichiometrically) most limiting component."@en .
+<https://w3id.org/wcso/WCSO_0000001> <http://www.w3.org/2004/02/skos/core#example> "Die Synthese ergab das Produkt als weißes Pulver mit einer Ausbeute von 75%."@de .
+<https://w3id.org/wcso/WCSO_0000001> <http://www.w3.org/2004/02/skos/core#example> "The synthesis yielded the product as a white powder (75%)."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000002
+<https://w3id.org/wcso/WCSO_0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/wcso/WCSO_0000000> .
+<https://w3id.org/wcso/WCSO_0000002> <http://purl.obolibrary.org/obo/IAO_0000119> "In analogy to yield percentage" .
+<https://w3id.org/wcso/WCSO_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "Ausbeute (Masse)"@de .
+<https://w3id.org/wcso/WCSO_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "yield mass"@en .
+<https://w3id.org/wcso/WCSO_0000002> <http://www.w3.org/2004/02/skos/core#definition> "Die Ausbeute (als Masse) beschreibt die Masse eines Produkts das aus einem Produktionsprozess erhalten wurde."@de .
+<https://w3id.org/wcso/WCSO_0000002> <http://www.w3.org/2004/02/skos/core#definition> "The yield mass is a yield denoting the mass of a product that was obtained from a production process."@en .
+<https://w3id.org/wcso/WCSO_0000002> <http://www.w3.org/2004/02/skos/core#example> "Die Synthese ergab das Produkt als weißes Pulver mit einer Ausbeute von 100 mg."@de .
+<https://w3id.org/wcso/WCSO_0000002> <http://www.w3.org/2004/02/skos/core#example> "The synthesis yielded the product as a white powder (100 mg)."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000003
+<https://w3id.org/wcso/WCSO_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "Entfernen"@de .
+<https://w3id.org/wcso/WCSO_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "remove"@en .
+<https://w3id.org/wcso/WCSO_0000003> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.allotrope.org/ontologies/function#AFFN_0000108> .
+<https://w3id.org/wcso/WCSO_0000003> <http://www.w3.org/2004/02/skos/core#definition> "Der Vorgang, bei dem einer oder mehrere Teile einer Mischung entfernt werden, wobei mindestens ein Teil der Mischung zurückbleibt."@de .
+<https://w3id.org/wcso/WCSO_0000003> <http://www.w3.org/2004/02/skos/core#definition> "Removing is a process that denotes the act of removing one or more constituents from a mixture, leaving at least one other constituent behind."@en .
+<https://w3id.org/wcso/WCSO_0000003> <http://www.w3.org/2004/02/skos/core#example> "Das Lösungsmittel wurde im Vakuum entfernt."@de .
+<https://w3id.org/wcso/WCSO_0000003> <http://www.w3.org/2004/02/skos/core#example> "The solvent was removed in vacuo."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000004
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "Schallbehandlung"@de .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "sonication"@en .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://champ-project.org/images/ontology/cao.owl#CAO_000195> .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.allotrope.org/ontologies/process#AFP_0002293> .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0001707> .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/NCIT_C81871> .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2004/02/skos/core#definition> "Eine Technik, bei der Schall eingesetzt wird um die Komponenten einer Probe zu agitieren oder zu verteilen."@de .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2004/02/skos/core#definition> "Sonication is a process describing a technique that uses sound energy to agitate or disrupt the components of a sample."@en .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2004/02/skos/core#example> "Die Partikel wurden durch Schallbehandlung der Mischung dispergiert."@de .
+<https://w3id.org/wcso/WCSO_0000004> <http://www.w3.org/2004/02/skos/core#example> "Sonication of the mixture resulted in the dispersion of the WCSOmaterial."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000005
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000005> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from OBI_0302886"@en .
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/2000/01/rdf-schema#comment> "Adopted from OBI_0302886:  Centrifugation is a process separating molecules by size or density using centrifugal forces generated by a spinning rotor. G-forces of several hundred thousand times gravity are generated in ultracentrifugation" .
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "Zentrifugieren"@de .
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "centrifuge"@en .
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/OBI_0302886> .
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/2004/02/skos/core#definition> "A process for separating components of a mixture by density using centrifugal forces generated by a spinning rotor."@en .
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess zur Trennung von Komponenten einer Mischung gemäß ihrer Dichte durch den Einfluss von Zentrifugalkräften eines sich drehenden Rotors."@de .
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/2004/02/skos/core#example> "Die WCSOpartikel wurden aus der Dispersion durch Zentrifugation abgetrennt."@de .
+<https://w3id.org/wcso/WCSO_0000005> <http://www.w3.org/2004/02/skos/core#example> "The WCSOparticles were Adopted from ISOlated from the dispersion using centrifugation."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000006
+<https://w3id.org/wcso/WCSO_0000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000006> <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CHMO_0002772> .
+<https://w3id.org/wcso/WCSO_0000006> <http://www.w3.org/2000/01/rdf-schema#label> "Entgasen"@de .
+<https://w3id.org/wcso/WCSO_0000006> <http://www.w3.org/2000/01/rdf-schema#label> "degas"@en .
+<https://w3id.org/wcso/WCSO_0000006> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0002772> .
+<https://w3id.org/wcso/WCSO_0000006> <http://www.w3.org/2004/02/skos/core#definition> "A preparative step involving the removal of dissolved gases from a sample."@en .
+<https://w3id.org/wcso/WCSO_0000006> <http://www.w3.org/2004/02/skos/core#definition> "Ein präparativer Schritt, bei dem gelöstes Gas aus einer Probe entfernt wird."@de .
+<https://w3id.org/wcso/WCSO_0000006> <http://www.w3.org/2004/02/skos/core#example> "Das Lösungsmittel wurde im Vakuum entgast."@de .
+<https://w3id.org/wcso/WCSO_0000006> <http://www.w3.org/2004/02/skos/core#example> "The solvent was degassed in vacuo."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000007
+<https://w3id.org/wcso/WCSO_0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000007> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO 11074:2015, 6.4.30" .
+<https://w3id.org/wcso/WCSO_0000007> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO 23044:2020(en), 3.1.11" .
+<https://w3id.org/wcso/WCSO_0000007> <http://www.w3.org/2000/01/rdf-schema#label> "Ausfällen"@de .
+<https://w3id.org/wcso/WCSO_0000007> <http://www.w3.org/2000/01/rdf-schema#label> "precipitate"@en .
+<https://w3id.org/wcso/WCSO_0000007> <http://www.w3.org/2004/02/skos/core#definition> "A process that involves the formation of separable solid products from a liquid solution or dispersion."@en .
+<https://w3id.org/wcso/WCSO_0000007> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess, bei dem abtrennbare Feststoffe aus einer flüssigen Lösung oder Dispersion erhalten werden."@de .
+<https://w3id.org/wcso/WCSO_0000007> <http://www.w3.org/2004/02/skos/core#example> "Die WCSOpartikel wurden durch die Zugabe von Ethanol ausgefällt."@de .
+<https://w3id.org/wcso/WCSO_0000007> <http://www.w3.org/2004/02/skos/core#example> "The WCSOparticles were precipitated by adding Ethanol."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000008
+<https://w3id.org/wcso/WCSO_0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000008> <http://www.w3.org/2000/01/rdf-schema#label> "Waschen"@de .
+<https://w3id.org/wcso/WCSO_0000008> <http://www.w3.org/2000/01/rdf-schema#label> "wash"@en .
+<https://w3id.org/wcso/WCSO_0000008> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/OBI_0302888> .
+<https://w3id.org/wcso/WCSO_0000008> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess, bei dem ein Material das als Verunreinigung aftritt unter Anwendung einer oder mehrerer Zyklen einer Lösung entfernt wird."@de .
+<https://w3id.org/wcso/WCSO_0000008> <http://www.w3.org/2004/02/skos/core#definition> "Washing is a process by which a material entity acting as contaminant is removed by application of one or more cycles of solution."@en .
+<https://w3id.org/wcso/WCSO_0000008> <http://www.w3.org/2004/02/skos/core#example> "Die WCSOpartikel wurden drei Mal mit Ethanol gewaschen um überschüssige Ausgangsmateriualien zu entfernen."@de .
+<https://w3id.org/wcso/WCSO_0000008> <http://www.w3.org/2004/02/skos/core#example> "The WCSOparticles were washed three times with water to remove excess starting materials."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000009
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid811 .
+_:genid811 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/pmd/co/PMD_0000055> .
+_:genid811 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000055> .
+_:genid811 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid812 .
+_:genid812 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/pmd/co/PMD_0000968> .
+_:genid812 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/wcso/WCSO_0000011> .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid813 .
+_:genid813 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/pmd/co/PMD_0000055> .
+_:genid813 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000055> .
+_:genid813 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid814 .
+_:genid814 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/pmd/co/PMD_0000968> .
+_:genid814 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid814 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000009> <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CHMO_0001474> .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2000/01/rdf-schema#label> "Abkühlen"@de .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2000/01/rdf-schema#label> "cool"@en .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0001474> .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2004/02/skos/core#definition> "Der Transfer von Wärmeenergie von einer Probe in die Umegbung."@de .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2004/02/skos/core#definition> "The transfer of thermal energy from a sample to its surrounding environment."@en .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2004/02/skos/core#example> "Die Lösung wurde in einem Eisbad auf 0°C abgekühlt."@de .
+<https://w3id.org/wcso/WCSO_0000009> <http://www.w3.org/2004/02/skos/core#example> "The solution was cooled to 0°C with an ice bath."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000010
+<https://w3id.org/wcso/WCSO_0000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000010> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO 28401:2024" .
+<https://w3id.org/wcso/WCSO_0000010> <http://www.w3.org/2000/01/rdf-schema#label> "Stoppen (einer chemischen Reaktion)"@de .
+<https://w3id.org/wcso/WCSO_0000010> <http://www.w3.org/2000/01/rdf-schema#label> "quench"@en .
+<https://w3id.org/wcso/WCSO_0000010> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0002917> .
+<https://w3id.org/wcso/WCSO_0000010> <http://www.w3.org/2004/02/skos/core#definition> "An action that results in stopping or significantly slowing down a physical process or a chemical reaction."@en .
+<https://w3id.org/wcso/WCSO_0000010> <http://www.w3.org/2004/02/skos/core#definition> "Eine Technik, bei der ein physikalischer Prozess oder eine chemische Reaktion angehalten oder signifikant verlangsamt wird."@de .
+<https://w3id.org/wcso/WCSO_0000010> <http://www.w3.org/2004/02/skos/core#example> "Die Reaktion wurde durch Wasserzugabe gestoppt."@de .
+<https://w3id.org/wcso/WCSO_0000010> <http://www.w3.org/2004/02/skos/core#example> "The reaction was quenched through the addition of water."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000011
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid815 .
+_:genid815 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid816 .
+_:genid816 <http://www.w3.org/2002/07/owl#unionOf> _:genid818 .
+_:genid818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid817 .
+_:genid817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000781> .
+_:genid817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000054> .
+_:genid818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid816 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid815 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000055> .
+_:genid815 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid819 .
+_:genid819 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/pmd/co/PMD_0000967> .
+_:genid819 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid819 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid820 .
+_:genid820 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid821 .
+_:genid821 <http://www.w3.org/2002/07/owl#unionOf> _:genid824 .
+_:genid824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid823 .
+_:genid823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid822 .
+_:genid822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/wcso/WCSO_0000027> .
+_:genid822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000968> .
+_:genid823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000780> .
+_:genid824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid821 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid820 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid825 .
+_:genid825 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid826 .
+_:genid826 <http://www.w3.org/2002/07/owl#unionOf> _:genid828 .
+_:genid828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid827 .
+_:genid827 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid827 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000781> .
+_:genid827 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000054> .
+_:genid828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid825 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000055> .
+_:genid825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid829 .
+_:genid829 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/pmd/co/PMD_0000967> .
+_:genid829 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid829 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid830 .
+_:genid830 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid831 .
+_:genid831 <http://www.w3.org/2002/07/owl#unionOf> _:genid834 .
+_:genid834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid833 .
+_:genid833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid832 .
+_:genid832 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid832 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/wcso/WCSO_0000027> .
+_:genid832 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000968> .
+_:genid833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000780> .
+_:genid834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid831 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid830 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid830 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000011> <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CHMO_0002770> .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2000/01/rdf-schema#label> "Aufheizen"@de .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2000/01/rdf-schema#label> "heat"@en .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0002770> .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2004/02/skos/core#definition> "A sample preparation step involving the increase in temperature of a sample."@en .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2004/02/skos/core#definition> "Ein präparativer Schritt, bei dem die Temperatur einer Probe erhöht wird."@de .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2004/02/skos/core#example> "Die Probe wurde auf 100°C geheizt."@de .
+<https://w3id.org/wcso/WCSO_0000011> <http://www.w3.org/2004/02/skos/core#example> "The sample was heated to 100°C."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000012
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid835 .
+_:genid835 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid836 .
+_:genid836 <http://www.w3.org/2002/07/owl#unionOf> _:genid838 .
+_:genid838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid837 .
+_:genid837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/wcso/WCSO_0000028> .
+_:genid837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/wcso/WCSO_0000027> .
+_:genid838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid836 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid835 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid839 .
+_:genid839 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid840 .
+_:genid840 <http://www.w3.org/2002/07/owl#unionOf> _:genid842 .
+_:genid842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid841 .
+_:genid841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/wcso/WCSO_0000028> .
+_:genid841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/wcso/WCSO_0000027> .
+_:genid842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid839 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/2000/01/rdf-schema#label> "Rühren"@de .
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/2000/01/rdf-schema#label> "stir"@en .
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/2004/02/skos/core#definition> "A process that involves the mechanical agitation of a sample, typically in a circular motion."@en .
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess, bei dem eine eine Probe mechanisch bewegt wird, typischerweise in einer kreisförmigen Bewegung."@de .
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/2004/02/skos/core#example> "Das Salz wurde unter Rühren aufgelöst."@de .
+<https://w3id.org/wcso/WCSO_0000012> <http://www.w3.org/2004/02/skos/core#example> "The salt was dissolved under stirring."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000013
+<https://w3id.org/wcso/WCSO_0000013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000013> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000013> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO 1213-1:2020" .
+<https://w3id.org/wcso/WCSO_0000013> <http://www.w3.org/2000/01/rdf-schema#label> "Mischen"@de .
+<https://w3id.org/wcso/WCSO_0000013> <http://www.w3.org/2000/01/rdf-schema#label> "mix"@en .
+<https://w3id.org/wcso/WCSO_0000013> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0001685> .
+<https://w3id.org/wcso/WCSO_0000013> <http://www.w3.org/2004/02/skos/core#definition> "Die Kombination von zwei oder mehr Materialien mit unterschiedlichen Eigenschaften."@de .
+<https://w3id.org/wcso/WCSO_0000013> <http://www.w3.org/2004/02/skos/core#definition> "The combination of two or more materials of different characteristics."@en .
+<https://w3id.org/wcso/WCSO_0000013> <http://www.w3.org/2004/02/skos/core#example> "Die beiden Lösungen wurden gemischt."@de .
+<https://w3id.org/wcso/WCSO_0000013> <http://www.w3.org/2004/02/skos/core#example> "The two solutions were mixed."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000014
+<https://w3id.org/wcso/WCSO_0000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000014> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000014> <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CHMO_0001549> .
+<https://w3id.org/wcso/WCSO_0000014> <http://www.w3.org/2000/01/rdf-schema#label> "Trocknen"@de .
+<https://w3id.org/wcso/WCSO_0000014> <http://www.w3.org/2000/01/rdf-schema#label> "dry"@en .
+<https://w3id.org/wcso/WCSO_0000014> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0001549> .
+<https://w3id.org/wcso/WCSO_0000014> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess, bei dem ein Lösungsmittel von einer Substanz entfernt wird."@de .
+<https://w3id.org/wcso/WCSO_0000014> <http://www.w3.org/2004/02/skos/core#definition> "The process of removing a solvent from a substance."@en .
+<https://w3id.org/wcso/WCSO_0000014> <http://www.w3.org/2004/02/skos/core#example> "Die WCSOpartikel wurden unter Vakuum bei 80°C getrocknet."@de .
+<https://w3id.org/wcso/WCSO_0000014> <http://www.w3.org/2004/02/skos/core#example> "The WCSOparticles were dried under vacuum at 80°C."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000015
+<https://w3id.org/wcso/WCSO_0000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid843 .
+_:genid843 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/wcso/WCSO_0000037> .
+_:genid843 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/pmd/co/PMD_0000009> .
+_:genid843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/wcso/WCSO_0000015> <http://www.w3.org/2000/01/rdf-schema#label> "Hinzufügen"@de .
+<https://w3id.org/wcso/WCSO_0000015> <http://www.w3.org/2000/01/rdf-schema#label> "add"@en .
+<https://w3id.org/wcso/WCSO_0000015> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess, bei dem eine physische Entität zu einer vorhandenen Entität oder Sammlung hinzugefügt wird."@de .
+<https://w3id.org/wcso/WCSO_0000015> <http://www.w3.org/2004/02/skos/core#definition> "The process of adding a physical entity to an existing entity or collection."@en .
+<https://w3id.org/wcso/WCSO_0000015> <http://www.w3.org/2004/02/skos/core#example> "Wasser wurde dem Kolben hinzugefügt."@de .
+<https://w3id.org/wcso/WCSO_0000015> <http://www.w3.org/2004/02/skos/core#example> "Water was added to the flask."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000016
+<https://w3id.org/wcso/WCSO_0000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000016> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO 1213-1:2020(en), 6.1.4" .
+<https://w3id.org/wcso/WCSO_0000016> <http://www.w3.org/2000/01/rdf-schema#label> "Filtern"@de .
+<https://w3id.org/wcso/WCSO_0000016> <http://www.w3.org/2000/01/rdf-schema#label> "filter"@en .
+<https://w3id.org/wcso/WCSO_0000016> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/PROCO_0000050> .
+<https://w3id.org/wcso/WCSO_0000016> <http://www.w3.org/2004/02/skos/core#definition> "A process for separating solids from liquids by allowing the liquid to pass through a fine, porous mesh that retains the solids."@en .
+<https://w3id.org/wcso/WCSO_0000016> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess, bei dem Feststoffe von Flüssigkeiten abgetrennt werden, indem die Flüssigkeit durch ein feines, poröses Netzwerk geleitet wird, das die Feststoffe zurückhält."@de .
+<https://w3id.org/wcso/WCSO_0000016> <http://www.w3.org/2004/02/skos/core#example> "Die Partikel wurden durch Filtration vfon der Lösung getrennt."@de .
+<https://w3id.org/wcso/WCSO_0000016> <http://www.w3.org/2004/02/skos/core#example> "The particles were separated from the solution by filtration."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000017
+<https://w3id.org/wcso/WCSO_0000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000017> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000017> <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CHMO_0002773> .
+<https://w3id.org/wcso/WCSO_0000017> <http://www.w3.org/2000/01/rdf-schema#label> "Auflösen"@de .
+<https://w3id.org/wcso/WCSO_0000017> <http://www.w3.org/2000/01/rdf-schema#label> "dissolve"@en .
+<https://w3id.org/wcso/WCSO_0000017> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0002773> .
+<https://w3id.org/wcso/WCSO_0000017> <http://www.w3.org/2004/02/skos/core#definition> "A mixing step where a soluble component is mixed with a liquid component."@en .
+<https://w3id.org/wcso/WCSO_0000017> <http://www.w3.org/2004/02/skos/core#definition> "Ein Mischungsschritt, bei dem eine lösliche Komponente mit einer flüssigen Komponente gemischt wird."@de .
+<https://w3id.org/wcso/WCSO_0000017> <http://www.w3.org/2004/02/skos/core#example> "Das Salz wurde unter Rühren aufgelöst."@de .
+<https://w3id.org/wcso/WCSO_0000017> <http://www.w3.org/2004/02/skos/core#example> "The salt was dissolved under stirring."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000018
+<https://w3id.org/wcso/WCSO_0000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000018> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000018> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO/IEC 23094-2:2021(en), 3.38" .
+<https://w3id.org/wcso/WCSO_0000018> <http://www.w3.org/2000/01/rdf-schema#label> "Partitionierung"@de .
+<https://w3id.org/wcso/WCSO_0000018> <http://www.w3.org/2000/01/rdf-schema#label> "partition"@en .
+<https://w3id.org/wcso/WCSO_0000018> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.allotrope.org/ontologies/process#AFP_0003403> .
+<https://w3id.org/wcso/WCSO_0000018> <http://www.w3.org/2004/02/skos/core#definition> "A process, in which a substance is allowed to distribute between two or more immiscible phases at equilibrium."@en .
+<https://w3id.org/wcso/WCSO_0000018> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess, bei dem eine Substanz sich über zwei oder mehr Phasen im Gleichgewicht verteilen kann."@de .
+<https://w3id.org/wcso/WCSO_0000018> <http://www.w3.org/2004/02/skos/core#example> "Das Salz partitionierte in die wässrige Phase."@de .
+<https://w3id.org/wcso/WCSO_0000018> <http://www.w3.org/2004/02/skos/core#example> "The salt partitioned into the aqueous phase."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000019
+<https://w3id.org/wcso/WCSO_0000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000019> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000019> <http://www.w3.org/2000/01/rdf-schema#label> "Erhalten"@de .
+<https://w3id.org/wcso/WCSO_0000019> <http://www.w3.org/2000/01/rdf-schema#label> "recover"@en .
+<https://w3id.org/wcso/WCSO_0000019> <http://www.w3.org/2004/02/skos/core#definition> "Ein Vorgang, bei dem eine Entität aus einer Sammlung anderer Entitäten erhalten wird."@de .
+<https://w3id.org/wcso/WCSO_0000019> <http://www.w3.org/2004/02/skos/core#definition> "The act of obtaining an entity from a collection of other entities."@en .
+<https://w3id.org/wcso/WCSO_0000019> <http://www.w3.org/2004/02/skos/core#example> "Die Partikel wurden durch Zentrifugation der Lösung erhalten."@de .
+<https://w3id.org/wcso/WCSO_0000019> <http://www.w3.org/2004/02/skos/core#example> "The particles were recovered from the dispersion by centrifugation."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000020
+<https://w3id.org/wcso/WCSO_0000020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000020> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000020> <http://purl.obolibrary.org/obo/IAO_0000119> "“Synthesis.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/synthesis, Accessed 06/26/2025"@en .
+<https://w3id.org/wcso/WCSO_0000020> <http://www.w3.org/2000/01/rdf-schema#label> "Synthetisieren"@de .
+<https://w3id.org/wcso/WCSO_0000020> <http://www.w3.org/2000/01/rdf-schema#label> "synthesize"@en .
+<https://w3id.org/wcso/WCSO_0000020> <http://www.w3.org/2004/02/skos/core#definition> "Die Herstellung einer Substanz durch die Vereinigung chemischer Elemente, Gruppen oder einfacherer Verbindungen oder durch den Abbau einer komplexen Verbindung."@de .
+<https://w3id.org/wcso/WCSO_0000020> <http://www.w3.org/2004/02/skos/core#definition> "The production of a substance by the union of chemical elements, groups, or simpler compounds or by the degradation of a complex compound."@en .
+<https://w3id.org/wcso/WCSO_0000020> <http://www.w3.org/2004/02/skos/core#example> "Die Partikel wurden gemäß einer zuvor publizierten Prozedur synthetisiert."@de .
+<https://w3id.org/wcso/WCSO_0000020> <http://www.w3.org/2004/02/skos/core#example> "The particles were synthesized following a previously published procedure."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000021
+<https://w3id.org/wcso/WCSO_0000021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000021> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000021> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO/TS 23303:2020(en), 3.2.9" .
+<https://w3id.org/wcso/WCSO_0000021> <http://www.w3.org/2000/01/rdf-schema#label> "Aufbereitung"@de .
+<https://w3id.org/wcso/WCSO_0000021> <http://www.w3.org/2000/01/rdf-schema#label> "Veredelung"@de .
+<https://w3id.org/wcso/WCSO_0000021> <http://www.w3.org/2000/01/rdf-schema#label> "purify"@en .
+<https://w3id.org/wcso/WCSO_0000021> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess, bei dem Verunreinigungen und ungewünschte Komponenten entfernt werden."@de .
+<https://w3id.org/wcso/WCSO_0000021> <http://www.w3.org/2004/02/skos/core#definition> "The process of eliminating impurities and undesired components."@en .
+<https://w3id.org/wcso/WCSO_0000021> <http://www.w3.org/2004/02/skos/core#example> "Die Substanz wurde durch Waschen mit Wasser aufgereinigt."@de .
+<https://w3id.org/wcso/WCSO_0000021> <http://www.w3.org/2004/02/skos/core#example> "The substance was purified by washing it with water."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000022
+<https://w3id.org/wcso/WCSO_0000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000022> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000022> <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NCIT_C61575> .
+<https://w3id.org/wcso/WCSO_0000022> <http://www.w3.org/2000/01/rdf-schema#label> "Extrahieren"@de .
+<https://w3id.org/wcso/WCSO_0000022> <http://www.w3.org/2000/01/rdf-schema#label> "extract"@en .
+<https://w3id.org/wcso/WCSO_0000022> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/NCIT_C61575> .
+<https://w3id.org/wcso/WCSO_0000022> <http://www.w3.org/2004/02/skos/core#definition> "Der Vorgang des Adopted from ISOlierens, einschließlich des Prozesses, etwas aus einer Mischung oder Verbindung mit chemischen, physikalischen oder mechanischen Mitteln zu gewinnen."@de .
+<https://w3id.org/wcso/WCSO_0000022> <http://www.w3.org/2004/02/skos/core#definition> "The act of pulling out, including the process of obtaining something from a mixture or compound by chemical or physical or mechanical means."@en .
+<https://w3id.org/wcso/WCSO_0000022> <http://www.w3.org/2004/02/skos/core#example> "Die Verbindung wurde aus der wässrigen Phase mit Ether extrahiert."@de .
+<https://w3id.org/wcso/WCSO_0000022> <http://www.w3.org/2004/02/skos/core#example> "The compound was extracted from the aqueous phase with ether."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000023
+<https://w3id.org/wcso/WCSO_0000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000023> <http://purl.obolibrary.org/obo/IAO_0000119> "Adopted from ISO 21457:2010(en), 3.1.17" .
+<https://w3id.org/wcso/WCSO_0000023> <http://www.w3.org/2000/01/rdf-schema#label> "Anpassung pH-Wert"@de .
+<https://w3id.org/wcso/WCSO_0000023> <http://www.w3.org/2000/01/rdf-schema#label> "adjust pH value"@en .
+<https://w3id.org/wcso/WCSO_0000023> <http://www.w3.org/2004/02/skos/core#definition> "Changing the activity of protons (Hydrogen ions) in solution by adding substances such as acids or bases that influence the acidity or basicity of the solution."@en .
+<https://w3id.org/wcso/WCSO_0000023> <http://www.w3.org/2004/02/skos/core#definition> "Ändern der Protonenaktivität (Aktivität von Wasserstoffionen) in Lösung durch hinzufügen von Substanzen wie Säuren oder Basen, die den sauren oder basischen Charakter der Lösung ändern."@de .
+<https://w3id.org/wcso/WCSO_0000023> <http://www.w3.org/2004/02/skos/core#example> "Der pH Wert wurde durch Zugabe 1 molarer Natronlauge auf 7 eingestellt."@de .
+<https://w3id.org/wcso/WCSO_0000023> <http://www.w3.org/2004/02/skos/core#example> "The pH was adjusted to 7 by adding 1 molar sodium hydroxide solution."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000024
+<https://w3id.org/wcso/WCSO_0000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000024> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000024> <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CHMO_0002771> .
+<https://w3id.org/wcso/WCSO_0000024> <http://www.w3.org/2000/01/rdf-schema#label> "Anreichern"@de .
+<https://w3id.org/wcso/WCSO_0000024> <http://www.w3.org/2000/01/rdf-schema#label> "concentrate"@en .
+<https://w3id.org/wcso/WCSO_0000024> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0002771> .
+<https://w3id.org/wcso/WCSO_0000024> <http://www.w3.org/2004/02/skos/core#definition> "A preparative step where the concentration of one component is increased."@en .
+<https://w3id.org/wcso/WCSO_0000024> <http://www.w3.org/2004/02/skos/core#definition> "Ein präparativer Schritt, bei dem die Konzentration einer Komponente erhöht wird."@de .
+<https://w3id.org/wcso/WCSO_0000024> <http://www.w3.org/2004/02/skos/core#example> "Die Lösung wurde im Vakuum aufkonzentriert."@de .
+<https://w3id.org/wcso/WCSO_0000024> <http://www.w3.org/2004/02/skos/core#example> "The solution was concentrated in vacuo."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000025
+<https://w3id.org/wcso/WCSO_0000025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000025> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/wcso/WCSO_0000025> <http://www.w3.org/2000/01/rdf-schema#label> "Wiederholen"@de .
+<https://w3id.org/wcso/WCSO_0000025> <http://www.w3.org/2000/01/rdf-schema#label> "repeat"@en .
+<https://w3id.org/wcso/WCSO_0000025> <http://www.w3.org/2004/02/skos/core#definition> "Ein Prozess, bei dem eine vorige Aktion erneut ausgeführt wird."@de .
+<https://w3id.org/wcso/WCSO_0000025> <http://www.w3.org/2004/02/skos/core#definition> "The process of conducting a previous action again."@en .
+<https://w3id.org/wcso/WCSO_0000025> <http://www.w3.org/2004/02/skos/core#example> "Die Waschschritte wurden drei Mal wiederholt."@de .
+<https://w3id.org/wcso/WCSO_0000025> <http://www.w3.org/2004/02/skos/core#example> "The washing steps were repeated three times."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000026
+<https://w3id.org/wcso/WCSO_0000026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000026> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/wcso/WCSO_0000015> .
+<https://w3id.org/wcso/WCSO_0000026> <http://www.w3.org/2000/01/rdf-schema#label> "quench chemically"@en .
+<https://w3id.org/wcso/WCSO_0000026> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/CHMO_0002917> .
+<https://w3id.org/wcso/WCSO_0000026> <http://www.w3.org/2004/02/skos/core#definition> "An action that results in stopping or significantly slowing down a physical process or a chemical reaction by adding a substance."@en .
+<https://w3id.org/wcso/WCSO_0000026> <http://www.w3.org/2004/02/skos/core#example> "The reaction was quenched through the addition of water."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000027
+<https://w3id.org/wcso/WCSO_0000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0000602> .
+<https://w3id.org/wcso/WCSO_0000027> <http://www.w3.org/2000/01/rdf-schema#label> "Beheizbarer Magnetrührer"@de .
+<https://w3id.org/wcso/WCSO_0000027> <http://www.w3.org/2000/01/rdf-schema#label> "heated magnetic stirrer"@en .
+<https://w3id.org/wcso/WCSO_0000027> <http://www.w3.org/2004/02/skos/core#definition> "A heated magnetic stirrer is a device that is used to heat and simultaneously stir liquids in a laboratory vessel by combining an integrated heating plate with a magnetic stirring mechanism, thereby ensuring both controlled temperature and uniform mixing."@en .
+<https://w3id.org/wcso/WCSO_0000027> <http://www.w3.org/2004/02/skos/core#definition> "Ein beheizbarer Magnetrührer ist ein Gerät, das dazu verwendet wird, Flüssigkeiten in einem Laborgefäß gleichzeitig zu erhitzen und zu rühren, indem es eine integrierte Heizplatte mit einem magnetischen Rührmechanismus kombiniert und so sowohl eine kontrollierte Temperatur als auch eine gleichmäßige Durchmischung gewährleistet."@de .
+# 
+# https://w3id.org/wcso/WCSO_0000028
+<https://w3id.org/wcso/WCSO_0000028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000028> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0000602> .
+<https://w3id.org/wcso/WCSO_0000028> <http://www.w3.org/2000/01/rdf-schema#label> "Rührfisch"@de .
+<https://w3id.org/wcso/WCSO_0000028> <http://www.w3.org/2000/01/rdf-schema#label> "stir fish"@en .
+<https://w3id.org/wcso/WCSO_0000028> <http://www.w3.org/2004/02/skos/core#definition> "A stir fish is a device that is used to stir liquids in a laboratory vessel by means of a rotating magnetic field, enabling homogeneous mixing without direct mechanical contact."@en .
+<https://w3id.org/wcso/WCSO_0000028> <http://www.w3.org/2004/02/skos/core#definition> "Ein Rührfisch ist ein Gerät, das dazu verwendet wird, Flüssigkeiten in einem Laborgefäß durch ein rotierendes Magnetfeld zu rühren, wodurch eine homogene Durchmischung ohne direkten mechanischen Kontakt ermöglicht wird."@de .
+# 
+# https://w3id.org/wcso/WCSO_0000029
+<https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0020131> .
+<https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2000/01/rdf-schema#label> "Die Konzentration ist eine intensive Eigenschaft, die die Menge eines Stoffes im Verhältnis zum Volumen eines Gemisches oder einer Lösung angibt."@de .
+<https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2000/01/rdf-schema#label> "Konzentration"@de .
+<https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2000/01/rdf-schema#label> "concentration"@en .
+<https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2004/02/skos/core#definition> "A concentration is an intensive quality that denotes the amount of a substance relative to the volume of a mixture or solution."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000030
+<https://w3id.org/wcso/WCSO_0000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/wcso/WCSO_0000029> .
+<https://w3id.org/wcso/WCSO_0000030> <http://www.w3.org/2000/01/rdf-schema#label> "Massenkonzentration"@de .
+<https://w3id.org/wcso/WCSO_0000030> <http://www.w3.org/2000/01/rdf-schema#label> "mass concentration"@en .
+<https://w3id.org/wcso/WCSO_0000030> <http://www.w3.org/2004/02/skos/core#definition> "A mass concentration is a concentration that denotes the mass of a substance per unit volume of a mixture or solution."@en .
+<https://w3id.org/wcso/WCSO_0000030> <http://www.w3.org/2004/02/skos/core#definition> "Die Massenkonzentration ist eine Konzentration, die die Masse eines Stoffes pro Volumeneinheit eines Gemisches oder einer Lösung angibt."@de .
+# 
+# https://w3id.org/wcso/WCSO_0000031
+<https://w3id.org/wcso/WCSO_0000031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000031> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0020133> .
+<https://w3id.org/wcso/WCSO_0000031> <http://www.w3.org/2000/01/rdf-schema#label> "Molare Masse"@de .
+<https://w3id.org/wcso/WCSO_0000031> <http://www.w3.org/2000/01/rdf-schema#label> "molar mass"@en .
+<https://w3id.org/wcso/WCSO_0000031> <http://www.w3.org/2004/02/skos/core#definition> "Die Molare Masse ist eine universelle intensive Größe, die das Verhältnis aus Masse zu Stoffmenge eines Stoffes beschreibt."@de .
+<https://w3id.org/wcso/WCSO_0000031> <http://www.w3.org/2004/02/skos/core#definition> "The molar mass is a universal intensive quality representing the unit mass of a portion of matter per unit amount of substance."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000032
+<https://w3id.org/wcso/WCSO_0000032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000032> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0020148> .
+<https://w3id.org/wcso/WCSO_0000032> <http://www.w3.org/2000/01/rdf-schema#label> "Molmenge"@de .
+<https://w3id.org/wcso/WCSO_0000032> <http://www.w3.org/2000/01/rdf-schema#label> "molar amount"@en .
+<https://w3id.org/wcso/WCSO_0000032> <http://www.w3.org/2004/02/skos/core#definition> "Die Molmenge ist eine extensive Eigenschaft, die die Stoffmenge in Mol angibt."@de .
+<https://w3id.org/wcso/WCSO_0000032> <http://www.w3.org/2004/02/skos/core#definition> "The molar amount is an extensive quality that denotes the quantity of substance expressed in moles."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000033
+<https://w3id.org/wcso/WCSO_0000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000033> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0000602> .
+<https://w3id.org/wcso/WCSO_0000033> <http://www.w3.org/2000/01/rdf-schema#label> "Behälter"@de .
+<https://w3id.org/wcso/WCSO_0000033> <http://www.w3.org/2000/01/rdf-schema#label> "container"@en .
+<https://w3id.org/wcso/WCSO_0000033> <http://www.w3.org/2004/02/skos/core#definition> "A container is a device that is used to hold, store, or transport substances or objects."@en .
+<https://w3id.org/wcso/WCSO_0000033> <http://www.w3.org/2004/02/skos/core#definition> "Ein Behälter ist ein Gerät, das verwendet wird, um Stoffe oder Objekte aufzunehmen, zu lagern oder zu transportieren."@de .
+# 
+# https://w3id.org/wcso/WCSO_0000034
+<https://w3id.org/wcso/WCSO_0000034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000034> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0000008> .
+<https://w3id.org/wcso/WCSO_0000034> <http://www.w3.org/2000/01/rdf-schema#comment> "The possibly corresponding unit \"Revolution per Minute\" is a unit for 'Angular Velocity' expressed as rev/min. One revolution per minute is equivalent to 1/60 hertz. Alternative symbols to be used may be “RPM”, \"r/min”, and “rpm”."@en .
+<https://w3id.org/wcso/WCSO_0000034> <http://www.w3.org/2000/01/rdf-schema#label> "Rotationsgeschwindigkeit"@de .
+<https://w3id.org/wcso/WCSO_0000034> <http://www.w3.org/2000/01/rdf-schema#label> "rotation speed"@en .
+<https://w3id.org/wcso/WCSO_0000034> <http://www.w3.org/2004/02/skos/core#altLabel> "Drehgeschwindigkeit"@de .
+<https://w3id.org/wcso/WCSO_0000034> <http://www.w3.org/2004/02/skos/core#definition> "A rotation speed is a process characteristic that denotes the number of rotations per unit time of a rotating object."@en .
+<https://w3id.org/wcso/WCSO_0000034> <http://www.w3.org/2004/02/skos/core#definition> "Die Rotationsgeschwindigkeit ist eine Prozesseigenschaft, die die Anzahl der Umdrehungen pro Zeiteinheit eines rotierenden Objekts angibt."@de .
+<https://w3id.org/wcso/WCSO_0000034> <http://www.w3.org/2004/02/skos/core#example> "The rotation speed during a stirring process was 400 revolutions per minute (qudt:REV-PER-MIN)."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000035
+<https://w3id.org/wcso/WCSO_0000035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000035> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0000008> .
+<https://w3id.org/wcso/WCSO_0000035> <http://www.w3.org/2000/01/rdf-schema#label> "Durchsatz"@de .
+<https://w3id.org/wcso/WCSO_0000035> <http://www.w3.org/2000/01/rdf-schema#label> "flow rate"@en .
+<https://w3id.org/wcso/WCSO_0000035> <http://www.w3.org/2004/02/skos/core#altLabel> "Durchflussmenge"@de .
+<https://w3id.org/wcso/WCSO_0000035> <http://www.w3.org/2004/02/skos/core#definition> "A flow rate is a process characteristic that denotes the volume of a substance passing per unit time."@en .
+<https://w3id.org/wcso/WCSO_0000035> <http://www.w3.org/2004/02/skos/core#definition> "Die Flussrate ist eine Prozesseigenschaft, die das Volumen eines Stoffes angibt, das pro Zeiteinheit fließt."@de .
+# 
+# https://w3id.org/wcso/WCSO_0000036
+<https://w3id.org/wcso/WCSO_0000036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000036> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0020000> .
+<https://w3id.org/wcso/WCSO_0000036> <http://www.w3.org/2000/01/rdf-schema#comment> "The CAS number may provide a globally accepted identifier for chemical substances."@en .
+<https://w3id.org/wcso/WCSO_0000036> <http://www.w3.org/2000/01/rdf-schema#label> "CAS Nummer"@de .
+<https://w3id.org/wcso/WCSO_0000036> <http://www.w3.org/2000/01/rdf-schema#label> "CAS number"@en .
+<https://w3id.org/wcso/WCSO_0000036> <http://www.w3.org/2004/02/skos/core#definition> "Die CAS-Nummer ist ein Identifikator, der einen eindeutigen numerischen Code bezeichnet, der von dem Chemical Abstracts Service einer chemischen Substanz zugewiesen wird."@de .
+<https://w3id.org/wcso/WCSO_0000036> <http://www.w3.org/2004/02/skos/core#definition> "The CAS number is an identifier that denotes a unique numerical code assigned by the Chemical Abstracts Service to a chemical substance."@en .
+# 
+# https://w3id.org/wcso/WCSO_0000037
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0000008> .
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/2000/01/rdf-schema#comment> "What it measures: the added quantity (mass, amount of substance, volume, count, etc.) per time.\nWhat it does not necessarily mean: it is not automatically “net increase” of the system (that would be a net change rate). Addition rate is about the incoming addition action itself."@en .
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/2000/01/rdf-schema#label> "Zugaberate"@de .
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/2000/01/rdf-schema#label> "addition rate"@en .
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/2004/02/skos/core#altLabel> "Additionsrate"@de .
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/2004/02/skos/core#definition> "An addition rate is a process attribute that characterizes an addition process by specifying the ratio of the quantity added to the duration over which it is added."@en .
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/2004/02/skos/core#definition> "Die Zugaberate ist ein Prozessattribut, das einen Zugabeprozess dadurch charakterisiert, dass es das Verhältnis der zugegebenen Menge zur Zeitdauer angibt, über die diese Zugabe erfolgt."@de .
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/2004/02/skos/core#example> "Typical units: kg/s, mol/s, m³/h, items/min, etc."@en .
+<https://w3id.org/wcso/WCSO_0000037> <http://www.w3.org/2004/02/skos/core#example> "Typische Einheiten: kg/s, mol/s, m³/h, Stück/min usw."@de .
+# 
+# https://w3id.org/wcso/WCSO_0000047
+<https://w3id.org/wcso/WCSO_0000047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000047> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000027> .
+<https://w3id.org/wcso/WCSO_0000047> <http://www.w3.org/2000/01/rdf-schema#label> "Dispersives System"@de .
+<https://w3id.org/wcso/WCSO_0000047> <http://www.w3.org/2000/01/rdf-schema#label> "dispersive system"@en .
+<https://w3id.org/wcso/WCSO_0000047> <http://www.w3.org/2004/02/skos/core#definition> "A dispersive system is a multiphase mixture in which one phase (the dispersed phase) is finely distributed within another phase (the continuous phase)."@en .
+<https://w3id.org/wcso/WCSO_0000047> <http://www.w3.org/2004/02/skos/core#definition> "Ein disperses System ist ein mehrphasiges Gemisch, bei dem eine Phase (die disperse Phase) fein in einer anderen Phase (der kontinuierlichen Phase) verteilt ist."@de .
+# 
+# https://w3id.org/wcso/WCSO_0000115
+<https://w3id.org/wcso/WCSO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/wcso/WCSO_0000115> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0000008> .
+<https://w3id.org/wcso/WCSO_0000115> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Heizrate kann für einen Prozess als Parameter festgelegt und / oder gemessen werden"@de .
+<https://w3id.org/wcso/WCSO_0000115> <http://www.w3.org/2000/01/rdf-schema#comment> "The heating rate can be set as a parameter for a process and/or measured."@en .
+<https://w3id.org/wcso/WCSO_0000115> <http://www.w3.org/2000/01/rdf-schema#label> "Heizrate"@de .
+<https://w3id.org/wcso/WCSO_0000115> <http://www.w3.org/2000/01/rdf-schema#label> "heating rate"@en .
+<https://w3id.org/wcso/WCSO_0000115> <http://www.w3.org/2004/02/skos/core#definition> "A heating rate is a process attribute that describes the speed at which the temperature of an object or system changes per unit of time."@en .
+<https://w3id.org/wcso/WCSO_0000115> <http://www.w3.org/2004/02/skos/core#definition> "Eine Heizrate ist ein Prozessattribut, welches die Geschwindigkeit beschreibt, mit der sich die Temperatur eines Objekts oder Systems pro Zeiteinheit ändert."@de .
 # 
 # 
 # 
@@ -10630,12 +11166,7 @@ _:genid810 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # 
 <http://purl.org/dc/elements/1.1/license> <http://www.w3.org/2000/01/rdf-schema#label> "dc:license" .
 # 
-<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
-# 
 <http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#label> "dcterms:license" .
-<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#label> "license" .
-# 
-<http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#label> "title" .
 # 
 <https://orcid.org/0000-0001-6772-1943> <http://www.w3.org/2000/01/rdf-schema#label> "Martin Glauer" .
 # 
@@ -10670,183 +11201,90 @@ _:genid810 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # #################################################################
 # 
 # 
-_:genid811 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid811 <http://www.w3.org/2002/07/owl#unionOf> _:genid813 .
-_:genid813 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid812 .
-_:genid812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000952> .
-_:genid812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid813 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000773> .
-_:genid813 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid811 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0000848> .
-# 
-_:genid814 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid814 <http://www.w3.org/2002/07/owl#members> _:genid817 .
-_:genid817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid816 .
-_:genid816 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid815 .
-_:genid815 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid815 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
-_:genid815 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid816 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000020> .
-_:genid816 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000004> .
-_:genid817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-# 
-_:genid818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid818 <http://www.w3.org/2002/07/owl#members> _:genid821 .
-_:genid821 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid820 .
-_:genid820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid819 .
-_:genid819 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid819 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000140> .
-_:genid819 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000029> .
-_:genid820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid821 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000006> .
-_:genid821 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-# 
-_:genid822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid822 <http://www.w3.org/2002/07/owl#members> _:genid826 .
-_:genid826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid825 .
-_:genid825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid824 .
-_:genid824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid823 .
-_:genid823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000035> .
-_:genid823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000015> .
-_:genid824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000011> .
-_:genid825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000008> .
-_:genid826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-# 
-_:genid827 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid827 <http://www.w3.org/2002/07/owl#members> _:genid831 .
-_:genid831 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid830 .
-_:genid830 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid829 .
-_:genid829 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid828 .
-_:genid828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000028> .
-_:genid828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid829 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000026> .
-_:genid829 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid830 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000018> .
-_:genid830 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid831 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000009> .
-_:genid831 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-# 
-_:genid832 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid832 <http://www.w3.org/2002/07/owl#members> _:genid835 .
-_:genid835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid834 .
-_:genid834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid833 .
-_:genid833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000147> .
-_:genid833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000146> .
-_:genid834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000142> .
-_:genid835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-# 
-_:genid836 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid836 <http://www.w3.org/2002/07/owl#members> _:genid849 .
-_:genid849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid848 .
-_:genid848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid847 .
-_:genid847 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid846 .
+_:genid844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid844 <http://www.w3.org/2002/07/owl#unionOf> _:genid846 .
 _:genid846 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid845 .
-_:genid845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid844 .
-_:genid844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid843 .
-_:genid843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid842 .
-_:genid842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid841 .
-_:genid841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid840 .
-_:genid840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid839 .
-_:genid839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid838 .
-_:genid838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid837 .
-_:genid837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0025003> .
-_:genid837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0025001> .
-_:genid838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020112> .
-_:genid839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020005> .
-_:genid840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000967> .
-_:genid841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000942> .
-_:genid842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000896> .
-_:genid843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000853> .
-_:genid844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000597> .
+_:genid845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000952> .
 _:genid845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid846 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000595> .
+_:genid846 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000773> .
 _:genid846 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid847 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000591> .
-_:genid847 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000512> .
-_:genid848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000503> .
-_:genid849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid844 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0000848> .
 # 
-_:genid850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid850 <http://www.w3.org/2002/07/owl#members> _:genid857 .
-_:genid857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid856 .
-_:genid856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid855 .
-_:genid855 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid854 .
+_:genid847 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid847 <http://www.w3.org/2002/07/owl#members> _:genid850 .
+_:genid850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid849 .
+_:genid849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid848 .
+_:genid848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
+_:genid848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000020> .
+_:genid849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000004> .
+_:genid850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid851 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid851 <http://www.w3.org/2002/07/owl#members> _:genid854 .
 _:genid854 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid853 .
 _:genid853 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid852 .
-_:genid852 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid851 .
-_:genid851 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid851 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000880> .
-_:genid851 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid852 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000802> .
+_:genid852 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid852 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000140> .
 _:genid852 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid853 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000523> .
+_:genid853 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000029> .
 _:genid853 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid854 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000522> .
+_:genid854 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000006> .
 _:genid854 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid855 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000521> .
-_:genid855 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000520> .
-_:genid856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000519> .
-_:genid857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-_:genid858 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid858 <http://www.w3.org/2002/07/owl#members> _:genid863 .
+_:genid855 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid855 <http://www.w3.org/2002/07/owl#members> _:genid859 .
+_:genid859 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid858 .
+_:genid858 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid857 .
+_:genid857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid856 .
+_:genid856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000035> .
+_:genid856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000015> .
+_:genid857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid858 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000011> .
+_:genid858 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid859 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000008> .
+_:genid859 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid860 <http://www.w3.org/2002/07/owl#members> _:genid864 .
+_:genid864 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid863 .
 _:genid863 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid862 .
 _:genid862 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid861 .
-_:genid861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid860 .
-_:genid860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid859 .
-_:genid859 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid859 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000802> .
-_:genid859 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000522> .
-_:genid860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000521> .
+_:genid861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000028> .
 _:genid861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid862 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000520> .
+_:genid862 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000026> .
 _:genid862 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid863 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000519> .
+_:genid863 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000018> .
 _:genid863 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid864 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000009> .
+_:genid864 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-_:genid864 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid864 <http://www.w3.org/2002/07/owl#members> _:genid868 .
+_:genid865 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid865 <http://www.w3.org/2002/07/owl#members> _:genid868 .
 _:genid868 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid867 .
 _:genid867 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid866 .
-_:genid866 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid865 .
-_:genid865 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid865 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000996> .
-_:genid865 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid866 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000961> .
+_:genid866 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid866 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000147> .
 _:genid866 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid867 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000851> .
+_:genid867 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000146> .
 _:genid867 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid868 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000535> .
+_:genid868 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000142> .
 _:genid868 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid869 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid869 <http://www.w3.org/2002/07/owl#members> _:genid876 .
+_:genid869 <http://www.w3.org/2002/07/owl#members> _:genid882 .
+_:genid882 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid881 .
+_:genid881 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid880 .
+_:genid880 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid879 .
+_:genid879 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid878 .
+_:genid878 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid877 .
+_:genid877 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid876 .
 _:genid876 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid875 .
 _:genid875 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid874 .
 _:genid874 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid873 .
@@ -10854,105 +11292,92 @@ _:genid873 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid872 .
 _:genid872 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid871 .
 _:genid871 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid870 .
 _:genid870 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid870 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000871> .
+_:genid870 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0025003> .
 _:genid870 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid871 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000870> .
+_:genid871 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0025001> .
 _:genid871 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid872 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000869> .
+_:genid872 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020112> .
 _:genid872 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid873 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000635> .
+_:genid873 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020005> .
 _:genid873 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid874 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000629> .
+_:genid874 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000967> .
 _:genid874 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid875 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000596> .
+_:genid875 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000942> .
 _:genid875 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid876 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000549> .
+_:genid876 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000896> .
 _:genid876 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-# 
-_:genid877 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid877 <http://www.w3.org/2002/07/owl#members> _:genid884 .
-_:genid884 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid883 .
-_:genid883 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid882 .
-_:genid882 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid881 .
-_:genid881 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid880 .
-_:genid880 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid879 .
-_:genid879 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid878 .
-_:genid878 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid878 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0050155> .
+_:genid877 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000853> .
+_:genid877 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid878 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000597> .
 _:genid878 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid879 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020161> .
+_:genid879 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000595> .
 _:genid879 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid880 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020142> .
+_:genid880 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000591> .
 _:genid880 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid881 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020133> .
+_:genid881 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000512> .
 _:genid881 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid882 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020132> .
+_:genid882 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000503> .
 _:genid882 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid883 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000619> .
-_:genid883 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid884 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000553> .
-_:genid884 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-_:genid885 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid885 <http://www.w3.org/2002/07/owl#members> _:genid888 .
+_:genid883 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid883 <http://www.w3.org/2002/07/owl#members> _:genid890 .
+_:genid890 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid889 .
+_:genid889 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid888 .
 _:genid888 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid887 .
 _:genid887 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid886 .
-_:genid886 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid886 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000953> .
+_:genid886 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid885 .
+_:genid885 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid884 .
+_:genid884 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid884 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000880> .
+_:genid884 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid885 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000802> .
+_:genid885 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid886 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000523> .
 _:genid886 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid887 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000889> .
+_:genid887 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000522> .
 _:genid887 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid888 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000587> .
+_:genid888 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000521> .
 _:genid888 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-# 
-_:genid889 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid889 <http://www.w3.org/2002/07/owl#members> _:genid892 .
-_:genid892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid891 .
-_:genid891 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid890 .
-_:genid890 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid890 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020104> .
+_:genid889 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000520> .
+_:genid889 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid890 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000519> .
 _:genid890 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid891 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020103> .
-_:genid891 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020102> .
-_:genid892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-_:genid893 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid893 <http://www.w3.org/2002/07/owl#members> _:genid897 .
-_:genid897 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid896 .
+_:genid891 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid891 <http://www.w3.org/2002/07/owl#members> _:genid896 .
 _:genid896 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid895 .
 _:genid895 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid894 .
-_:genid894 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid894 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020169> .
+_:genid894 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid893 .
+_:genid893 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid892 .
+_:genid892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000802> .
+_:genid892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid893 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000522> .
+_:genid893 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid894 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000521> .
 _:genid894 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid895 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020168> .
+_:genid895 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000520> .
 _:genid895 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid896 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020167> .
+_:genid896 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000519> .
 _:genid896 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid897 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020164> .
-_:genid897 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-_:genid898 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid898 <http://www.w3.org/2002/07/owl#members> _:genid901 .
+_:genid897 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid897 <http://www.w3.org/2002/07/owl#members> _:genid901 .
 _:genid901 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid900 .
 _:genid900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid899 .
-_:genid899 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid899 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020204> .
+_:genid899 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid898 .
+_:genid898 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid898 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000996> .
+_:genid898 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid899 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000961> .
 _:genid899 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020203> .
+_:genid900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000851> .
 _:genid900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid901 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020202> .
+_:genid901 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000535> .
 _:genid901 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-_:genid902 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
-_:genid902 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid916 .
-_:genid916 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid915 .
-_:genid915 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid914 .
-_:genid914 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid913 .
-_:genid913 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid912 .
-_:genid912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid911 .
-_:genid911 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid910 .
-_:genid910 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid909 .
+_:genid902 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid902 <http://www.w3.org/2002/07/owl#members> _:genid909 .
 _:genid909 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid908 .
 _:genid908 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid907 .
 _:genid907 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid906 .
@@ -10960,64 +11385,170 @@ _:genid906 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid905 .
 _:genid905 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid904 .
 _:genid904 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid903 .
 _:genid903 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid903 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020019> .
+_:genid903 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000871> .
 _:genid903 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid904 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020018> .
+_:genid904 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000870> .
 _:genid904 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid905 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020017> .
+_:genid905 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000869> .
 _:genid905 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid906 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020016> .
+_:genid906 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000635> .
 _:genid906 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid907 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020015> .
+_:genid907 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000629> .
 _:genid907 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid908 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020014> .
+_:genid908 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000596> .
 _:genid908 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid909 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020013> .
+_:genid909 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000549> .
 _:genid909 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid910 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020012> .
-_:genid910 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid911 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020011> .
-_:genid911 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020010> .
-_:genid912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid913 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020009> .
-_:genid913 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid914 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020008> .
-_:genid914 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid915 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020007> .
-_:genid915 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid916 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020006> .
-_:genid916 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-_:genid917 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
-_:genid917 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid926 .
-_:genid926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid925 .
-_:genid925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid924 .
-_:genid924 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid923 .
-_:genid923 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid922 .
-_:genid922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid921 .
+_:genid910 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid910 <http://www.w3.org/2002/07/owl#members> _:genid917 .
+_:genid917 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid916 .
+_:genid916 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid915 .
+_:genid915 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid914 .
+_:genid914 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid913 .
+_:genid913 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid912 .
+_:genid912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid911 .
+_:genid911 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid911 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0050155> .
+_:genid911 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020161> .
+_:genid912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid913 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020142> .
+_:genid913 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid914 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020133> .
+_:genid914 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid915 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020132> .
+_:genid915 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid916 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000619> .
+_:genid916 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid917 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000553> .
+_:genid917 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid918 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid918 <http://www.w3.org/2002/07/owl#members> _:genid921 .
 _:genid921 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid920 .
 _:genid920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid919 .
-_:genid919 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid918 .
-_:genid918 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid918 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020125> .
-_:genid918 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid919 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020124> .
+_:genid919 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid919 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000953> .
 _:genid919 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020123> .
+_:genid920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000889> .
 _:genid920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid921 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020122> .
+_:genid921 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0000587> .
 _:genid921 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020121> .
-_:genid922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid923 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020120> .
+# 
+_:genid922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid922 <http://www.w3.org/2002/07/owl#members> _:genid925 .
+_:genid925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid924 .
+_:genid924 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid923 .
+_:genid923 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid923 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020104> .
 _:genid923 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid924 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020119> .
+_:genid924 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020103> .
 _:genid924 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020118> .
+_:genid925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020102> .
 _:genid925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020117> .
-_:genid926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid926 <http://www.w3.org/2002/07/owl#members> _:genid930 .
+_:genid930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid929 .
+_:genid929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid928 .
+_:genid928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid927 .
+_:genid927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020169> .
+_:genid927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020168> .
+_:genid928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020167> .
+_:genid929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020164> .
+_:genid930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid931 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid931 <http://www.w3.org/2002/07/owl#members> _:genid934 .
+_:genid934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid933 .
+_:genid933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid932 .
+_:genid932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020204> .
+_:genid932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020203> .
+_:genid933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020202> .
+_:genid934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid935 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid949 .
+_:genid949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid948 .
+_:genid948 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid947 .
+_:genid947 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid946 .
+_:genid946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid945 .
+_:genid945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid944 .
+_:genid944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid943 .
+_:genid943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid942 .
+_:genid942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid941 .
+_:genid941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid940 .
+_:genid940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid939 .
+_:genid939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid938 .
+_:genid938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid937 .
+_:genid937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid936 .
+_:genid936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020019> .
+_:genid936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020018> .
+_:genid937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020017> .
+_:genid938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020016> .
+_:genid939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020015> .
+_:genid940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020014> .
+_:genid941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020013> .
+_:genid942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020012> .
+_:genid943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020011> .
+_:genid944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020010> .
+_:genid945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020009> .
+_:genid946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid947 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020008> .
+_:genid947 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid948 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020007> .
+_:genid948 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020006> .
+_:genid949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid950 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid950 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid959 .
+_:genid959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid958 .
+_:genid958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid957 .
+_:genid957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid956 .
+_:genid956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid955 .
+_:genid955 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid954 .
+_:genid954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid953 .
+_:genid953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid952 .
+_:genid952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid951 .
+_:genid951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020125> .
+_:genid951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020124> .
+_:genid952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020123> .
+_:genid953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020122> .
+_:genid954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid955 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020121> .
+_:genid955 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020120> .
+_:genid956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020119> .
+_:genid957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020118> .
+_:genid958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/pmd/co/PMD_0020117> .
+_:genid959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # 
 # 
@@ -11030,96 +11561,96 @@ _:genid926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # 
 <urn:swrl:var#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
 <urn:swrl:var#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
-_:genid927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
-_:genid927 <http://www.w3.org/2003/11/swrl#body> _:genid930 .
-_:genid930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid928 .
-_:genid928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid929 .
-_:genid929 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
-_:genid929 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.obolibrary.org/obo/BFO_0000016> .
-_:genid929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid931 .
-_:genid931 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
-_:genid931 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid931 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000053> .
-_:genid931 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid927 <http://www.w3.org/2003/11/swrl#head> _:genid932 .
-_:genid932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid933 .
-_:genid933 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
-_:genid933 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid933 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000091> .
-_:genid933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
-_:genid934 <http://www.w3.org/2003/11/swrl#body> _:genid937 .
-_:genid937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid935 .
-_:genid935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid936 .
-_:genid936 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
-_:genid936 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.obolibrary.org/obo/BFO_0000019> .
-_:genid936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid938 .
-_:genid938 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
-_:genid938 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid938 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000053> .
-_:genid938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid934 <http://www.w3.org/2003/11/swrl#head> _:genid939 .
-_:genid939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid940 .
-_:genid940 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
-_:genid940 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid940 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000086> .
-_:genid940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
-_:genid941 <http://www.w3.org/2003/11/swrl#body> _:genid944 .
-_:genid944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid942 .
-_:genid942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid943 .
-_:genid943 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
-_:genid943 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.obolibrary.org/obo/BFO_0000023> .
-_:genid943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid945 .
-_:genid945 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
-_:genid945 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid945 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000053> .
-_:genid945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid941 <http://www.w3.org/2003/11/swrl#head> _:genid946 .
-_:genid946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid947 .
-_:genid947 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
-_:genid947 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid947 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000087> .
-_:genid947 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid948 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
-_:genid948 <http://www.w3.org/2003/11/swrl#body> _:genid951 .
-_:genid951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid949 .
-_:genid949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid950 .
-_:genid950 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
-_:genid950 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.obolibrary.org/obo/BFO_0000034> .
-_:genid950 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid952 .
-_:genid952 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
-_:genid952 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid952 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000053> .
-_:genid952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid948 <http://www.w3.org/2003/11/swrl#head> _:genid953 .
-_:genid953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid954 .
-_:genid954 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
-_:genid954 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid954 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000085> .
-_:genid954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid960 <http://www.w3.org/2003/11/swrl#body> _:genid963 .
+_:genid963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid961 .
+_:genid961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid962 .
+_:genid962 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid962 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.obolibrary.org/obo/BFO_0000016> .
+_:genid962 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid964 .
+_:genid964 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid964 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
+_:genid964 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000053> .
+_:genid964 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid960 <http://www.w3.org/2003/11/swrl#head> _:genid965 .
+_:genid965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid966 .
+_:genid966 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid966 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
+_:genid966 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000091> .
+_:genid966 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid967 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid967 <http://www.w3.org/2003/11/swrl#body> _:genid970 .
+_:genid970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid968 .
+_:genid968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid969 .
+_:genid969 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid969 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.obolibrary.org/obo/BFO_0000019> .
+_:genid969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid971 .
+_:genid971 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid971 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
+_:genid971 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000053> .
+_:genid971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid967 <http://www.w3.org/2003/11/swrl#head> _:genid972 .
+_:genid972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid973 .
+_:genid973 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid973 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
+_:genid973 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000086> .
+_:genid973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid974 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid974 <http://www.w3.org/2003/11/swrl#body> _:genid977 .
+_:genid977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid975 .
+_:genid975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid976 .
+_:genid976 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid976 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.obolibrary.org/obo/BFO_0000023> .
+_:genid976 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid978 .
+_:genid978 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid978 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
+_:genid978 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000053> .
+_:genid978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid974 <http://www.w3.org/2003/11/swrl#head> _:genid979 .
+_:genid979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid980 .
+_:genid980 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid980 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
+_:genid980 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000087> .
+_:genid980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid981 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid981 <http://www.w3.org/2003/11/swrl#body> _:genid984 .
+_:genid984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid982 .
+_:genid982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid983 .
+_:genid983 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid983 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.obolibrary.org/obo/BFO_0000034> .
+_:genid983 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid985 .
+_:genid985 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid985 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
+_:genid985 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000053> .
+_:genid985 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid981 <http://www.w3.org/2003/11/swrl#head> _:genid986 .
+_:genid986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid987 .
+_:genid987 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid987 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
+_:genid987 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.obolibrary.org/obo/RO_0000085> .
+_:genid987 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
