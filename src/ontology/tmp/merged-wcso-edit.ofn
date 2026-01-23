@@ -317,7 +317,7 @@ AnnotationAssertion(skos:example <https://w3id.org/wcso/WCSO_0000017> "Das Salz 
 AnnotationAssertion(skos:example <https://w3id.org/wcso/WCSO_0000017> "The salt was dissolved under stirring."@en)
 SubClassOf(<https://w3id.org/wcso/WCSO_0000017> obo:BFO_0000015)
 
-# Class: <https://w3id.org/wcso/WCSO_0000018> (partition)
+# Class: <https://w3id.org/wcso/WCSO_0000018> (Partitionierung)
 
 AnnotationAssertion(obo:IAO_0000119 <https://w3id.org/wcso/WCSO_0000018> "Adopted from ISO/IEC 23094-2:2021(en), 3.38")
 AnnotationAssertion(rdfs:label <https://w3id.org/wcso/WCSO_0000018> "Partitionierung"@de)

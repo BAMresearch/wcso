@@ -1,3 +1,128 @@
 Level	Rule Name	Subject	Property	Value
-WARN	missing_definition	root node	IAO:0000115	
-INFO	missing_superclass	root node	rdfs:subClassOf	
+ERROR	duplicate_label	yield	rdfs:label	Erhalten@de
+ERROR	duplicate_label	Erhalten	rdfs:label	Erhalten@de
+ERROR	multiple_labels	yield	rdfs:label	Erhalten@de
+ERROR	multiple_labels	yield	rdfs:label	yield@en
+ERROR	multiple_labels	yield percentage	rdfs:label	Ausbeute (Prozent)@de
+ERROR	multiple_labels	yield percentage	rdfs:label	yield percentage@en
+ERROR	multiple_labels	yield mass	rdfs:label	Ausbeute (Masse)@de
+ERROR	multiple_labels	yield mass	rdfs:label	yield mass@en
+ERROR	multiple_labels	remove	rdfs:label	Entfernen@de
+ERROR	multiple_labels	remove	rdfs:label	remove@en
+ERROR	multiple_labels	sonication	rdfs:label	Schallbehandlung@de
+ERROR	multiple_labels	sonication	rdfs:label	sonication@en
+ERROR	multiple_labels	Zentrifugieren	rdfs:label	Zentrifugieren@de
+ERROR	multiple_labels	Zentrifugieren	rdfs:label	centrifuge@en
+ERROR	multiple_labels	degas	rdfs:label	Entgasen@de
+ERROR	multiple_labels	degas	rdfs:label	degas@en
+ERROR	multiple_labels	Ausfällen	rdfs:label	Ausfällen@de
+ERROR	multiple_labels	Ausfällen	rdfs:label	precipitate@en
+ERROR	multiple_labels	Waschen	rdfs:label	Waschen@de
+ERROR	multiple_labels	Waschen	rdfs:label	wash@en
+ERROR	multiple_labels	cool	rdfs:label	Abkühlen@de
+ERROR	multiple_labels	cool	rdfs:label	cool@en
+ERROR	multiple_labels	quench	rdfs:label	Stoppen (einer chemischen Reaktion)@de
+ERROR	multiple_labels	quench	rdfs:label	quench@en
+ERROR	multiple_labels	heat	rdfs:label	Aufheizen@de
+ERROR	multiple_labels	heat	rdfs:label	heat@en
+ERROR	multiple_labels	stir	rdfs:label	Rühren@de
+ERROR	multiple_labels	stir	rdfs:label	stir@en
+ERROR	multiple_labels	Mischen	rdfs:label	Mischen@de
+ERROR	multiple_labels	Mischen	rdfs:label	mix@en
+ERROR	multiple_labels	Trocknen	rdfs:label	Trocknen@de
+ERROR	multiple_labels	Trocknen	rdfs:label	dry@en
+ERROR	multiple_labels	Hinzufügen	rdfs:label	Hinzufügen@de
+ERROR	multiple_labels	Hinzufügen	rdfs:label	add@en
+ERROR	multiple_labels	Filtern	rdfs:label	Filtern@de
+ERROR	multiple_labels	Filtern	rdfs:label	filter@en
+ERROR	multiple_labels	dissolve	rdfs:label	Auflösen@de
+ERROR	multiple_labels	dissolve	rdfs:label	dissolve@en
+ERROR	multiple_labels	Partitionierung	rdfs:label	Partitionierung@de
+ERROR	multiple_labels	Partitionierung	rdfs:label	partition@en
+ERROR	multiple_labels	Erhalten	rdfs:label	Erhalten@de
+ERROR	multiple_labels	Erhalten	rdfs:label	recover@en
+ERROR	multiple_labels	synthesize	rdfs:label	Synthetisieren@de
+ERROR	multiple_labels	synthesize	rdfs:label	synthesize@en
+ERROR	multiple_labels	Veredelung	rdfs:label	Aufbereitung@de
+ERROR	multiple_labels	Veredelung	rdfs:label	Veredelung@de
+ERROR	multiple_labels	Veredelung	rdfs:label	purify@en
+ERROR	multiple_labels	Extrahieren	rdfs:label	Extrahieren@de
+ERROR	multiple_labels	Extrahieren	rdfs:label	extract@en
+ERROR	multiple_labels	Anpassung pH-Wert	rdfs:label	Anpassung pH-Wert@de
+ERROR	multiple_labels	Anpassung pH-Wert	rdfs:label	adjust pH value@en
+ERROR	multiple_labels	concentrate	rdfs:label	Anreichern@de
+ERROR	multiple_labels	concentrate	rdfs:label	concentrate@en
+ERROR	multiple_labels	repeat	rdfs:label	Wiederholen@de
+ERROR	multiple_labels	repeat	rdfs:label	repeat@en
+ERROR	multiple_labels	heated magnetic stirrer	rdfs:label	Beheizbarer Magnetrührer@de
+ERROR	multiple_labels	heated magnetic stirrer	rdfs:label	heated magnetic stirrer@en
+ERROR	multiple_labels	Rührfisch	rdfs:label	Rührfisch@de
+ERROR	multiple_labels	Rührfisch	rdfs:label	stir fish@en
+ERROR	multiple_labels	concentration	rdfs:label	Die Konzentration ist eine intensive Eigenschaft, die die Menge eines Stoffes im Verhältnis zum Volumen eines Gemisches oder einer Lösung angibt.@de
+ERROR	multiple_labels	concentration	rdfs:label	Konzentration@de
+ERROR	multiple_labels	concentration	rdfs:label	concentration@en
+ERROR	multiple_labels	mass concentration	rdfs:label	Massenkonzentration@de
+ERROR	multiple_labels	mass concentration	rdfs:label	mass concentration@en
+ERROR	multiple_labels	Molare Masse	rdfs:label	Molare Masse@de
+ERROR	multiple_labels	Molare Masse	rdfs:label	molar mass@en
+ERROR	multiple_labels	molar amount	rdfs:label	Molmenge@de
+ERROR	multiple_labels	molar amount	rdfs:label	molar amount@en
+ERROR	multiple_labels	Behälter	rdfs:label	Behälter@de
+ERROR	multiple_labels	Behälter	rdfs:label	container@en
+ERROR	multiple_labels	rotation speed	rdfs:label	Rotationsgeschwindigkeit@de
+ERROR	multiple_labels	rotation speed	rdfs:label	rotation speed@en
+ERROR	multiple_labels	flow rate	rdfs:label	Durchsatz@de
+ERROR	multiple_labels	flow rate	rdfs:label	flow rate@en
+ERROR	multiple_labels	CAS number	rdfs:label	CAS Nummer@de
+ERROR	multiple_labels	CAS number	rdfs:label	CAS number@en
+ERROR	multiple_labels	Zugaberate	rdfs:label	Zugaberate@de
+ERROR	multiple_labels	Zugaberate	rdfs:label	addition rate@en
+ERROR	multiple_labels	Dispersives System	rdfs:label	Dispersives System@de
+ERROR	multiple_labels	Dispersives System	rdfs:label	dispersive system@en
+ERROR	multiple_labels	heating rate	rdfs:label	Heizrate@de
+ERROR	multiple_labels	heating rate	rdfs:label	heating rate@en
+WARN	equivalent_class_axiom_no_genus	cool	BFO:0000055	https://w3id.org/pmd/co/PMD_0000055
+WARN	equivalent_class_axiom_no_genus	cool	RO:0000057	https://w3id.org/pmd/co/PMD_0000968
+WARN	equivalent_class_axiom_no_genus	heat	RO:0000057	https://w3id.org/pmd/co/PMD_0000967
+WARN	missing_definition	yield	IAO:0000115	
+WARN	missing_definition	yield percentage	IAO:0000115	
+WARN	missing_definition	yield mass	IAO:0000115	
+WARN	missing_definition	remove	IAO:0000115	
+WARN	missing_definition	sonication	IAO:0000115	
+WARN	missing_definition	Zentrifugieren	IAO:0000115	
+WARN	missing_definition	degas	IAO:0000115	
+WARN	missing_definition	Ausfällen	IAO:0000115	
+WARN	missing_definition	Waschen	IAO:0000115	
+WARN	missing_definition	cool	IAO:0000115	
+WARN	missing_definition	quench	IAO:0000115	
+WARN	missing_definition	heat	IAO:0000115	
+WARN	missing_definition	stir	IAO:0000115	
+WARN	missing_definition	Mischen	IAO:0000115	
+WARN	missing_definition	Trocknen	IAO:0000115	
+WARN	missing_definition	Hinzufügen	IAO:0000115	
+WARN	missing_definition	Filtern	IAO:0000115	
+WARN	missing_definition	dissolve	IAO:0000115	
+WARN	missing_definition	Partitionierung	IAO:0000115	
+WARN	missing_definition	Erhalten	IAO:0000115	
+WARN	missing_definition	synthesize	IAO:0000115	
+WARN	missing_definition	Veredelung	IAO:0000115	
+WARN	missing_definition	Extrahieren	IAO:0000115	
+WARN	missing_definition	Anpassung pH-Wert	IAO:0000115	
+WARN	missing_definition	concentrate	IAO:0000115	
+WARN	missing_definition	repeat	IAO:0000115	
+WARN	missing_definition	quench chemically	IAO:0000115	
+WARN	missing_definition	heated magnetic stirrer	IAO:0000115	
+WARN	missing_definition	Rührfisch	IAO:0000115	
+WARN	missing_definition	concentration	IAO:0000115	
+WARN	missing_definition	mass concentration	IAO:0000115	
+WARN	missing_definition	Molare Masse	IAO:0000115	
+WARN	missing_definition	molar amount	IAO:0000115	
+WARN	missing_definition	Behälter	IAO:0000115	
+WARN	missing_definition	rotation speed	IAO:0000115	
+WARN	missing_definition	flow rate	IAO:0000115	
+WARN	missing_definition	CAS number	IAO:0000115	
+WARN	missing_definition	Zugaberate	IAO:0000115	
+WARN	missing_definition	Dispersives System	IAO:0000115	
+WARN	missing_definition	heating rate	IAO:0000115	
+WARN	multiple_equivalent_classes	cool	owl:equivalentClass	blank node
+WARN	multiple_equivalent_classes	heat	owl:equivalentClass	blank node

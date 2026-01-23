@@ -40,6 +40,7 @@
 <http://purl.obolibrary.org/obo/CHEBI_33336>		
 <https://w3id.org/pmd/co/PMD_0050092>		
 <https://w3id.org/pmd/co/PMD_0020080>		
+<https://w3id.org/wcso/WCSO_0000030>		
 <http://purl.obolibrary.org/obo/OBI_0000571>	"Manufacturer role is a role which inheres in a person or organization and which is realized by a manufacturing process."@en	
 <http://purl.obolibrary.org/obo/CHEBI_33368>	"A copper group element atom with atomic number 111. The the ninth member of the 6d series of transition metals, it is an extremely radioactive, synthetic element. Average mass is around 281."	
 <https://w3id.org/pmd/co/PMD_0000010>		
@@ -49,6 +50,7 @@
 <https://w3id.org/pmd/co/PMD_0050091>		
 <https://w3id.org/pmd/co/PMD_0020081>		
 <https://w3id.org/pmd/co/PMD_0000580>		
+<https://w3id.org/wcso/WCSO_0000031>		
 <http://purl.obolibrary.org/obo/CHEBI_18248>	"An iron group element atom that has atomic number 26."	
 <https://w3id.org/pmd/co/PMD_0000011>		
 <https://w3id.org/pmd/co/PMD_0000012>		
@@ -59,6 +61,7 @@
 <https://w3id.org/pmd/co/PMD_0020082>		
 <https://w3id.org/pmd/co/PMD_0000581>		
 <http://purl.obolibrary.org/obo/CHEBI_22927>		
+<https://w3id.org/wcso/WCSO_0000032>		
 <https://w3id.org/pmd/co/PMD_0025008>		
 <https://w3id.org/pmd/co/PMD_0001019>		
 <http://purl.obolibrary.org/obo/IAO_0000104>	"A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."@en	
@@ -71,6 +74,7 @@
 <http://purl.obolibrary.org/obo/CHEBI_33359>	"A cobalt group element atom of atomic number 45."	
 <https://w3id.org/pmd/co/PMD_0000582>		
 <https://w3id.org/pmd/co/PMD_0025009>		
+<https://w3id.org/wcso/WCSO_0000033>		
 <https://w3id.org/pmd/co/PMD_0001018>		
 <https://w3id.org/pmd/co/PMD_0000919>		
 <https://w3id.org/pmd/co/PMD_0000567>		
@@ -164,9 +168,11 @@
 <https://w3id.org/pmd/co/PMD_0000539>		
 <https://w3id.org/pmd/co/PMD_0000951>		
 <https://w3id.org/pmd/co/PMD_0000600>		
+<https://w3id.org/wcso/WCSO_0000115>		
 <https://w3id.org/pmd/co/PMD_0000975>		
 <https://w3id.org/pmd/co/PMD_0000624>		
 <https://w3id.org/pmd/co/PMD_0000866>		
+<https://w3id.org/wcso/WCSO_0000006>		
 <https://w3id.org/pmd/co/PMD_0050113>		
 <https://w3id.org/pmd/co/PMD_0020068>		
 <https://w3id.org/pmd/co/PMD_0020153>		
@@ -178,6 +184,7 @@
 <https://w3id.org/pmd/co/PMD_0020130>		
 <https://w3id.org/pmd/co/PMD_0000952>		
 <http://purl.obolibrary.org/obo/CHEBI_33517>	"A zinc group element atom with a symbol Cn and atomic number 112. All its isotopes are intensely radioactive. Prior to its discovery, it had the placeholder name ununbium (in accordance with IUPAC recommendations). Following its discovery (in Darmstadt, 1996) and subsequent confirmation, the name copernicium was adopted in 2010."	
+<https://w3id.org/wcso/WCSO_0000007>		
 <https://w3id.org/pmd/co/PMD_0000976>		
 <https://w3id.org/pmd/co/PMD_0000601>		
 <http://purl.obolibrary.org/obo/CHEBI_194541>	"A p-block element atom with a symbol Og and atomic number 118."	
@@ -196,6 +203,7 @@
 <https://w3id.org/pmd/co/PMD_0000602>		
 <http://purl.obolibrary.org/obo/CHEBI_30514>		
 <http://purl.obolibrary.org/obo/CHEBI_33386>		
+<https://w3id.org/wcso/WCSO_0000008>		
 <https://w3id.org/pmd/co/PMD_0050135>		
 <https://w3id.org/pmd/co/PMD_0050111>		
 <https://w3id.org/pmd/co/PMD_0020155>		
@@ -212,6 +220,7 @@
 <https://w3id.org/pmd/co/PMD_0000518>		
 <https://w3id.org/pmd/co/PMD_0000627>		
 <https://w3id.org/pmd/co/PMD_0000821>		
+<https://w3id.org/wcso/WCSO_0000009>		
 <http://purl.obolibrary.org/obo/CHEBI_25195>		
 <http://purl.obolibrary.org/obo/CHEBI_30513>		
 <https://w3id.org/pmd/co/PMD_0050134>		
@@ -317,6 +326,7 @@
 <https://w3id.org/pmd/co/PMD_0050068>		
 <https://w3id.org/pmd/co/PMD_0050044>		
 <https://w3id.org/pmd/co/PMD_0050153>		
+<https://w3id.org/wcso/WCSO_0000022>		
 <https://w3id.org/pmd/co/PMD_0000054>		
 <https://w3id.org/pmd/co/PMD_0000827>		
 <http://purl.obolibrary.org/obo/CHEBI_28112>	"Chemical element (nickel group element atom) with atomic number 28."	
@@ -330,7 +340,9 @@
 <https://w3id.org/pmd/co/PMD_0050067>		
 <https://w3id.org/pmd/co/PMD_0025007>		
 <https://w3id.org/pmd/co/PMD_0050043>		
+<https://w3id.org/wcso/WCSO_0000023>		
 <https://w3id.org/pmd/co/PMD_0050152>		
+<https://w3id.org/wcso/WCSO_0000047>		
 <https://w3id.org/pmd/co/PMD_0000055>		
 <https://w3id.org/pmd/co/PMD_0000056>		
 <https://w3id.org/pmd/co/PMD_0000937>		
@@ -349,6 +361,7 @@
 <https://w3id.org/pmd/co/PMD_0050042>		
 <https://w3id.org/wcso/WCSO_0000000>		
 <https://w3id.org/pmd/co/PMD_0050151>		
+<https://w3id.org/wcso/WCSO_0000024>		
 <https://w3id.org/pmd/co/PMD_0000805>		
 <https://w3id.org/pmd/co/PMD_0000057>		
 <https://w3id.org/pmd/co/PMD_0000829>		
@@ -362,8 +375,10 @@
 <https://w3id.org/pmd/co/PMD_0025005>		
 <https://w3id.org/pmd/co/PMD_0050089>		
 <https://w3id.org/pmd/co/PMD_0050065>		
+<https://w3id.org/wcso/WCSO_0000001>		
 <https://w3id.org/pmd/co/PMD_0050041>		
 <https://w3id.org/pmd/co/PMD_0020087>		
+<https://w3id.org/wcso/WCSO_0000025>		
 <https://w3id.org/pmd/co/PMD_0050150>		
 <https://w3id.org/pmd/co/PMD_0000519>		
 <https://w3id.org/pmd/co/PMD_0000955>		
@@ -371,6 +386,7 @@
 <https://w3id.org/pmd/co/PMD_0000979>		
 <https://w3id.org/pmd/co/PMD_0000628>		
 <https://w3id.org/pmd/co/PMD_0020064>		
+<https://w3id.org/wcso/WCSO_0000026>		
 <https://w3id.org/pmd/co/PMD_0000931>		
 <https://w3id.org/pmd/co/PMD_0020040>		
 <https://w3id.org/pmd/co/PMD_0000822>		
@@ -386,6 +402,7 @@
 <https://w3id.org/pmd/co/PMD_0050064>		
 <https://w3id.org/pmd/co/PMD_0020088>		
 <https://w3id.org/pmd/co/PMD_0050040>		
+<https://w3id.org/wcso/WCSO_0000002>		
 <https://w3id.org/pmd/co/PMD_0050026>		
 <https://w3id.org/pmd/co/PMD_0000629>		
 <http://purl.obolibrary.org/obo/IAO_0000027>	"An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en	
@@ -394,6 +411,7 @@
 <https://w3id.org/pmd/co/PMD_0000847>		
 <https://w3id.org/pmd/co/PMD_0000605>		
 <https://w3id.org/pmd/co/PMD_0020041>		
+<https://w3id.org/wcso/WCSO_0000027>		
 <https://w3id.org/pmd/co/PMD_0020150>		
 <https://w3id.org/pmd/co/PMD_0000932>		
 <http://purl.obolibrary.org/obo/CHEBI_33387>		
@@ -406,6 +424,7 @@
 <https://w3id.org/pmd/co/PMD_0020089>		
 <https://w3id.org/pmd/co/PMD_0050063>		
 <https://w3id.org/pmd/co/PMD_0020065>		
+<https://w3id.org/wcso/WCSO_0000003>		
 <https://w3id.org/pmd/co/PMD_0000051>		
 <https://w3id.org/pmd/co/PMD_0000075>		
 <http://purl.obolibrary.org/obo/CHEBI_33521>	"An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity."	
@@ -416,7 +435,9 @@
 <https://w3id.org/pmd/co/PMD_0000848>		
 <https://w3id.org/pmd/co/PMD_0020151>		
 <https://w3id.org/pmd/co/PMD_0020042>		
+<https://w3id.org/wcso/WCSO_0000004>		
 <https://w3id.org/pmd/co/PMD_0000800>		
+<https://w3id.org/wcso/WCSO_0000028>		
 <https://w3id.org/pmd/co/PMD_0001011>		
 <http://purl.obolibrary.org/obo/CHEBI_33342>		
 <http://purl.obolibrary.org/obo/BFO_0000028>		
@@ -436,7 +457,9 @@
 <https://w3id.org/pmd/co/PMD_0000934>		
 <https://w3id.org/pmd/co/PMD_0000825>		
 <https://w3id.org/pmd/co/PMD_0050061>		
+<https://w3id.org/wcso/WCSO_0000005>		
 <https://w3id.org/pmd/co/PMD_0020152>		
+<https://w3id.org/wcso/WCSO_0000029>		
 <https://w3id.org/pmd/co/PMD_0000910>		
 <https://w3id.org/pmd/co/PMD_0025001>		
 <http://purl.obolibrary.org/obo/BFO_0000027>		
@@ -515,6 +538,7 @@
 <https://w3id.org/pmd/co/PMD_0000929>		
 <https://w3id.org/pmd/co/PMD_0020094>		
 <https://w3id.org/pmd/co/PMD_0020070>		
+<https://w3id.org/wcso/WCSO_0000020>		
 <https://w3id.org/pmd/co/PMD_0001007>		
 <https://w3id.org/pmd/co/PMD_0000000>		
 <https://w3id.org/pmd/co/PMD_0000001>		
@@ -527,6 +551,7 @@
 <http://purl.obolibrary.org/obo/CHEBI_33301>		
 <https://w3id.org/pmd/co/PMD_0000570>		
 <https://w3id.org/pmd/co/PMD_0000594>		
+<https://w3id.org/wcso/WCSO_0000021>		
 <http://purl.obolibrary.org/obo/IAO_0000030>	"A generically dependent continuant that is about some thing."@en	
 <https://w3id.org/pmd/co/PMD_0001006>		
 <http://purl.obolibrary.org/obo/CHEBI_29287>		
@@ -637,6 +662,7 @@
 <https://w3id.org/pmd/co/PMD_0020141>		
 <https://w3id.org/pmd/co/PMD_0000963>		
 <https://w3id.org/pmd/co/PMD_0000854>		
+<https://w3id.org/wcso/WCSO_0000018>		
 <https://w3id.org/pmd/co/PMD_0025010>		
 <https://w3id.org/pmd/co/PMD_0000612>		
 <https://w3id.org/pmd/co/PMD_0000987>		
@@ -659,6 +685,7 @@
 <https://w3id.org/pmd/co/PMD_0000855>		
 <https://w3id.org/pmd/co/PMD_0025011>		
 <http://purl.obolibrary.org/obo/IAO_0000010>	"Software is a plan specification composed of a series of instructions that can be \ninterpreted by or directly executed by a processing unit."@en	
+<https://w3id.org/wcso/WCSO_0000019>		
 <https://w3id.org/pmd/co/PMD_0050124>		
 <https://w3id.org/pmd/co/PMD_0050100>		
 <https://w3id.org/pmd/co/PMD_0020166>		
@@ -780,7 +807,9 @@
 <https://w3id.org/pmd/co/PMD_0001021>		
 <http://purl.obolibrary.org/obo/BFO_0000034>		
 <https://w3id.org/pmd/co/PMD_0050056>		
+<https://w3id.org/wcso/WCSO_0000010>		
 <http://purl.obolibrary.org/obo/CHEBI_22977>		
+<https://w3id.org/wcso/WCSO_0000034>		
 <https://w3id.org/pmd/co/PMD_0050141>		
 <http://purl.obolibrary.org/obo/IAO_0000005>	"A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved."@en	
 <http://purl.obolibrary.org/obo/IAO_0000591>	"A software method (also called subroutine, subprogram, procedure, method, function, or routine) is software designed to execute a specific task."@en	
@@ -798,8 +827,10 @@
 <https://w3id.org/pmd/co/PMD_0001020>		
 <https://w3id.org/pmd/co/PMD_0050079>		
 <https://w3id.org/pmd/co/PMD_0050055>		
+<https://w3id.org/wcso/WCSO_0000011>		
 <https://w3id.org/pmd/co/PMD_0050140>		
 <http://purl.obolibrary.org/obo/BFO_0000142>		
+<https://w3id.org/wcso/WCSO_0000035>		
 <https://w3id.org/pmd/co/PMD_0000816>		
 <https://w3id.org/pmd/co/PMD_0000949>		
 <https://w3id.org/pmd/co/PMD_0000068>		
@@ -819,14 +850,17 @@
 <http://purl.obolibrary.org/obo/BFO_0000145>		
 <https://w3id.org/pmd/co/PMD_0050078>		
 <https://w3id.org/pmd/co/PMD_0050054>		
+<https://w3id.org/wcso/WCSO_0000012>		
 <http://purl.obolibrary.org/obo/IAO_0000102>	"Data about an ontology part is a data item about a part of an ontology, for example a term"@en	
 <https://w3id.org/pmd/co/PMD_0020098>		
+<https://w3id.org/wcso/WCSO_0000036>		
 <http://purl.obolibrary.org/obo/CHEBI_25805>		
 <https://w3id.org/pmd/co/PMD_0000926>		
 <https://w3id.org/pmd/co/PMD_0000817>		
 <https://w3id.org/pmd/co/PMD_0000902>		
 <http://purl.obolibrary.org/obo/CHEBI_33357>		
 <https://w3id.org/pmd/co/PMD_0020075>		
+<https://w3id.org/wcso/WCSO_0000037>		
 <https://w3id.org/pmd/co/PMD_0020160>		
 <https://w3id.org/pmd/co/PMD_0020051>		
 <https://w3id.org/pmd/co/PMD_0050012>		
@@ -839,6 +873,7 @@
 <https://w3id.org/pmd/co/PMD_0000590>		
 <http://purl.obolibrary.org/obo/BFO_0000011>		
 <https://w3id.org/pmd/co/PMD_0020099>		
+<https://w3id.org/wcso/WCSO_0000013>		
 <http://purl.obolibrary.org/obo/CHEBI_32594>		
 <https://w3id.org/pmd/co/PMD_0050037>		
 <https://w3id.org/pmd/co/PMD_0000834>		
@@ -858,6 +893,7 @@
 <https://w3id.org/pmd/co/PMD_0050076>		
 <https://w3id.org/pmd/co/PMD_0050052>		
 <https://w3id.org/pmd/co/PMD_0020076>		
+<https://w3id.org/wcso/WCSO_0000014>		
 <http://purl.obolibrary.org/obo/CHEBI_137980>	"An atom of an element that exhibits properties that are between those of metals and nonmetals, or that has a mixture of them. The term generally includes boron, silicon, germanium, arsenic, antimony, and tellurium, while carbon, aluminium, selenium, polonium, and astatine are less commonly included."	
 <http://purl.obolibrary.org/obo/OBI_0000011>	"A process that realizes a plan which is the concretization of a plan specification."@en	
 <http://purl.obolibrary.org/obo/CHEBI_30501>	"Alkaline earth metal atom with atomic number 4."	
@@ -872,6 +908,7 @@
 <https://w3id.org/pmd/co/PMD_0000859>		
 <https://w3id.org/pmd/co/PMD_0020162>		
 <https://w3id.org/pmd/co/PMD_0020053>		
+<https://w3id.org/wcso/WCSO_0000015>		
 <http://purl.obolibrary.org/obo/CHEBI_25585>		
 <https://w3id.org/pmd/co/PMD_0000920>		
 <https://w3id.org/pmd/co/PMD_0000811>		
@@ -897,6 +934,7 @@
 <https://w3id.org/pmd/co/PMD_0000969>		
 <https://w3id.org/pmd/co/PMD_0020030>		
 <https://w3id.org/pmd/co/PMD_0050050>		
+<https://w3id.org/wcso/WCSO_0000016>		
 <https://w3id.org/pmd/co/PMD_0020163>		
 <http://purl.obolibrary.org/obo/BFO_0000016>		
 <https://w3id.org/pmd/co/PMD_0001023>		
@@ -913,6 +951,7 @@
 <https://w3id.org/pmd/co/PMD_0020140>		
 <https://w3id.org/pmd/co/PMD_0020031>		
 <http://purl.obolibrary.org/obo/CHEBI_27568>		
+<https://w3id.org/wcso/WCSO_0000017>		
 <http://purl.obolibrary.org/obo/BFO_0000148>		
 <https://w3id.org/pmd/co/PMD_0001022>		
 <http://purl.obolibrary.org/obo/CHEBI_33353>		
