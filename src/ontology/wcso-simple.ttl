@@ -1,37 +1,114 @@
 @prefix : <https://w3id.org/wcso/wcso-simple.ttl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @base <https://w3id.org/wcso/wcso-simple.ttl> .
 
 <https://w3id.org/wcso/wcso-simple.ttl> rdf:type owl:Ontology ;
                                          owl:versionIRI <https://w3id.org/wcso/releases/2026-01-23/wcso-simple.ttl> ;
-                                         terms:description "None" ;
-                                         terms:license <https://creativecommons.org/licenses/unspecified> ;
-                                         terms:title "" ;
+                                         dc:identifier <https://w3id.org/wcso/> ;
+                                         terms:creator <https://orcid.org/0000-0002-3717-7104> ,
+                                                       <https://orcid.org/0000-0002-7094-5371> ,
+                                                       <https://orcid.org/0000-0003-3383-9999> ,
+                                                       <https://orcid.org/0009-0002-7960-3666> ;
+                                         terms:description "Die WCSOparticle Ontology (wcso) bietet einen semantischen Rahmen für die strukturierte Darstellung von Wissen über die Herstellung und Charakterisierung von WCSOpartikeln aus chemischer Sicht. wcso wurde an der Bundesanstalt für Materialforschung und -prüfung (BAM) in Berlin entwickelt und unterstützt die Formalisierung und Integration von Daten zu WCSOpartikeln über experimentelle Arbeitsabläufe, Prozesse und Materialeigenschaften hinweg. Sie baut auf der PMD Core Ontology (PMDco) auf, einer Mid-Level-Ontologie, die im Rahmen des Projekts Platform MaterialDigital (PMD) entwickelt wurde und die auf der Basic Formal Ontology (BFO) basiert. Durch die Verwendung der BFO als grundlegende Ontologie gewährleistet wcso die semantische Interoperabilität mit einer Vielzahl von BFO-konformen Ontologien und Wissensgraphen im Bereich der Materialwissenschaften und Werkstofftechnik."@de ,
+                                                           "The WCSOparticle Ontology (wcso) provides a semantic framework for the structured representation of knowledge related to the production and characterization of WCSOparticles from a chemical perspective. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, wcso supports the formalization and integration of WCSOparticle-related data across experimental workflows, processes, and material properties. It builds upon the PMD Core Ontology (PMDco), a mid-level ontology created within the Platform MaterialDigital (PMD) project which is grounded in the Basic Formal Ontology (BFO). By adhering to BFO as a foundational ontology, wcso ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs in the materials science and engineering domain."@en ;
+                                         terms:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                         terms:title "WCSOparticle Ontology" ;
                                          owl:versionInfo "2026-01-23" .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
+###  http://purl.obolibrary.org/obo/IAO_0000112
+obo:IAO_0000112 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000115
+obo:IAO_0000115 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000116
+obo:IAO_0000116 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000119
+obo:IAO_0000119 rdf:type owl:AnnotationProperty ;
+                obo:IAO_0000115 "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ,
+                                "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ;
+                obo:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w" ,
+                                "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"@en ,
+                                "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
+                rdfs:label "definition source"@en .
+
+
+###  http://purl.org/dc/elements/1.1/identifier
+dc:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+terms:creator rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/terms/description
-terms:description rdf:type owl:AnnotationProperty ;
-                  rdfs:label "description" .
+terms:description rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/license
 terms:license rdf:type owl:AnnotationProperty ;
-              rdfs:label "dcterms:license" ,
-                         "license" .
+              rdfs:label "dcterms:license" .
 
 
 ###  http://purl.org/dc/terms/title
-terms:title rdf:type owl:AnnotationProperty ;
-            rdfs:label "title" .
+terms:title rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+skos:altLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+skos:definition rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#example
+skos:example rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/BFO_0000055
+obo:BFO_0000055 rdf:type owl:ObjectProperty ;
+                rdfs:label "realizes"@en ;
+                skos:definition "(Elucidation) realizes is a relation between a process b and realizable entity c such that c inheres in some d & for all t, if b has participant d then c exists & the type instantiated by b is correlated with the type instantiated by c"@en ;
+                skos:example "A balding process realizes a disposition to go bald; a studying process realizes a student role; a process of pumping blood realizes the pumping function of a heart"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000057
+obo:RO_0000057 rdf:type owl:ObjectProperty ;
+               obo:IAO_0000112 "this blood coagulation has participant this blood clot"@en ,
+                               "this investigation has participant this investigator"@en ,
+                               "this process has participant this input material (or this output material)"@en ;
+               obo:IAO_0000115 "a relation between a process and a continuant, in which the continuant is somehow involved in the process"@en ;
+               obo:IAO_0000116 "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time."@en ;
+               rdfs:label "has participant"@en .
+
+
+###  https://w3id.org/pmd/co/PMD_0000009
+<https://w3id.org/pmd/co/PMD_0000009> rdf:type owl:ObjectProperty ;
+                                      rdfs:label "has process attribute"@en ;
+                                      rdfs:seeAlso "has process attribute from OEO https://openenergyplatform.org/ontology/oeo/OEO_00000500"@en ;
+                                      skos:definition "A relation between a process and a process attribute that depends on it."@en ;
+                                      skos:example "Tensile testing process has process attribute tensile rate"@en .
 
 
 #################################################################
@@ -40,7 +117,445 @@ terms:title rdf:type owl:AnnotationProperty ;
 
 ###  https://w3id.org/wcso/WCSO_0000000
 <https://w3id.org/wcso/WCSO_0000000> rdf:type owl:Class ;
-                                     rdfs:label "root node"@en .
+                                     obo:IAO_0000119 "Adopted from ISO 21253-2:2019(en), 3.11" ;
+                                     rdfs:label "Erhalten"@de ,
+                                                "yield"@en ;
+                                     rdfs:seeAlso <http://purl.allotrope.org/ontologies/quality#AFQ_0000227> ;
+                                     skos:definition "Das Ergeben ist eine extensive Qualität, die das Material beschreibt, das bei bzw. nach einem Prozess oder Synthese-Schritt hergestellt bzw. erhalten wurde."@de ,
+                                                     "The yield is an extensive quality describing the material that is produced by or obtained after a process or synthesis step."@en ;
+                                     skos:example "Die Synthese gab (\"yielded\") das Produkt als weißes Pulver."@de ,
+                                                  "The synthesis yielded the product as a white powder."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000001
+<https://w3id.org/wcso/WCSO_0000001> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://w3id.org/wcso/WCSO_0000000> ;
+                                     obo:IAO_0000119 "Adopted from ISO 1213-1:2020" ;
+                                     rdfs:label "Ausbeute (Prozent)"@de ,
+                                                "yield percentage"@en ;
+                                     rdfs:seeAlso obo:CHMO_0002855 ;
+                                     skos:definition "Die Ausbeute (in Prozent) ist die Menge eines Produkts das aus einem Produktionsprozess erhalten wurde, ausgedrückt in Prozent der (stöchiometrisch) am stärksten limitierenden Größe."@de ,
+                                                     "The yield percentage is the amount of a product that was obtained from a production process, expressed as a percentage of the (stoichiometrically) most limiting component."@en ;
+                                     skos:example "Die Synthese ergab das Produkt als weißes Pulver mit einer Ausbeute von 75%."@de ,
+                                                  "The synthesis yielded the product as a white powder (75%)."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000002
+<https://w3id.org/wcso/WCSO_0000002> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://w3id.org/wcso/WCSO_0000000> ;
+                                     obo:IAO_0000119 "In analogy to yield percentage" ;
+                                     rdfs:label "Ausbeute (Masse)"@de ,
+                                                "yield mass"@en ;
+                                     skos:definition "Die Ausbeute (als Masse) beschreibt die Masse eines Produkts das aus einem Produktionsprozess erhalten wurde."@de ,
+                                                     "The yield mass is a yield denoting the mass of a product that was obtained from a production process."@en ;
+                                     skos:example "Die Synthese ergab das Produkt als weißes Pulver mit einer Ausbeute von 100 mg."@de ,
+                                                  "The synthesis yielded the product as a white powder (100 mg)."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000003
+<https://w3id.org/wcso/WCSO_0000003> rdf:type owl:Class ;
+                                     rdfs:label "Entfernen"@de ,
+                                                "remove"@en ;
+                                     rdfs:seeAlso <http://purl.allotrope.org/ontologies/function#AFFN_0000108> ;
+                                     skos:definition "Der Vorgang, bei dem einer oder mehrere Teile einer Mischung entfernt werden, wobei mindestens ein Teil der Mischung zurückbleibt."@de ,
+                                                     "Removing is a process that denotes the act of removing one or more constituents from a mixture, leaving at least one other constituent behind."@en ;
+                                     skos:example "Das Lösungsmittel wurde im Vakuum entfernt."@de ,
+                                                  "The solvent was removed in vacuo."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000004
+<https://w3id.org/wcso/WCSO_0000004> rdf:type owl:Class ;
+                                     rdfs:label "Schallbehandlung"@de ,
+                                                "sonication"@en ;
+                                     rdfs:seeAlso <http://champ-project.org/images/ontology/cao.owl#CAO_000195> ,
+                                                  <http://purl.allotrope.org/ontologies/process#AFP_0002293> ,
+                                                  obo:CHMO_0001707 ,
+                                                  obo:NCIT_C81871 ;
+                                     skos:definition "Eine Technik, bei der Schall eingesetzt wird um die Komponenten einer Probe zu agitieren oder zu verteilen."@de ,
+                                                     "Sonication is a process describing a technique that uses sound energy to agitate or disrupt the components of a sample."@en ;
+                                     skos:example "Die Partikel wurden durch Schallbehandlung der Mischung dispergiert."@de ,
+                                                  "Sonication of the mixture resulted in the dispersion of the WCSOmaterial."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000005
+<https://w3id.org/wcso/WCSO_0000005> rdf:type owl:Class ;
+                                     obo:IAO_0000119 "Adopted from OBI_0302886"@en ;
+                                     rdfs:comment "Adopted from OBI_0302886:  Centrifugation is a process separating molecules by size or density using centrifugal forces generated by a spinning rotor. G-forces of several hundred thousand times gravity are generated in ultracentrifugation" ;
+                                     rdfs:label "Zentrifugieren"@de ,
+                                                "centrifuge"@en ;
+                                     rdfs:seeAlso obo:OBI_0302886 ;
+                                     skos:definition "A process for separating components of a mixture by density using centrifugal forces generated by a spinning rotor."@en ,
+                                                     "Ein Prozess zur Trennung von Komponenten einer Mischung gemäß ihrer Dichte durch den Einfluss von Zentrifugalkräften eines sich drehenden Rotors."@de ;
+                                     skos:example "Die WCSOpartikel wurden aus der Dispersion durch Zentrifugation abgetrennt."@de ,
+                                                  "The WCSOparticles were Adopted from ISOlated from the dispersion using centrifugation."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000006
+<https://w3id.org/wcso/WCSO_0000006> rdf:type owl:Class ;
+                                     obo:IAO_0000119 obo:CHMO_0002772 ;
+                                     rdfs:label "Entgasen"@de ,
+                                                "degas"@en ;
+                                     rdfs:seeAlso obo:CHMO_0002772 ;
+                                     skos:definition "A preparative step involving the removal of dissolved gases from a sample."@en ,
+                                                     "Ein präparativer Schritt, bei dem gelöstes Gas aus einer Probe entfernt wird."@de ;
+                                     skos:example "Das Lösungsmittel wurde im Vakuum entgast."@de ,
+                                                  "The solvent was degassed in vacuo."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000007
+<https://w3id.org/wcso/WCSO_0000007> rdf:type owl:Class ;
+                                     obo:IAO_0000119 "Adopted from ISO 11074:2015, 6.4.30" ,
+                                                     "Adopted from ISO 23044:2020(en), 3.1.11" ;
+                                     rdfs:label "Ausfällen"@de ,
+                                                "precipitate"@en ;
+                                     skos:definition "A process that involves the formation of separable solid products from a liquid solution or dispersion."@en ,
+                                                     "Ein Prozess, bei dem abtrennbare Feststoffe aus einer flüssigen Lösung oder Dispersion erhalten werden."@de ;
+                                     skos:example "Die WCSOpartikel wurden durch die Zugabe von Ethanol ausgefällt."@de ,
+                                                  "The WCSOparticles were precipitated by adding Ethanol."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000008
+<https://w3id.org/wcso/WCSO_0000008> rdf:type owl:Class ;
+                                     rdfs:label "Waschen"@de ,
+                                                "wash"@en ;
+                                     rdfs:seeAlso obo:OBI_0302888 ;
+                                     skos:definition "Ein Prozess, bei dem ein Material das als Verunreinigung aftritt unter Anwendung einer oder mehrerer Zyklen einer Lösung entfernt wird."@de ,
+                                                     "Washing is a process by which a material entity acting as contaminant is removed by application of one or more cycles of solution."@en ;
+                                     skos:example "Die WCSOpartikel wurden drei Mal mit Ethanol gewaschen um überschüssige Ausgangsmateriualien zu entfernen."@de ,
+                                                  "The WCSOparticles were washed three times with water to remove excess starting materials."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000009
+<https://w3id.org/wcso/WCSO_0000009> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://w3id.org/wcso/WCSO_0000011> ;
+                                     obo:IAO_0000119 obo:CHMO_0001474 ;
+                                     rdfs:label "Abkühlen"@de ,
+                                                "cool"@en ;
+                                     rdfs:seeAlso obo:CHMO_0001474 ;
+                                     skos:definition "Der Transfer von Wärmeenergie von einer Probe in die Umegbung."@de ,
+                                                     "The transfer of thermal energy from a sample to its surrounding environment."@en ;
+                                     skos:example "Die Lösung wurde in einem Eisbad auf 0°C abgekühlt."@de ,
+                                                  "The solution was cooled to 0°C with an ice bath."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000010
+<https://w3id.org/wcso/WCSO_0000010> rdf:type owl:Class ;
+                                     obo:IAO_0000119 "Adopted from ISO 28401:2024" ;
+                                     rdfs:label "Stoppen (einer chemischen Reaktion)"@de ,
+                                                "quench"@en ;
+                                     rdfs:seeAlso obo:CHMO_0002917 ;
+                                     skos:definition "An action that results in stopping or significantly slowing down a physical process or a chemical reaction."@en ,
+                                                     "Eine Technik, bei der ein physikalischer Prozess oder eine chemische Reaktion angehalten oder signifikant verlangsamt wird."@de ;
+                                     skos:example "Die Reaktion wurde durch Wasserzugabe gestoppt."@de ,
+                                                  "The reaction was quenched through the addition of water."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000011
+<https://w3id.org/wcso/WCSO_0000011> rdf:type owl:Class ;
+                                     obo:IAO_0000119 obo:CHMO_0002770 ;
+                                     rdfs:label "Aufheizen"@de ,
+                                                "heat"@en ;
+                                     rdfs:seeAlso obo:CHMO_0002770 ;
+                                     skos:definition "A sample preparation step involving the increase in temperature of a sample."@en ,
+                                                     "Ein präparativer Schritt, bei dem die Temperatur einer Probe erhöht wird."@de ;
+                                     skos:example "Die Probe wurde auf 100°C geheizt."@de ,
+                                                  "The sample was heated to 100°C."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000012
+<https://w3id.org/wcso/WCSO_0000012> rdf:type owl:Class ;
+                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                       owl:onProperty obo:RO_0000057 ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:unionOf ( <https://w3id.org/wcso/WCSO_0000027>
+                                                                                          <https://w3id.org/wcso/WCSO_0000028>
+                                                                                        )
+                                                                          ]
+                                                     ] ;
+                                     rdfs:label "Rühren"@de ,
+                                                "stir"@en ;
+                                     skos:definition "A process that involves the mechanical agitation of a sample, typically in a circular motion."@en ,
+                                                     "Ein Prozess, bei dem eine eine Probe mechanisch bewegt wird, typischerweise in einer kreisförmigen Bewegung."@de ;
+                                     skos:example "Das Salz wurde unter Rühren aufgelöst."@de ,
+                                                  "The salt was dissolved under stirring."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000013
+<https://w3id.org/wcso/WCSO_0000013> rdf:type owl:Class ;
+                                     obo:IAO_0000119 "Adopted from ISO 1213-1:2020" ;
+                                     rdfs:label "Mischen"@de ,
+                                                "mix"@en ;
+                                     rdfs:seeAlso obo:CHMO_0001685 ;
+                                     skos:definition "Die Kombination von zwei oder mehr Materialien mit unterschiedlichen Eigenschaften."@de ,
+                                                     "The combination of two or more materials of different characteristics."@en ;
+                                     skos:example "Die beiden Lösungen wurden gemischt."@de ,
+                                                  "The two solutions were mixed."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000014
+<https://w3id.org/wcso/WCSO_0000014> rdf:type owl:Class ;
+                                     obo:IAO_0000119 obo:CHMO_0001549 ;
+                                     rdfs:label "Trocknen"@de ,
+                                                "dry"@en ;
+                                     rdfs:seeAlso obo:CHMO_0001549 ;
+                                     skos:definition "Ein Prozess, bei dem ein Lösungsmittel von einer Substanz entfernt wird."@de ,
+                                                     "The process of removing a solvent from a substance."@en ;
+                                     skos:example "Die WCSOpartikel wurden unter Vakuum bei 80°C getrocknet."@de ,
+                                                  "The WCSOparticles were dried under vacuum at 80°C."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000015
+<https://w3id.org/wcso/WCSO_0000015> rdf:type owl:Class ;
+                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                       owl:onProperty <https://w3id.org/pmd/co/PMD_0000009> ;
+                                                       owl:someValuesFrom <https://w3id.org/wcso/WCSO_0000037>
+                                                     ] ;
+                                     rdfs:label "Hinzufügen"@de ,
+                                                "add"@en ;
+                                     skos:definition "Ein Prozess, bei dem eine physische Entität zu einer vorhandenen Entität oder Sammlung hinzugefügt wird."@de ,
+                                                     "The process of adding a physical entity to an existing entity or collection."@en ;
+                                     skos:example "Wasser wurde dem Kolben hinzugefügt."@de ,
+                                                  "Water was added to the flask."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000016
+<https://w3id.org/wcso/WCSO_0000016> rdf:type owl:Class ;
+                                     obo:IAO_0000119 "Adopted from ISO 1213-1:2020(en), 6.1.4" ;
+                                     rdfs:label "Filtern"@de ,
+                                                "filter"@en ;
+                                     rdfs:seeAlso obo:PROCO_0000050 ;
+                                     skos:definition "A process for separating solids from liquids by allowing the liquid to pass through a fine, porous mesh that retains the solids."@en ,
+                                                     "Ein Prozess, bei dem Feststoffe von Flüssigkeiten abgetrennt werden, indem die Flüssigkeit durch ein feines, poröses Netzwerk geleitet wird, das die Feststoffe zurückhält."@de ;
+                                     skos:example "Die Partikel wurden durch Filtration vfon der Lösung getrennt."@de ,
+                                                  "The particles were separated from the solution by filtration."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000017
+<https://w3id.org/wcso/WCSO_0000017> rdf:type owl:Class ;
+                                     obo:IAO_0000119 obo:CHMO_0002773 ;
+                                     rdfs:label "Auflösen"@de ,
+                                                "dissolve"@en ;
+                                     rdfs:seeAlso obo:CHMO_0002773 ;
+                                     skos:definition "A mixing step where a soluble component is mixed with a liquid component."@en ,
+                                                     "Ein Mischungsschritt, bei dem eine lösliche Komponente mit einer flüssigen Komponente gemischt wird."@de ;
+                                     skos:example "Das Salz wurde unter Rühren aufgelöst."@de ,
+                                                  "The salt was dissolved under stirring."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000018
+<https://w3id.org/wcso/WCSO_0000018> rdf:type owl:Class ;
+                                     obo:IAO_0000119 "Adopted from ISO/IEC 23094-2:2021(en), 3.38" ;
+                                     rdfs:label "Partitionierung"@de ,
+                                                "partition"@en ;
+                                     rdfs:seeAlso <http://purl.allotrope.org/ontologies/process#AFP_0003403> ;
+                                     skos:definition "A process, in which a substance is allowed to distribute between two or more immiscible phases at equilibrium."@en ,
+                                                     "Ein Prozess, bei dem eine Substanz sich über zwei oder mehr Phasen im Gleichgewicht verteilen kann."@de ;
+                                     skos:example "Das Salz partitionierte in die wässrige Phase."@de ,
+                                                  "The salt partitioned into the aqueous phase."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000019
+<https://w3id.org/wcso/WCSO_0000019> rdf:type owl:Class ;
+                                     rdfs:label "Erhalten"@de ,
+                                                "recover"@en ;
+                                     skos:definition "Ein Vorgang, bei dem eine Entität aus einer Sammlung anderer Entitäten erhalten wird."@de ,
+                                                     "The act of obtaining an entity from a collection of other entities."@en ;
+                                     skos:example "Die Partikel wurden durch Zentrifugation der Lösung erhalten."@de ,
+                                                  "The particles were recovered from the dispersion by centrifugation."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000020
+<https://w3id.org/wcso/WCSO_0000020> rdf:type owl:Class ;
+                                     obo:IAO_0000119 "“Synthesis.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/synthesis, Accessed 06/26/2025"@en ;
+                                     rdfs:label "Synthetisieren"@de ,
+                                                "synthesize"@en ;
+                                     skos:definition "Die Herstellung einer Substanz durch die Vereinigung chemischer Elemente, Gruppen oder einfacherer Verbindungen oder durch den Abbau einer komplexen Verbindung."@de ,
+                                                     "The production of a substance by the union of chemical elements, groups, or simpler compounds or by the degradation of a complex compound."@en ;
+                                     skos:example "Die Partikel wurden gemäß einer zuvor publizierten Prozedur synthetisiert."@de ,
+                                                  "The particles were synthesized following a previously published procedure."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000021
+<https://w3id.org/wcso/WCSO_0000021> rdf:type owl:Class ;
+                                     obo:IAO_0000119 "Adopted from ISO/TS 23303:2020(en), 3.2.9" ;
+                                     rdfs:label "Aufbereitung"@de ,
+                                                "Veredelung"@de ,
+                                                "purify"@en ;
+                                     skos:definition "Ein Prozess, bei dem Verunreinigungen und ungewünschte Komponenten entfernt werden."@de ,
+                                                     "The process of eliminating impurities and undesired components."@en ;
+                                     skos:example "Die Substanz wurde durch Waschen mit Wasser aufgereinigt."@de ,
+                                                  "The substance was purified by washing it with water."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000022
+<https://w3id.org/wcso/WCSO_0000022> rdf:type owl:Class ;
+                                     obo:IAO_0000119 obo:NCIT_C61575 ;
+                                     rdfs:label "Extrahieren"@de ,
+                                                "extract"@en ;
+                                     rdfs:seeAlso obo:NCIT_C61575 ;
+                                     skos:definition "Der Vorgang des Adopted from ISOlierens, einschließlich des Prozesses, etwas aus einer Mischung oder Verbindung mit chemischen, physikalischen oder mechanischen Mitteln zu gewinnen."@de ,
+                                                     "The act of pulling out, including the process of obtaining something from a mixture or compound by chemical or physical or mechanical means."@en ;
+                                     skos:example "Die Verbindung wurde aus der wässrigen Phase mit Ether extrahiert."@de ,
+                                                  "The compound was extracted from the aqueous phase with ether."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000023
+<https://w3id.org/wcso/WCSO_0000023> rdf:type owl:Class ;
+                                     obo:IAO_0000119 "Adopted from ISO 21457:2010(en), 3.1.17" ;
+                                     rdfs:label "Anpassung pH-Wert"@de ,
+                                                "adjust pH value"@en ;
+                                     skos:definition "Changing the activity of protons (Hydrogen ions) in solution by adding substances such as acids or bases that influence the acidity or basicity of the solution."@en ,
+                                                     "Ändern der Protonenaktivität (Aktivität von Wasserstoffionen) in Lösung durch hinzufügen von Substanzen wie Säuren oder Basen, die den sauren oder basischen Charakter der Lösung ändern."@de ;
+                                     skos:example "Der pH Wert wurde durch Zugabe 1 molarer Natronlauge auf 7 eingestellt."@de ,
+                                                  "The pH was adjusted to 7 by adding 1 molar sodium hydroxide solution."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000024
+<https://w3id.org/wcso/WCSO_0000024> rdf:type owl:Class ;
+                                     obo:IAO_0000119 obo:CHMO_0002771 ;
+                                     rdfs:label "Anreichern"@de ,
+                                                "concentrate"@en ;
+                                     rdfs:seeAlso obo:CHMO_0002771 ;
+                                     skos:definition "A preparative step where the concentration of one component is increased."@en ,
+                                                     "Ein präparativer Schritt, bei dem die Konzentration einer Komponente erhöht wird."@de ;
+                                     skos:example "Die Lösung wurde im Vakuum aufkonzentriert."@de ,
+                                                  "The solution was concentrated in vacuo."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000025
+<https://w3id.org/wcso/WCSO_0000025> rdf:type owl:Class ;
+                                     rdfs:label "Wiederholen"@de ,
+                                                "repeat"@en ;
+                                     skos:definition "Ein Prozess, bei dem eine vorige Aktion erneut ausgeführt wird."@de ,
+                                                     "The process of conducting a previous action again."@en ;
+                                     skos:example "Die Waschschritte wurden drei Mal wiederholt."@de ,
+                                                  "The washing steps were repeated three times."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000026
+<https://w3id.org/wcso/WCSO_0000026> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://w3id.org/wcso/WCSO_0000015> ;
+                                     rdfs:label "quench chemically"@en ;
+                                     rdfs:seeAlso obo:CHMO_0002917 ;
+                                     skos:definition "An action that results in stopping or significantly slowing down a physical process or a chemical reaction by adding a substance."@en ;
+                                     skos:example "The reaction was quenched through the addition of water."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000027
+<https://w3id.org/wcso/WCSO_0000027> rdf:type owl:Class ;
+                                     rdfs:label "Beheizbarer Magnetrührer"@de ,
+                                                "heated magnetic stirrer"@en ;
+                                     skos:definition "A heated magnetic stirrer is a device that is used to heat and simultaneously stir liquids in a laboratory vessel by combining an integrated heating plate with a magnetic stirring mechanism, thereby ensuring both controlled temperature and uniform mixing."@en ,
+                                                     "Ein beheizbarer Magnetrührer ist ein Gerät, das dazu verwendet wird, Flüssigkeiten in einem Laborgefäß gleichzeitig zu erhitzen und zu rühren, indem es eine integrierte Heizplatte mit einem magnetischen Rührmechanismus kombiniert und so sowohl eine kontrollierte Temperatur als auch eine gleichmäßige Durchmischung gewährleistet."@de .
+
+
+###  https://w3id.org/wcso/WCSO_0000028
+<https://w3id.org/wcso/WCSO_0000028> rdf:type owl:Class ;
+                                     rdfs:label "Rührfisch"@de ,
+                                                "stir fish"@en ;
+                                     skos:definition "A stir fish is a device that is used to stir liquids in a laboratory vessel by means of a rotating magnetic field, enabling homogeneous mixing without direct mechanical contact."@en ,
+                                                     "Ein Rührfisch ist ein Gerät, das dazu verwendet wird, Flüssigkeiten in einem Laborgefäß durch ein rotierendes Magnetfeld zu rühren, wodurch eine homogene Durchmischung ohne direkten mechanischen Kontakt ermöglicht wird."@de .
+
+
+###  https://w3id.org/wcso/WCSO_0000029
+<https://w3id.org/wcso/WCSO_0000029> rdf:type owl:Class ;
+                                     rdfs:label "Die Konzentration ist eine intensive Eigenschaft, die die Menge eines Stoffes im Verhältnis zum Volumen eines Gemisches oder einer Lösung angibt."@de ,
+                                                "Konzentration"@de ,
+                                                "concentration"@en ;
+                                     skos:definition "A concentration is an intensive quality that denotes the amount of a substance relative to the volume of a mixture or solution."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000030
+<https://w3id.org/wcso/WCSO_0000030> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://w3id.org/wcso/WCSO_0000029> ;
+                                     rdfs:label "Massenkonzentration"@de ,
+                                                "mass concentration"@en ;
+                                     skos:definition "A mass concentration is a concentration that denotes the mass of a substance per unit volume of a mixture or solution."@en ,
+                                                     "Die Massenkonzentration ist eine Konzentration, die die Masse eines Stoffes pro Volumeneinheit eines Gemisches oder einer Lösung angibt."@de .
+
+
+###  https://w3id.org/wcso/WCSO_0000031
+<https://w3id.org/wcso/WCSO_0000031> rdf:type owl:Class ;
+                                     rdfs:label "Molare Masse"@de ,
+                                                "molar mass"@en ;
+                                     skos:definition "Die Molare Masse ist eine universelle intensive Größe, die das Verhältnis aus Masse zu Stoffmenge eines Stoffes beschreibt."@de ,
+                                                     "The molar mass is a universal intensive quality representing the unit mass of a portion of matter per unit amount of substance."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000032
+<https://w3id.org/wcso/WCSO_0000032> rdf:type owl:Class ;
+                                     rdfs:label "Molmenge"@de ,
+                                                "molar amount"@en ;
+                                     skos:definition "Die Molmenge ist eine extensive Eigenschaft, die die Stoffmenge in Mol angibt."@de ,
+                                                     "The molar amount is an extensive quality that denotes the quantity of substance expressed in moles."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000033
+<https://w3id.org/wcso/WCSO_0000033> rdf:type owl:Class ;
+                                     rdfs:label "Behälter"@de ,
+                                                "container"@en ;
+                                     skos:definition "A container is a device that is used to hold, store, or transport substances or objects."@en ,
+                                                     "Ein Behälter ist ein Gerät, das verwendet wird, um Stoffe oder Objekte aufzunehmen, zu lagern oder zu transportieren."@de .
+
+
+###  https://w3id.org/wcso/WCSO_0000034
+<https://w3id.org/wcso/WCSO_0000034> rdf:type owl:Class ;
+                                     rdfs:comment "The possibly corresponding unit \"Revolution per Minute\" is a unit for 'Angular Velocity' expressed as rev/min. One revolution per minute is equivalent to 1/60 hertz. Alternative symbols to be used may be “RPM”, \"r/min”, and “rpm”."@en ;
+                                     rdfs:label "Rotationsgeschwindigkeit"@de ,
+                                                "rotation speed"@en ;
+                                     skos:altLabel "Drehgeschwindigkeit"@de ;
+                                     skos:definition "A rotation speed is a process characteristic that denotes the number of rotations per unit time of a rotating object."@en ,
+                                                     "Die Rotationsgeschwindigkeit ist eine Prozesseigenschaft, die die Anzahl der Umdrehungen pro Zeiteinheit eines rotierenden Objekts angibt."@de ;
+                                     skos:example "The rotation speed during a stirring process was 400 revolutions per minute (qudt:REV-PER-MIN)."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000035
+<https://w3id.org/wcso/WCSO_0000035> rdf:type owl:Class ;
+                                     rdfs:label "Durchsatz"@de ,
+                                                "flow rate"@en ;
+                                     skos:altLabel "Durchflussmenge"@de ;
+                                     skos:definition "A flow rate is a process characteristic that denotes the volume of a substance passing per unit time."@en ,
+                                                     "Die Flussrate ist eine Prozesseigenschaft, die das Volumen eines Stoffes angibt, das pro Zeiteinheit fließt."@de .
+
+
+###  https://w3id.org/wcso/WCSO_0000036
+<https://w3id.org/wcso/WCSO_0000036> rdf:type owl:Class ;
+                                     rdfs:comment "The CAS number may provide a globally accepted identifier for chemical substances."@en ;
+                                     rdfs:label "CAS Nummer"@de ,
+                                                "CAS number"@en ;
+                                     skos:definition "Die CAS-Nummer ist ein Identifikator, der einen eindeutigen numerischen Code bezeichnet, der von dem Chemical Abstracts Service einer chemischen Substanz zugewiesen wird."@de ,
+                                                     "The CAS number is an identifier that denotes a unique numerical code assigned by the Chemical Abstracts Service to a chemical substance."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000037
+<https://w3id.org/wcso/WCSO_0000037> rdf:type owl:Class ;
+                                     rdfs:comment """What it measures: the added quantity (mass, amount of substance, volume, count, etc.) per time.
+What it does not necessarily mean: it is not automatically “net increase” of the system (that would be a net change rate). Addition rate is about the incoming addition action itself."""@en ;
+                                     rdfs:label "Zugaberate"@de ,
+                                                "addition rate"@en ;
+                                     skos:altLabel "Additionsrate"@de ;
+                                     skos:definition "An addition rate is a process attribute that characterizes an addition process by specifying the ratio of the quantity added to the duration over which it is added."@en ,
+                                                     "Die Zugaberate ist ein Prozessattribut, das einen Zugabeprozess dadurch charakterisiert, dass es das Verhältnis der zugegebenen Menge zur Zeitdauer angibt, über die diese Zugabe erfolgt."@de ;
+                                     skos:example "Typical units: kg/s, mol/s, m³/h, items/min, etc."@en ,
+                                                  "Typische Einheiten: kg/s, mol/s, m³/h, Stück/min usw."@de .
+
+
+###  https://w3id.org/wcso/WCSO_0000047
+<https://w3id.org/wcso/WCSO_0000047> rdf:type owl:Class ;
+                                     rdfs:label "Dispersives System"@de ,
+                                                "dispersive system"@en ;
+                                     skos:definition "A dispersive system is a multiphase mixture in which one phase (the dispersed phase) is finely distributed within another phase (the continuous phase)."@en ,
+                                                     "Ein disperses System ist ein mehrphasiges Gemisch, bei dem eine Phase (die disperse Phase) fein in einer anderen Phase (der kontinuierlichen Phase) verteilt ist."@de .
+
+
+###  https://w3id.org/wcso/WCSO_0000115
+<https://w3id.org/wcso/WCSO_0000115> rdf:type owl:Class ;
+                                     rdfs:comment "Die Heizrate kann für einen Prozess als Parameter festgelegt und / oder gemessen werden"@de ,
+                                                  "The heating rate can be set as a parameter for a process and/or measured."@en ;
+                                     rdfs:label "Heizrate"@de ,
+                                                "heating rate"@en ;
+                                     skos:definition "A heating rate is a process attribute that describes the speed at which the temperature of an object or system changes per unit of time."@en ,
+                                                     "Eine Heizrate ist ein Prozessattribut, welches die Geschwindigkeit beschreibt, mit der sich die Temperatur eines Objekts oder Systems pro Zeiteinheit ändert."@de .
 
 
 ###  Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi

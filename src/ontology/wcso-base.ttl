@@ -1,27 +1,47 @@
 @prefix : <https://w3id.org/wcso/wcso-base.ttl#> .
+@prefix co: <https://w3id.org/pmd/co/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix chebi: <http://purl.obolibrary.org/obo/chebi#3> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix protege: <http://protege.stanford.edu/plugins/owl/protege#> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
 @base <https://w3id.org/wcso/wcso-base.ttl> .
 
 <https://w3id.org/wcso/wcso-base.ttl> rdf:type owl:Ontology ;
                                        owl:versionIRI <https://w3id.org/wcso/releases/2026-01-23/wcso-base.ttl> ;
-                                       dce:type <http://purl.obolibrary.org/obo/IAO_8000001> ;
-                                       dcterms:description "None" ;
-                                       dcterms:license <https://creativecommons.org/licenses/unspecified> ;
-                                       dcterms:title "" ;
+                                       dce:identifier <https://w3id.org/wcso/> ;
+                                       dce:type obo:IAO_8000001 ;
+                                       dcterms:creator <https://orcid.org/0000-0002-3717-7104> ,
+                                                       <https://orcid.org/0000-0002-7094-5371> ,
+                                                       <https://orcid.org/0000-0003-3383-9999> ,
+                                                       <https://orcid.org/0009-0002-7960-3666> ;
+                                       dcterms:description "Die WCSOparticle Ontology (wcso) bietet einen semantischen Rahmen für die strukturierte Darstellung von Wissen über die Herstellung und Charakterisierung von WCSOpartikeln aus chemischer Sicht. wcso wurde an der Bundesanstalt für Materialforschung und -prüfung (BAM) in Berlin entwickelt und unterstützt die Formalisierung und Integration von Daten zu WCSOpartikeln über experimentelle Arbeitsabläufe, Prozesse und Materialeigenschaften hinweg. Sie baut auf der PMD Core Ontology (PMDco) auf, einer Mid-Level-Ontologie, die im Rahmen des Projekts Platform MaterialDigital (PMD) entwickelt wurde und die auf der Basic Formal Ontology (BFO) basiert. Durch die Verwendung der BFO als grundlegende Ontologie gewährleistet wcso die semantische Interoperabilität mit einer Vielzahl von BFO-konformen Ontologien und Wissensgraphen im Bereich der Materialwissenschaften und Werkstofftechnik."@de ,
+                                                           "The WCSOparticle Ontology (wcso) provides a semantic framework for the structured representation of knowledge related to the production and characterization of WCSOparticles from a chemical perspective. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, wcso supports the formalization and integration of WCSOparticle-related data across experimental workflows, processes, and material properties. It builds upon the PMD Core Ontology (PMDco), a mid-level ontology created within the Platform MaterialDigital (PMD) project which is grounded in the Basic Formal Ontology (BFO). By adhering to BFO as a foundational ontology, wcso ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs in the materials science and engineering domain."@en ;
+                                       dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                       dcterms:title "WCSOparticle Ontology" ;
                                        owl:versionInfo "2026-01-23" .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
+###  http://purl.org/dc/elements/1.1/identifier
+dce:identifier rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/elements/1.1/type
 dce:type rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+dcterms:creator rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description

@@ -1,19 +1,31 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/wcso/wcso-base.owl#"
      xml:base="https://w3id.org/wcso/wcso-base.owl"
+     xmlns:co="https://w3id.org/pmd/co/"
      xmlns:dce="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:dcterms="http://purl.org/dc/terms/">
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi#3"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://w3id.org/wcso/wcso-base.owl">
         <owl:versionIRI rdf:resource="https://w3id.org/wcso/releases/2026-01-23/wcso-base.owl"/>
+        <dce:identifier rdf:resource="https://w3id.org/wcso/"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
-        <dcterms:description>None</dcterms:description>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
-        <dcterms:title></dcterms:title>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-3717-7104"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7094-5371"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-3383-9999"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0009-0002-7960-3666"/>
+        <dcterms:description xml:lang="de">Die WCSOparticle Ontology (wcso) bietet einen semantischen Rahmen für die strukturierte Darstellung von Wissen über die Herstellung und Charakterisierung von WCSOpartikeln aus chemischer Sicht. wcso wurde an der Bundesanstalt für Materialforschung und -prüfung (BAM) in Berlin entwickelt und unterstützt die Formalisierung und Integration von Daten zu WCSOpartikeln über experimentelle Arbeitsabläufe, Prozesse und Materialeigenschaften hinweg. Sie baut auf der PMD Core Ontology (PMDco) auf, einer Mid-Level-Ontologie, die im Rahmen des Projekts Platform MaterialDigital (PMD) entwickelt wurde und die auf der Basic Formal Ontology (BFO) basiert. Durch die Verwendung der BFO als grundlegende Ontologie gewährleistet wcso die semantische Interoperabilität mit einer Vielzahl von BFO-konformen Ontologien und Wissensgraphen im Bereich der Materialwissenschaften und Werkstofftechnik.</dcterms:description>
+        <dcterms:description xml:lang="en">The WCSOparticle Ontology (wcso) provides a semantic framework for the structured representation of knowledge related to the production and characterization of WCSOparticles from a chemical perspective. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, wcso supports the formalization and integration of WCSOparticle-related data across experimental workflows, processes, and material properties. It builds upon the PMD Core Ontology (PMDco), a mid-level ontology created within the Platform MaterialDigital (PMD) project which is grounded in the Basic Formal Ontology (BFO). By adhering to BFO as a foundational ontology, wcso ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs in the materials science and engineering domain.</dcterms:description>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:title>WCSOparticle Ontology</dcterms:title>
         <owl:versionInfo>2026-01-23</owl:versionInfo>
     </owl:Ontology>
     
@@ -30,9 +42,21 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/type -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
