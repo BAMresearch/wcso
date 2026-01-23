@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org//wcso.owl#"
-     xml:base="https://w3id.org//wcso.owl"
+<rdf:RDF xmlns="https://w3id.org/wcso.owl#"
+     xml:base="https://w3id.org/wcso.owl"
      xmlns:co="https://w3id.org/pmd/co/"
      xmlns:dce="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -15,8 +15,8 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="https://w3id.org//wcso.owl">
-        <owl:versionIRI rdf:resource="https://w3id.org//wcso/releases/2026-01-23/wcso.owl"/>
+    <owl:Ontology rdf:about="https://w3id.org/wcso.owl">
+        <owl:versionIRI rdf:resource="https://w3id.org/wcso/releases/2026-01-23/wcso.owl"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title></dcterms:title>
@@ -4172,14 +4172,6 @@ for now.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <rdfs:label>mass volume percentage based unit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/WCSO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WCSO_0000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
     </owl:Class>
     
 
@@ -14643,6 +14635,14 @@ The phase boundary between Fe3C and Fe of a pearlite lamellae.</skos:example>
         <skos:definition xml:lang="en">A primary shaping process in which a manually workable plastic mass (such as clay, wax, plastiline or gypsum paste) is shaped directly by hand and simple tools into a final or intermediate geometry and subsequently hardened, dried or fired to obtain a solid body.</skos:definition>
         <skos:definition xml:lang="de">Ein Urformverfahren, bei dem eine mit Hand und einfachen Werkzeugen formbare plastische Masse (z. B. Ton, Wachs, Plastilin oder Gipspaste) direkt zur gewünschten Geometrie modelliert und anschließend durch Trocknen, Brennen oder Aushärten zu einem festen Körper verfestigt wird.</skos:definition>
         <skos:example xml:lang="en">Hand modelling of clay prior to firing (e.g. pottery, sculptures); modelling of wax or plasticine for casting patterns.</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/wcso/WCSO_0000000 -->
+
+    <owl:Class rdf:about="https://w3id.org/wcso/WCSO_0000000">
+        <rdfs:label xml:lang="en">root node</rdfs:label>
     </owl:Class>
     
 

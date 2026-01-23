@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org//wcso.ttl#> .
+@prefix : <https://w3id.org/wcso.ttl#> .
 @prefix co: <https://w3id.org/pmd/co/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
@@ -13,14 +13,14 @@
 @prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
-@base <https://w3id.org//wcso.ttl> .
+@base <https://w3id.org/wcso.ttl> .
 
-<https://w3id.org//wcso.ttl> rdf:type owl:Ontology ;
-                              owl:versionIRI <https://w3id.org//wcso/releases/2026-01-23/wcso.ttl> ;
-                              dcterms:description "None" ;
-                              dcterms:license <https://creativecommons.org/licenses/unspecified> ;
-                              dcterms:title "" ;
-                              owl:versionInfo "2026-01-23" .
+<https://w3id.org/wcso.ttl> rdf:type owl:Ontology ;
+                             owl:versionIRI <https://w3id.org/wcso/releases/2026-01-23/wcso.ttl> ;
+                             dcterms:description "None" ;
+                             dcterms:license <https://creativecommons.org/licenses/unspecified> ;
+                             dcterms:title "" ;
+                             owl:versionInfo "2026-01-23" .
 
 #################################################################
 #    Annotation properties
@@ -3013,11 +3013,6 @@ obo:UO_1000163 rdf:type owl:Class ;
 obo:UO_1000164 rdf:type owl:Class ;
                rdfs:subClassOf obo:UO_0000000 ;
                rdfs:label "mass volume percentage based unit" .
-
-
-###  http://purl.obolibrary.org/obo/WCSO_0000000
-obo:WCSO_0000000 rdf:type owl:Class ;
-                 rdfs:label "root node"@en .
 
 
 ###  https://w3id.org/pmd/co/PMD_0000000
@@ -10786,6 +10781,11 @@ co:PMD_0200008 rdf:type owl:Class ;
                skos:definition "A primary shaping process in which a manually workable plastic mass (such as clay, wax, plastiline or gypsum paste) is shaped directly by hand and simple tools into a final or intermediate geometry and subsequently hardened, dried or fired to obtain a solid body."@en ,
                                "Ein Urformverfahren, bei dem eine mit Hand und einfachen Werkzeugen formbare plastische Masse (z. B. Ton, Wachs, Plastilin oder Gipspaste) direkt zur gewünschten Geometrie modelliert und anschließend durch Trocknen, Brennen oder Aushärten zu einem festen Körper verfestigt wird."@de ;
                skos:example "Hand modelling of clay prior to firing (e.g. pottery, sculptures); modelling of wax or plasticine for casting patterns."@en .
+
+
+###  https://w3id.org/wcso/WCSO_0000000
+<https://w3id.org/wcso/WCSO_0000000> rdf:type owl:Class ;
+                                     rdfs:label "root node"@en .
 
 
 #################################################################

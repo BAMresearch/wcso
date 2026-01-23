@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org//wcso/wcso-base.owl#"
-     xml:base="https://w3id.org//wcso/wcso-base.owl"
+<rdf:RDF xmlns="https://w3id.org/wcso/wcso-base.owl#"
+     xml:base="https://w3id.org/wcso/wcso-base.owl"
      xmlns:dce="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,8 +8,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://w3id.org//wcso/wcso-base.owl">
-        <owl:versionIRI rdf:resource="https://w3id.org//wcso/releases/2026-01-23/wcso-base.owl"/>
+    <owl:Ontology rdf:about="https://w3id.org/wcso/wcso-base.owl">
+        <owl:versionIRI rdf:resource="https://w3id.org/wcso/releases/2026-01-23/wcso-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
