@@ -16286,7 +16286,7 @@ The phase boundary between Fe3C and Fe of a pearlite lamellae.</skos:example>
 
 
     <owl:Class rdf:about="https://w3id.org/wcso/WCSO_0000029">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
         <rdfs:label xml:lang="de">Die Konzentration ist eine intensive Eigenschaft, die die Menge eines Stoffes im Verhältnis zum Volumen eines Gemisches oder einer Lösung angibt.</rdfs:label>
         <rdfs:label xml:lang="de">Konzentration</rdfs:label>
         <rdfs:label xml:lang="en">concentration</rdfs:label>

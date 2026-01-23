@@ -10790,7 +10790,7 @@ _:genid843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # 
 # https://w3id.org/wcso/WCSO_0000029
 <https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/pmd/co/PMD_0020131> .
+<https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000145> .
 <https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2000/01/rdf-schema#label> "Die Konzentration ist eine intensive Eigenschaft, die die Menge eines Stoffes im Verhältnis zum Volumen eines Gemisches oder einer Lösung angibt."@de .
 <https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2000/01/rdf-schema#label> "Konzentration"@de .
 <https://w3id.org/wcso/WCSO_0000029> <http://www.w3.org/2000/01/rdf-schema#label> "concentration"@en .
