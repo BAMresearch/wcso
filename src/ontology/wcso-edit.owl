@@ -1,11 +1,17 @@
 Prefix(:=<https://w3id.org/wcso/>)
+Prefix(co:=<https://w3id.org/pmd/co/>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+Prefix(chebi:=<http://purl.obolibrary.org/obo/chebi#3>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(protege:=<http://protege.stanford.edu/plugins/owl/protege#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<https://w3id.org/wcso/wcso.owl>
@@ -65,11 +71,13 @@ Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
 
+
+
 ############################
 #   Classes
 ############################
 
-# Class: :WCSO_0000000 (Erhalten)
+# Class: :WCSO_0000000 (yield)
 
 AnnotationAssertion(obo:IAO_0000119 :WCSO_0000000 "Adopted from ISO 21253-2:2019(en), 3.11")
 AnnotationAssertion(rdfs:label :WCSO_0000000 "Erhalten"@de)
@@ -81,7 +89,7 @@ AnnotationAssertion(skos:example :WCSO_0000000 "Die Synthese gab (\"yielded\") d
 AnnotationAssertion(skos:example :WCSO_0000000 "The synthesis yielded the product as a white powder."@en)
 SubClassOf(:WCSO_0000000 co:PMD_0020148)
 
-# Class: :WCSO_0000001 (Ausbeute (Prozent))
+# Class: :WCSO_0000001 (yield percentage)
 
 AnnotationAssertion(obo:IAO_0000119 :WCSO_0000001 "Adopted from ISO 1213-1:2020")
 AnnotationAssertion(rdfs:label :WCSO_0000001 "Ausbeute (Prozent)"@de)
@@ -104,7 +112,7 @@ AnnotationAssertion(skos:example :WCSO_0000002 "Die Synthese ergab das Produkt a
 AnnotationAssertion(skos:example :WCSO_0000002 "The synthesis yielded the product as a white powder (100 mg)."@en)
 SubClassOf(:WCSO_0000002 :WCSO_0000000)
 
-# Class: :WCSO_0000003 (Entfernen)
+# Class: :WCSO_0000003 (remove)
 
 AnnotationAssertion(rdfs:label :WCSO_0000003 "Entfernen"@de)
 AnnotationAssertion(rdfs:label :WCSO_0000003 "remove"@en)
@@ -115,7 +123,7 @@ AnnotationAssertion(skos:example :WCSO_0000003 "Das Lösungsmittel wurde im Vaku
 AnnotationAssertion(skos:example :WCSO_0000003 "The solvent was removed in vacuo."@en)
 SubClassOf(:WCSO_0000003 obo:BFO_0000015)
 
-# Class: :WCSO_0000004 (Schallbehandlung)
+# Class: :WCSO_0000004 (sonication)
 
 AnnotationAssertion(rdfs:label :WCSO_0000004 "Schallbehandlung"@de)
 AnnotationAssertion(rdfs:label :WCSO_0000004 "sonication"@en)
@@ -177,7 +185,7 @@ AnnotationAssertion(skos:example :WCSO_0000008 "Die WCSOpartikel wurden drei Mal
 AnnotationAssertion(skos:example :WCSO_0000008 "The WCSOparticles were washed three times with water to remove excess starting materials."@en)
 SubClassOf(:WCSO_0000008 obo:BFO_0000015)
 
-# Class: :WCSO_0000009 (Abkühlen)
+# Class: :WCSO_0000009 (cool)
 
 AnnotationAssertion(obo:IAO_0000119 :WCSO_0000009 obo:CHMO_0001474)
 AnnotationAssertion(rdfs:label :WCSO_0000009 "Abkühlen"@de)
@@ -203,7 +211,7 @@ AnnotationAssertion(skos:example :WCSO_0000010 "Die Reaktion wurde durch Wasserz
 AnnotationAssertion(skos:example :WCSO_0000010 "The reaction was quenched through the addition of water."@en)
 SubClassOf(:WCSO_0000010 obo:BFO_0000015)
 
-# Class: :WCSO_0000011 (Aufheizen)
+# Class: :WCSO_0000011 (heat)
 
 AnnotationAssertion(obo:IAO_0000119 :WCSO_0000011 obo:CHMO_0002770)
 AnnotationAssertion(rdfs:label :WCSO_0000011 "Aufheizen"@de)
@@ -215,10 +223,10 @@ AnnotationAssertion(skos:example :WCSO_0000011 "Die Probe wurde auf 100°C gehei
 AnnotationAssertion(skos:example :WCSO_0000011 "The sample was heated to 100°C."@en)
 EquivalentClasses(:WCSO_0000011 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectUnionOf(co:PMD_0000054 co:PMD_0000781)))
 EquivalentClasses(:WCSO_0000011 ObjectSomeValuesFrom(obo:RO_0000057 co:PMD_0000967))
-EquivalentClasses(:WCSO_0000011 ObjectSomeValuesFrom(obo:RO_0000057 ObjectUnionOf(:WCSO_0000027 co:PMD_0000780 co:PMD_0000968)))
+EquivalentClasses(:WCSO_0000011 ObjectSomeValuesFrom(obo:RO_0000057 ObjectUnionOf(co:PMD_0000780 co:PMD_0000968 :WCSO_0000027)))
 SubClassOf(:WCSO_0000011 obo:BFO_0000015)
 
-# Class: :WCSO_0000012 (Rühren)
+# Class: :WCSO_0000012 (stir)
 
 AnnotationAssertion(rdfs:label :WCSO_0000012 "Rühren"@de)
 AnnotationAssertion(rdfs:label :WCSO_0000012 "stir"@en)
@@ -241,7 +249,7 @@ AnnotationAssertion(skos:example :WCSO_0000013 "Die beiden Lösungen wurden gemi
 AnnotationAssertion(skos:example :WCSO_0000013 "The two solutions were mixed."@en)
 SubClassOf(:WCSO_0000013 obo:BFO_0000015)
 
-# Class: :WCSO_0000014 (dry)
+# Class: :WCSO_0000014 (Trocknen)
 
 AnnotationAssertion(obo:IAO_0000119 :WCSO_0000014 obo:CHMO_0001549)
 AnnotationAssertion(rdfs:label :WCSO_0000014 "Trocknen"@de)
@@ -300,7 +308,7 @@ AnnotationAssertion(skos:example :WCSO_0000018 "Das Salz partitionierte in die w
 AnnotationAssertion(skos:example :WCSO_0000018 "The salt partitioned into the aqueous phase."@en)
 SubClassOf(:WCSO_0000018 obo:BFO_0000015)
 
-# Class: :WCSO_0000019 (recover)
+# Class: :WCSO_0000019 (Erhalten)
 
 AnnotationAssertion(rdfs:label :WCSO_0000019 "Erhalten"@de)
 AnnotationAssertion(rdfs:label :WCSO_0000019 "recover"@en)
@@ -310,7 +318,7 @@ AnnotationAssertion(skos:example :WCSO_0000019 "Die Partikel wurden durch Zentri
 AnnotationAssertion(skos:example :WCSO_0000019 "The particles were recovered from the dispersion by centrifugation."@en)
 SubClassOf(:WCSO_0000019 obo:BFO_0000015)
 
-# Class: :WCSO_0000020 (Synthetisieren)
+# Class: :WCSO_0000020 (synthesize)
 
 AnnotationAssertion(obo:IAO_0000119 :WCSO_0000020 "“Synthesis.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/synthesis, Accessed 06/26/2025"@en)
 AnnotationAssertion(rdfs:label :WCSO_0000020 "Synthetisieren"@de)
@@ -321,7 +329,7 @@ AnnotationAssertion(skos:example :WCSO_0000020 "Die Partikel wurden gemäß eine
 AnnotationAssertion(skos:example :WCSO_0000020 "The particles were synthesized following a previously published procedure."@en)
 SubClassOf(:WCSO_0000020 obo:BFO_0000015)
 
-# Class: :WCSO_0000021 (purify)
+# Class: :WCSO_0000021 (Veredelung)
 
 AnnotationAssertion(obo:IAO_0000119 :WCSO_0000021 "Adopted from ISO/TS 23303:2020(en), 3.2.9")
 AnnotationAssertion(rdfs:label :WCSO_0000021 "Aufbereitung"@de)
@@ -345,7 +353,7 @@ AnnotationAssertion(skos:example :WCSO_0000022 "Die Verbindung wurde aus der wä
 AnnotationAssertion(skos:example :WCSO_0000022 "The compound was extracted from the aqueous phase with ether."@en)
 SubClassOf(:WCSO_0000022 obo:BFO_0000015)
 
-# Class: :WCSO_0000023 (adjust pH value)
+# Class: :WCSO_0000023 (Anpassung pH-Wert)
 
 AnnotationAssertion(obo:IAO_0000119 :WCSO_0000023 "Adopted from ISO 21457:2010(en), 3.1.17")
 AnnotationAssertion(rdfs:label :WCSO_0000023 "Anpassung pH-Wert"@de)
@@ -386,7 +394,7 @@ AnnotationAssertion(skos:definition :WCSO_0000026 "An action that results in sto
 AnnotationAssertion(skos:example :WCSO_0000026 "The reaction was quenched through the addition of water."@en)
 SubClassOf(:WCSO_0000026 :WCSO_0000015)
 
-# Class: :WCSO_0000027 (Beheizbarer Magnetrührer)
+# Class: :WCSO_0000027 (heated magnetic stirrer)
 
 AnnotationAssertion(rdfs:label :WCSO_0000027 "Beheizbarer Magnetrührer"@de)
 AnnotationAssertion(rdfs:label :WCSO_0000027 "heated magnetic stirrer"@en)
@@ -394,7 +402,7 @@ AnnotationAssertion(skos:definition :WCSO_0000027 "A heated magnetic stirrer is 
 AnnotationAssertion(skos:definition :WCSO_0000027 "Ein beheizbarer Magnetrührer ist ein Gerät, das dazu verwendet wird, Flüssigkeiten in einem Laborgefäß gleichzeitig zu erhitzen und zu rühren, indem es eine integrierte Heizplatte mit einem magnetischen Rührmechanismus kombiniert und so sowohl eine kontrollierte Temperatur als auch eine gleichmäßige Durchmischung gewährleistet."@de)
 SubClassOf(:WCSO_0000027 co:PMD_0000602)
 
-# Class: :WCSO_0000028 (stir fish)
+# Class: :WCSO_0000028 (Rührfisch)
 
 AnnotationAssertion(rdfs:label :WCSO_0000028 "Rührfisch"@de)
 AnnotationAssertion(rdfs:label :WCSO_0000028 "stir fish"@en)
@@ -434,7 +442,7 @@ AnnotationAssertion(skos:definition :WCSO_0000032 "Die Molmenge ist eine extensi
 AnnotationAssertion(skos:definition :WCSO_0000032 "The molar amount is an extensive quality that denotes the quantity of substance expressed in moles."@en)
 SubClassOf(:WCSO_0000032 co:PMD_0020148)
 
-# Class: :WCSO_0000033 (container)
+# Class: :WCSO_0000033 (Behälter)
 
 AnnotationAssertion(rdfs:label :WCSO_0000033 "Behälter"@de)
 AnnotationAssertion(rdfs:label :WCSO_0000033 "container"@en)
@@ -462,7 +470,7 @@ AnnotationAssertion(skos:definition :WCSO_0000035 "A flow rate is a process char
 AnnotationAssertion(skos:definition :WCSO_0000035 "Die Flussrate ist eine Prozesseigenschaft, die das Volumen eines Stoffes angibt, das pro Zeiteinheit fließt."@de)
 SubClassOf(:WCSO_0000035 co:PMD_0000008)
 
-# Class: :WCSO_0000036 (CAS Nummer)
+# Class: :WCSO_0000036 (CAS number)
 
 AnnotationAssertion(rdfs:comment :WCSO_0000036 "The CAS number may provide a globally accepted identifier for chemical substances."@en)
 AnnotationAssertion(rdfs:label :WCSO_0000036 "CAS Nummer"@de)
