@@ -2,9 +2,15 @@
 
 ## WeChemSyn Ontology (WCSO)
 
-The Wet-Chemical Syntheses (WeChemSyn) ontology (WCSO) provides a semantic framework for the structured representation of knowledge related to the production of (nano)particles by wet-chemical synthesis. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, WCSO supports the formalization and integration of nanoparticle-related data across experimental workflows, processes, and material properties. It builds upon the PMD Core Ontology (PMDco), a mid-level ontology created within the Platform MaterialDigital (PMD) project which is grounded in the Basic Formal Ontology (BFO). By adhering to BFO as a foundational ontology, WCSO ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs in the materials science and engineering domain.
+The Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO) provides a semantic framework for the structured representation of knowledge related to the production of (nano)particles by wet-chemical synthesis. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, WCSO supports the formalization, integration, and consistent reuse of nanoparticle-related data across experimental workflows, synthesis processes, and material properties.
 
-A technical documentation of the ontology can be found at [https://w3id.org/wcso](https://w3id.org/wcso). Another documentation optimized for human reading is available at [https://BAMresearch.github.io/wcso/docs/](https://BAMresearch.github.io/wcso/docs/).
+WCSO builds upon the [PMD Core Ontology (PMDco)](https://github.com/materialdigital/core-ontology), a mid-level ontology developed within the Platform MaterialDigital (PMD) project and grounded in the Basic Formal Ontology (BFO). By adhering to BFO as its foundational ontology, WCSO ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs, both within and beyond the materials science and engineering domain, thereby supporting data-driven and automated research workflows.
+
+Technical documentation of the ontology is available at:
+[https://w3id.org/wcso](https://w3id.org/wcso)
+
+A complementary documentation optimized for human readability can be found at:
+[https://BAMresearch.github.io/wcso/docs/](https://BAMresearch.github.io/wcso/docs/)
 
 ## Versions
 
