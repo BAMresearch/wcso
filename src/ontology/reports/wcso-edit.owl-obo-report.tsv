@@ -37,8 +37,8 @@ ERROR	multiple_labels	Filtern	rdfs:label	Filtern@de
 ERROR	multiple_labels	Filtern	rdfs:label	filter@en
 ERROR	multiple_labels	dissolve	rdfs:label	Auflösen@de
 ERROR	multiple_labels	dissolve	rdfs:label	dissolve@en
-ERROR	multiple_labels	Partitionierung	rdfs:label	Partitionierung@de
-ERROR	multiple_labels	Partitionierung	rdfs:label	partition@en
+ERROR	multiple_labels	partition	rdfs:label	Partitionierung@de
+ERROR	multiple_labels	partition	rdfs:label	partition@en
 ERROR	multiple_labels	Erhalten	rdfs:label	Erhalten@de
 ERROR	multiple_labels	Erhalten	rdfs:label	recover@en
 ERROR	multiple_labels	synthesize	rdfs:label	Synthetisieren@de
@@ -71,8 +71,8 @@ ERROR	multiple_labels	Behälter	rdfs:label	Behälter@de
 ERROR	multiple_labels	Behälter	rdfs:label	container@en
 ERROR	multiple_labels	rotation speed	rdfs:label	Rotationsgeschwindigkeit@de
 ERROR	multiple_labels	rotation speed	rdfs:label	rotation speed@en
-ERROR	multiple_labels	flow rate	rdfs:label	Durchsatz@de
-ERROR	multiple_labels	flow rate	rdfs:label	flow rate@en
+ERROR	multiple_labels	Durchsatz	rdfs:label	Durchsatz@de
+ERROR	multiple_labels	Durchsatz	rdfs:label	flow rate@en
 ERROR	multiple_labels	CAS number	rdfs:label	CAS Nummer@de
 ERROR	multiple_labels	CAS number	rdfs:label	CAS number@en
 ERROR	multiple_labels	Zugaberate	rdfs:label	Zugaberate@de
@@ -102,7 +102,7 @@ WARN	missing_definition	Trocknen	IAO:0000115
 WARN	missing_definition	Hinzufügen	IAO:0000115	
 WARN	missing_definition	Filtern	IAO:0000115	
 WARN	missing_definition	dissolve	IAO:0000115	
-WARN	missing_definition	Partitionierung	IAO:0000115	
+WARN	missing_definition	partition	IAO:0000115	
 WARN	missing_definition	Erhalten	IAO:0000115	
 WARN	missing_definition	synthesize	IAO:0000115	
 WARN	missing_definition	Veredelung	IAO:0000115	
@@ -119,7 +119,7 @@ WARN	missing_definition	Molare Masse	IAO:0000115
 WARN	missing_definition	molar amount	IAO:0000115	
 WARN	missing_definition	Behälter	IAO:0000115	
 WARN	missing_definition	rotation speed	IAO:0000115	
-WARN	missing_definition	flow rate	IAO:0000115	
+WARN	missing_definition	Durchsatz	IAO:0000115	
 WARN	missing_definition	CAS number	IAO:0000115	
 WARN	missing_definition	Zugaberate	IAO:0000115	
 WARN	missing_definition	Dispersives System	IAO:0000115	
