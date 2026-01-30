@@ -26874,10 +26874,10 @@
     "@value" : "Wet-Chemical Syntheses (WeChemSyn) Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/wcso/releases/2026-01-26/wcso-full.owl"
+    "@id" : "https://w3id.org/wcso/releases/2026-01-30/wcso-full.owl"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "2026-01-26"
+    "@value" : "2026-01-30"
   } ]
 }, {
   "@id" : "urn:swrl:var#d",

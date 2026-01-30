@@ -1,5 +1,5 @@
 <https://w3id.org/wcso/wcso-full.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/wcso/wcso-full.owl> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/wcso/releases/2026-01-26/wcso-full.owl> .
+<https://w3id.org/wcso/wcso-full.owl> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/wcso/releases/2026-01-30/wcso-full.owl> .
 <https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/elements/1.1/identifier> <https://w3id.org/wcso/> .
 <https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3717-7104> .
 <https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-7094-5371> .
@@ -9,7 +9,7 @@
 <https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/description> "The Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO) provides a semantic framework for the structured representation of knowledge related to the wet-chemical syntheses of (nano) particles. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, WCSO supports the formalization and integration of data related to wet-chemical synthesis across experimental workflows, processes, and material properties. It builds upon the PMD Core Ontology (PMDco), a mid-level ontology created within the Platform MaterialDigital (PMD) project which is grounded in the Basic Formal Ontology (BFO). By adhering to BFO as a foundational (top-level) ontology, WCSO ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs in the materials science and engineering domain."@en .
 <https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://w3id.org/wcso/wcso-full.owl> <http://purl.org/dc/terms/title> "Wet-Chemical Syntheses (WeChemSyn) Ontology"@en .
-<https://w3id.org/wcso/wcso-full.owl> <http://www.w3.org/2002/07/owl#versionInfo> "2026-01-26" .
+<https://w3id.org/wcso/wcso-full.owl> <http://www.w3.org/2002/07/owl#versionInfo> "2026-01-30" .
 # 
 # 
 # #################################################################
