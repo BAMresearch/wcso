@@ -1,43 +1,42 @@
-# Basic ODK workflow
-
 name: CI
 
-# Controls when the action will run. 
 on:
   workflow_run:
     workflows: ["MAKE"]
-    types:
+    types: 
       - completed
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "ontology_qc"
   ontology_qc:
-    # The type of runner that the job will run on
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:v1.6
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: main
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G'
-      - name: Commit files # commit the src folder
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: 'updated ontology'
-          add: '*.* --force'
-          cwd: './src/'
-        # Copy ontology files to root folder
-      - name: Distribute ontology files to root
+        shell: bash
         run: |
+          set -euo pipefail
+          cd src/ontology
+          make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G'
+
+      - name: Distribute ontology files to root
+        shell: bash
+        run: |
+          set -euo pipefail
           cp src/ontology/wcso-full.* .
           cp src/ontology/wcso-base.* .
           cp src/ontology/wcso-simple.* .
@@ -45,9 +44,10 @@ jobs:
           cp src/ontology/wcso-full.owl wcso.owl
           cp src/ontology/wcso-full.ttl wcso.ttl
 
-      # Commit copied ontology files to root
       - name: Commit distributed ontology files
         uses: EndBug/add-and-commit@v9
         with:
-          message: 'distribute ontology files to root'
-          add: '*.owl *.ttl --force'
+          message: "distribute ontology files to root"
+          default_author: github_actions
+          add: "*.owl *.ttl wcso.owl wcso.ttl --force"
+          cwd: "."

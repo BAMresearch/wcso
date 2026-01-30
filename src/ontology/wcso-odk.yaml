@@ -18,7 +18,11 @@ remove_owl_nothing: true
 
 import_group:
   annotation_properties: [ 'rdfs:label', 'rdfs:comment', 'IAO:0000119', 'IAO:0000115', 'IAO:0000116', 'IAO:0000112', 'skos:definition', 'skos:example', 'skos:comment' ]
+
   products:
   - id: pmdco
     mirror_from: https://w3id.org/pmd/co/3.0.0-rc2
     module_type: mirror
+  - id: log_ao
+    mirror_from: https://raw.githubusercontent.com/materialdigital/logistics-application-ontology/refs/heads/main/log-full.owl
+    module_type: slme

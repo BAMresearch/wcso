@@ -1,0 +1,2 @@
+https://w3id.org/pmd/log/LOG_1000011 # agent, subclass of BFO:material entity (BFO_0000040)
+https://w3id.org/pmd/log/LOG_1000054 # agent role, subclass of BFO:role (BFO_0000023)

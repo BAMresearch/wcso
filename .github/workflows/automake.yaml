@@ -3,21 +3,110 @@ name: MAKE
 on:
   push:
     branches:
-    - main
+      - main
+  workflow_dispatch:
+
+# Wir committen/pushen -> braucht Schreibrechte
+permissions:
+  contents: write
+
 jobs:
   make:
+    # Verhindert Endlos-Loop: Wenn CI als Bot etwas pusht, soll MAKE NICHT nochmal laufen
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+
+    # Zentral definieren, damit du nur hier den Tag anpassen musst
     container: obolibrary/odkfull:v1.6
+
+    env:
+      ODKFULL_TAG: "v1.6"
+      ONT_DIR: "src/ontology"
+
     steps:
-    - uses: actions/checkout@v3
-      with:
-        ref: main
-    - name: ODK refesh imports 
-      run: |
-           cd src/ontology/
-           make refresh-imports wcso.ttl
-           make wcso-full.ttl wcso-base.ttl wcso-simple.ttl wcso.ttl
-    - uses: mikeal/publish-to-github-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH_NAME: 'main' #optional defaults to master
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # nötig für git diff über zwei SHAs
+
+      - name: Decide whether odk.py update is needed
+        id: odkcheck
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # 1) Prüfen: hat sich src/ontology/*-odk.y{a,}ml geändert?
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+
+          # Falls "before" bei manchen Events leer/0 ist, konservativ "update needed"
+          NEED=false
+          if [[ -z "${BEFORE}" || "${BEFORE}" =~ ^0+$ ]]; then
+            NEED=true
+          else
+            CHANGED="$(git diff --name-only "${BEFORE}" "${AFTER}" || true)"
+            echo "Changed files:"
+            echo "${CHANGED}"
+
+            if echo "${CHANGED}" | grep -E '^src/ontology/.*-odk\.ya?ml$' >/dev/null 2>&1; then
+              NEED=true
+            fi
+          fi
+
+          # 2) Prüfen: ODK-Version geändert?
+          TAG_FILE="${{ env.ONT_DIR }}/.odkfull_tag"
+          if [[ ! -f "${TAG_FILE}" ]]; then
+            NEED=true
+          else
+            OLD_TAG="$(cat "${TAG_FILE}" || true)"
+            if [[ "${OLD_TAG}" != "${{ env.ODKFULL_TAG }}" ]]; then
+              NEED=true
+            fi
+          fi
+
+          echo "need=${NEED}" >> "${GITHUB_OUTPUT}"
+          echo "ODK update needed? ${NEED}"
+
+      - name: ODK update (only when needed)
+        if: steps.odkcheck.outputs.need == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "${{ env.ONT_DIR }}"
+
+          # ODK-Update-Anleitungen empfehlen, update_repo/update teils zweimal laufen zu lassen
+          # (1. Lauf kann "Updater updated itself", 2. Lauf macht dann die eigentlichen Änderungen)
+          # [3](https://oboacademy.github.io/obook/howto/odk-update/)
+          odk.py update || true
+          odk.py update
+
+          echo "${{ env.ODKFULL_TAG }}" > .odkfull_tag
+
+      - name: Refresh imports + build artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "${{ env.ONT_DIR }}"
+          make refresh-imports wcso.ttl
+          make wcso-full.ttl wcso-base.ttl wcso-simple.ttl wcso.ttl
+
+      - name: Commit ontology build outputs (src/ontology only)
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "ODK build: refresh imports + artifacts"
+          default_author: github_actions
+          # explizit nur relevante Pfade, damit tmp/reports nicht aus Versehen reinkommen
+          # (auch wenn sie oft per .gitignore ausgeschlossen sind)
+          add: >-
+            src/ontology/Makefile
+            src/ontology/*.Makefile
+            src/ontology/*-odk.y*ml
+            src/ontology/catalog-v001.xml
+            src/ontology/.odkfull_tag
+            src/ontology/imports/**
+            src/ontology/mirror/**
+            src/ontology/*.owl
+            src/ontology/*.ttl
+            src/ontology/*.obo
+            src/ontology/*.json
+          cwd: "."
