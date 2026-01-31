@@ -1,2291 +1,2336 @@
 {
     "nodes": {
-        "457": {
+        "4443": {
             "type": "Container",
             "pos": [
-                252,
-                47
+                309,
+                0
             ],
             "fields": {
-                "458": {
+                "4444": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "462": {
+                "4448": {
                     "label": "node_attribute_current hardware",
                     "value": "flaskstation"
                 },
-                "466": {
+                "4452": {
                     "label": "node_attribute_deck position",
                     "value": 3
                 },
-                "470": {
+                "4456": {
                     "label": "node_attribute_slot number",
                     "value": 1
                 },
-                "474": {
+                "4460": {
                     "label": "node_attribute_name",
                     "value": "flask_25_mL"
                 },
-                "478": {
+                "4464": {
                     "label": "node_attribute_current volume",
                     "value": "0 mL"
                 },
-                "482": {
+                "4468": {
                     "label": "node_attribute_max volume",
                     "value": "25 mL"
                 },
-                "486": {
+                "4472": {
                     "label": "node_attribute_container type",
                     "value": "FLASK_25_ML"
                 },
-                "490": {
+                "4476": {
                     "label": "node_attribute_has stirbar",
                     "value": true
                 },
-                "494": {
+                "4480": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "498": {
+                "4484": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "499": {
+        "4485": {
             "type": "Add Chemical",
             "pos": [
-                435,
-                46
+                643,
+                0
             ],
             "fields": {
-                "500": {
+                "4486": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "504": {
+                "4490": {
                     "label": "node_attribute_container",
                     "value": "flask_25_mL"
                 },
-                "508": {
+                "4494": {
                     "label": "node_attribute_chemical",
                     "value": "Tetrachloroaureate Trihydrate;Water"
                 },
-                "512": {
+                "4498": {
                     "label": "node_attribute_withdraw rate",
                     "value": "None"
                 },
-                "516": {
+                "4502": {
                     "label": "node_attribute_addition rate",
                     "value": "None"
                 },
-                "520": {
+                "4506": {
                     "label": "node_attribute_robot arm",
                     "value": "robot_arm"
                 },
-                "524": {
+                "4510": {
                     "label": "node_attribute_capper decapper",
                     "value": "capper_decapper"
                 },
-                "528": {
+                "4514": {
                     "label": "node_attribute_return container after addition",
                     "value": false
                 },
-                "532": {
+                "4518": {
                     "label": "node_attribute_return chemicals after addition",
                     "value": true
                 },
-                "536": {
+                "4522": {
                     "label": "node_attribute_bottom clearance",
                     "value": "45 mm"
                 },
-                "540": {
+                "4526": {
                     "label": "node_attribute_purging volume",
                     "value": "30 mL"
                 },
-                "544": {
+                "4530": {
                     "label": "node_attribute_purging addition rate",
                     "value": "60 mL/min"
                 },
-                "548": {
+                "4534": {
                     "label": "node_attribute_purging port",
                     "value": "8"
                 },
-                "552": {
+                "4538": {
                     "label": "node_attribute_priming volume",
                     "value": "2 mL"
                 },
-                "556": {
+                "4542": {
                     "label": "node_attribute_priming waste container",
                     "value": "waste_container_valve_1"
                 },
-                "560": {
+                "4546": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "561": {
+        "4547": {
             "type": "Container",
             "pos": [
-                252,
-                126
+                309,
+                102
             ],
             "fields": {
-                "562": {
+                "4548": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "566": {
+                "4552": {
                     "label": "node_attribute_current hardware",
                     "value": "valve1"
                 },
-                "570": {
+                "4556": {
                     "label": "node_attribute_deck position",
                     "value": 0
                 },
-                "574": {
+                "4560": {
                     "label": "node_attribute_slot number",
                     "value": 0
                 },
-                "578": {
+                "4564": {
                     "label": "node_attribute_name",
                     "value": "waste_container_valve_1"
                 },
-                "582": {
+                "4568": {
                     "label": "node_attribute_current volume",
                     "value": "2 L"
                 },
-                "586": {
+                "4572": {
                     "label": "node_attribute_max volume",
                     "value": "5 L"
                 },
-                "590": {
+                "4576": {
                     "label": "node_attribute_container type",
                     "value": "None"
                 },
-                "594": {
+                "4580": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "598": {
+                "4584": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "602": {
+                "4588": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "603": {
+        "4589": {
             "type": "Chemical",
             "pos": [
-                250,
-                298
+                309,
+                328
             ],
             "fields": {
-                "604": {
+                "4590": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "608": {
+                "4594": {
                     "label": "node_attribute_container",
                     "value": "Water_container_ot2"
                 },
-                "612": {
+                "4598": {
                     "label": "node_attribute_lookup missing values",
                     "value": true
                 },
-                "616": {
+                "4602": {
                     "label": "node_attribute_name",
                     "value": "Water"
                 },
-                "620": {
+                "4606": {
                     "label": "node_attribute_lot number",
                     "value": ""
                 },
-                "624": {
+                "4610": {
                     "label": "node_attribute_supplier",
                     "value": "Milli-Q"
                 },
-                "628": {
+                "4614": {
                     "label": "node_attribute_cas",
                     "value": "7732-18-5"
                 },
-                "632": {
+                "4618": {
                     "label": "node_attribute_smiles",
                     "value": "O"
                 },
-                "636": {
+                "4622": {
                     "label": "node_attribute_density",
                     "value": "1 g/ccm"
                 },
-                "640": {
+                "4626": {
                     "label": "node_attribute_molar mass",
                     "value": "18 g/mol"
                 },
-                "644": {
+                "4630": {
                     "label": "node_attribute_mass",
                     "value": "None"
                 },
-                "648": {
+                "4634": {
                     "label": "node_attribute_molar amount",
                     "value": "None"
                 },
-                "652": {
+                "4638": {
                     "label": "node_attribute_concentration",
                     "value": "None"
                 },
-                "656": {
+                "4642": {
                     "label": "node_attribute_mass concentration",
                     "value": "None"
                 },
-                "660": {
+                "4646": {
                     "label": "node_attribute_volume",
                     "value": "9 mL"
                 },
-                "664": {
+                "4650": {
                     "label": "node_attribute_is stock solution",
                     "value": false
                 },
-                "668": {
+                "4654": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "669": {
+        "4655": {
             "type": "Infuse While Heating",
             "pos": [
-                663,
-                46
+                1077,
+                0
             ],
             "fields": {
-                "670": {
+                "4656": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "674": {
+                "4660": {
                     "label": "node_attribute_container",
                     "value": "flask_25_mL"
                 },
-                "678": {
+                "4664": {
                     "label": "node_attribute_heating temperature",
                     "value": "95 C"
                 },
-                "682": {
+                "4668": {
                     "label": "node_attribute_stirring speed",
                     "value": "750 rpm"
                 },
-                "686": {
+                "4672": {
                     "label": "node_attribute_heating time",
                     "value": "30 min"
                 },
-                "690": {
+                "4676": {
                     "label": "node_attribute_addition hardware",
                     "value": "valve2"
                 },
-                "694": {
+                "4680": {
                     "label": "node_attribute_chemical",
                     "value": "Trisodium Citrate Dihydrate"
                 },
-                "698": {
+                "4684": {
                     "label": "node_attribute_withdraw rate",
                     "value": "5 mL/min"
                 },
-                "702": {
+                "4688": {
                     "label": "node_attribute_addition rate",
                     "value": "10 mL/min"
                 },
-                "706": {
+                "4692": {
                     "label": "node_attribute_purging volume",
                     "value": "2.5 mL"
                 },
-                "710": {
+                "4696": {
                     "label": "node_attribute_purging addition rate",
                     "value": "10 mL/min"
                 },
-                "714": {
+                "4700": {
                     "label": "node_attribute_purging port",
                     "value": "5"
                 },
-                "718": {
+                "4704": {
                     "label": "node_attribute_priming volume",
                     "value": "1 mL"
                 },
-                "722": {
+                "4708": {
                     "label": "node_attribute_priming waste container",
                     "value": "waste_container_valve_2"
                 },
-                "726": {
+                "4712": {
                     "label": "node_attribute_chemical for cleaning",
                     "value": "Water"
                 },
-                "730": {
+                "4716": {
                     "label": "node_attribute_temperature stabilization time",
                     "value": "20 min"
                 },
-                "734": {
+                "4720": {
                     "label": "node_attribute_maximum temperature deviation",
                     "value": "2 C"
                 },
-                "738": {
+                "4724": {
                     "label": "node_attribute_cooldown temperature",
                     "value": "30 C"
                 },
-                "742": {
+                "4728": {
                     "label": "node_attribute_active cooling",
                     "value": true
                 },
-                "746": {
+                "4732": {
                     "label": "node_attribute_temperature sensor",
                     "value": "EXTERNAL"
                 },
-                "750": {
+                "4736": {
                     "label": "node_attribute_robot arm",
                     "value": "robot_arm"
                 },
-                "754": {
+                "4740": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "755": {
+        "4741": {
             "type": "Container",
             "pos": [
-                438,
-                156
+                643,
+                146
             ],
             "fields": {
-                "756": {
+                "4742": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "760": {
+                "4746": {
                     "label": "node_attribute_current hardware",
                     "value": "valve2"
                 },
-                "764": {
+                "4750": {
                     "label": "node_attribute_deck position",
                     "value": 0
                 },
-                "768": {
+                "4754": {
                     "label": "node_attribute_slot number",
                     "value": 0
                 },
-                "772": {
+                "4758": {
                     "label": "node_attribute_name",
                     "value": "waste_container_valve_2"
                 },
-                "776": {
+                "4762": {
                     "label": "node_attribute_current volume",
                     "value": "0 mL"
                 },
-                "780": {
+                "4766": {
                     "label": "node_attribute_max volume",
                     "value": "5 L"
                 },
-                "784": {
+                "4770": {
                     "label": "node_attribute_container type",
                     "value": "None"
                 },
-                "788": {
+                "4774": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "792": {
+                "4778": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "796": {
+                "4782": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "797": {
+        "4783": {
             "type": "Container",
             "pos": [
-                663,
-                216
+                1077,
+                234
             ],
             "fields": {
-                "798": {
+                "4784": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "802": {
+                "4788": {
                     "label": "node_attribute_current hardware",
                     "value": "falcon_tube_holder_15mL"
                 },
-                "806": {
+                "4792": {
                     "label": "node_attribute_deck position",
                     "value": 2
                 },
-                "810": {
+                "4796": {
                     "label": "node_attribute_slot number",
                     "value": 1
                 },
-                "814": {
+                "4800": {
                     "label": "node_attribute_name",
                     "value": "falcon_tube_1"
                 },
-                "818": {
+                "4804": {
                     "label": "node_attribute_current volume",
                     "value": "0 mL"
                 },
-                "822": {
+                "4808": {
                     "label": "node_attribute_max volume",
                     "value": "15 mL"
                 },
-                "826": {
+                "4812": {
                     "label": "node_attribute_container type",
                     "value": "FALCON_TUBE_50_ML"
                 },
-                "830": {
+                "4816": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "834": {
+                "4820": {
                     "label": "node_attribute_is capped",
                     "value": true
                 },
-                "838": {
+                "4824": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "839": {
+        "4825": {
             "type": "Container",
             "pos": [
-                663,
-                294
+                1077,
+                336
             ],
             "fields": {
-                "840": {
+                "4826": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "844": {
+                "4830": {
                     "label": "node_attribute_current hardware",
                     "value": "falcon_tube_holder_15mL"
                 },
-                "848": {
+                "4834": {
                     "label": "node_attribute_deck position",
                     "value": 2
                 },
-                "852": {
+                "4838": {
                     "label": "node_attribute_slot number",
                     "value": 2
                 },
-                "856": {
+                "4842": {
                     "label": "node_attribute_name",
                     "value": "falcon_tube_2"
                 },
-                "860": {
+                "4846": {
                     "label": "node_attribute_current volume",
                     "value": "0 mL"
                 },
-                "864": {
+                "4850": {
                     "label": "node_attribute_max volume",
                     "value": "15 mL"
                 },
-                "868": {
+                "4854": {
                     "label": "node_attribute_container type",
                     "value": "FALCON_TUBE_15_ML"
                 },
-                "872": {
+                "4858": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "876": {
+                "4862": {
                     "label": "node_attribute_is capped",
                     "value": true
                 },
-                "880": {
+                "4866": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "881": {
+        "4867": {
             "type": "Centrifuge",
             "pos": [
-                895,
-                46
+                1511,
+                0
             ],
             "fields": {
-                "882": {
+                "4868": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "886": {
+                "4872": {
                     "label": "node_attribute_container",
                     "value": "flask_25_mL"
                 },
-                "890": {
+                "4876": {
                     "label": "node_attribute_containers",
                     "value": "falcon_tube_1;falcon_tube_2"
                 },
-                "894": {
+                "4880": {
                     "label": "node_attribute_centrifugation speed",
                     "value": "3500 rcf"
                 },
-                "898": {
+                "4884": {
                     "label": "node_attribute_centrifugation time",
                     "value": "90 min"
                 },
-                "902": {
+                "4888": {
                     "label": "node_attribute_centrifugation temperature",
                     "value": "5 C"
                 },
-                "906": {
+                "4892": {
                     "label": "node_attribute_bottom clearance withdrawing",
                     "value": "5 mm"
                 },
-                "910": {
+                "4896": {
                     "label": "node_attribute_dropoff location",
                     "value": "None"
                 },
-                "914": {
+                "4900": {
                     "label": "node_attribute_robot arm",
                     "value": "robot_arm"
                 },
-                "918": {
+                "4904": {
                     "label": "node_attribute_centrifuge",
                     "value": "centrifuge"
                 },
-                "922": {
+                "4908": {
                     "label": "node_attribute_transfer hardware",
                     "value": "valve1"
                 },
-                "926": {
+                "4912": {
                     "label": "node_attribute_capper decapper",
                     "value": "capper_decapper"
                 },
-                "930": {
+                "4916": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "931": {
+        "4917": {
             "type": "Container",
             "pos": [
-                897,
-                340
+                1511,
+                394
             ],
             "fields": {
-                "932": {
+                "4918": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "936": {
+                "4922": {
                     "label": "node_attribute_current hardware",
                     "value": "falcon_tube_holder_50mL"
                 },
-                "940": {
+                "4926": {
                     "label": "node_attribute_deck position",
                     "value": 1
                 },
-                "944": {
+                "4930": {
                     "label": "node_attribute_slot number",
                     "value": 3
                 },
-                "948": {
+                "4934": {
                     "label": "node_attribute_name",
                     "value": "cleaning_probe_sonicator"
                 },
-                "952": {
+                "4938": {
                     "label": "node_attribute_current volume",
                     "value": "40"
                 },
-                "956": {
+                "4942": {
                     "label": "node_attribute_max volume",
                     "value": "50"
                 },
-                "960": {
+                "4946": {
                     "label": "node_attribute_container type",
                     "value": "FALCON_TUBE_50_ML"
                 },
-                "964": {
+                "4950": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "968": {
+                "4954": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "972": {
+                "4958": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "973": {
+        "4959": {
             "type": "Remove Supernatant And Redisperse",
             "pos": [
-                1108,
-                166
+                1918,
+                350
             ],
             "fields": {
-                "974": {
+                "4960": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "978": {
+                "4964": {
                     "label": "node_attribute_container",
                     "value": "falcon_tube_2"
                 },
-                "982": {
+                "4968": {
                     "label": "node_attribute_waste container",
                     "value": "waste_container_valve_1"
                 },
-                "986": {
+                "4972": {
                     "label": "node_attribute_redispersion chemical",
                     "value": "Water"
                 },
-                "990": {
+                "4976": {
                     "label": "node_attribute_sonicator",
                     "value": "probe_sonicator"
                 },
-                "994": {
+                "4980": {
                     "label": "node_attribute_sonication time",
                     "value": "10 s"
                 },
-                "998": {
+                "4984": {
                     "label": "node_attribute_sonication power",
                     "value": 50.0
                 },
-                "1002": {
+                "4988": {
                     "label": "node_attribute_sonication amplitude",
                     "value": 50.0
                 },
-                "1006": {
+                "4992": {
                     "label": "node_attribute_sonication temperature",
                     "value": "20 C"
                 },
-                "1010": {
+                "4996": {
                     "label": "node_attribute_container for cleaning",
                     "value": "cleaning_probe_sonicator"
                 },
-                "1014": {
+                "5000": {
                     "label": "node_attribute_robot arm",
                     "value": "robot_arm"
                 },
-                "1018": {
+                "5004": {
                     "label": "node_attribute_capper decapper",
                     "value": "capper_decapper"
                 },
-                "1022": {
+                "5008": {
                     "label": "node_attribute_purging volume",
                     "value": "15 mL"
                 },
-                "1026": {
+                "5012": {
                     "label": "node_attribute_bottom clearance withdrawing",
                     "value": "8 mm"
                 },
-                "1030": {
+                "5016": {
                     "label": "node_attribute_bottom clearance dispensing",
                     "value": "45 mm"
                 },
-                "1034": {
+                "5020": {
                     "label": "node_attribute_bottom clearance sonication",
                     "value": "10 mm"
                 },
-                "1038": {
+                "5024": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1039": {
+        "5025": {
             "type": "Container",
             "pos": [
-                897,
+                1511,
                 168
             ],
             "fields": {
-                "1040": {
+                "5026": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1044": {
+                "5030": {
                     "label": "node_attribute_current hardware",
                     "value": "valve1"
                 },
-                "1048": {
+                "5034": {
                     "label": "node_attribute_deck position",
                     "value": 0
                 },
-                "1052": {
+                "5038": {
                     "label": "node_attribute_slot number",
                     "value": 0
                 },
-                "1056": {
+                "5042": {
                     "label": "node_attribute_name",
                     "value": "waste_container_valve_1"
                 },
-                "1060": {
+                "5046": {
                     "label": "node_attribute_current volume",
                     "value": "2 L"
                 },
-                "1064": {
+                "5050": {
                     "label": "node_attribute_max volume",
                     "value": "5 L"
                 },
-                "1068": {
+                "5054": {
                     "label": "node_attribute_container type",
                     "value": "None"
                 },
-                "1072": {
+                "5058": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "1076": {
+                "5062": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "1080": {
+                "5066": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1081": {
+        "5067": {
             "type": "Container",
             "pos": [
-                91,
-                127
+                0,
+                102
             ],
             "fields": {
-                "1082": {
+                "5068": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1086": {
+                "5072": {
                     "label": "node_attribute_current hardware",
                     "value": "ot2"
                 },
-                "1090": {
+                "5076": {
                     "label": "node_attribute_deck position",
                     "value": 8
                 },
-                "1094": {
+                "5080": {
                     "label": "node_attribute_slot number",
                     "value": 7
                 },
-                "1098": {
+                "5084": {
                     "label": "node_attribute_name",
                     "value": "Water_container_ot2"
                 },
-                "1102": {
+                "5088": {
                     "label": "node_attribute_current volume",
                     "value": "2.5 mL"
                 },
-                "1106": {
+                "5092": {
                     "label": "node_attribute_max volume",
                     "value": "50 mL"
                 },
-                "1110": {
+                "5096": {
                     "label": "node_attribute_container type",
                     "value": "FALCON_TUBE_50_ML"
                 },
-                "1114": {
+                "5100": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "1118": {
+                "5104": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "1122": {
+                "5108": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1123": {
+        "5109": {
             "type": "Remove Supernatant And Redisperse",
             "pos": [
-                1111,
-                47
+                1918,
+                0
             ],
             "fields": {
-                "1124": {
+                "5110": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1128": {
+                "5114": {
                     "label": "node_attribute_container",
                     "value": "falcon_tube_1"
                 },
-                "1132": {
+                "5118": {
                     "label": "node_attribute_waste container",
                     "value": "waste_container_valve_1"
                 },
-                "1136": {
+                "5122": {
                     "label": "node_attribute_redispersion chemical",
                     "value": "Water"
                 },
-                "1140": {
+                "5126": {
                     "label": "node_attribute_sonicator",
                     "value": "probe_sonicator"
                 },
-                "1144": {
+                "5130": {
                     "label": "node_attribute_sonication time",
                     "value": "10 s"
                 },
-                "1148": {
+                "5134": {
                     "label": "node_attribute_sonication power",
                     "value": 50.0
                 },
-                "1152": {
+                "5138": {
                     "label": "node_attribute_sonication amplitude",
                     "value": 50.0
                 },
-                "1156": {
+                "5142": {
                     "label": "node_attribute_sonication temperature",
                     "value": "20 C"
                 },
-                "1160": {
+                "5146": {
                     "label": "node_attribute_container for cleaning",
                     "value": "cleaning_probe_sonicator"
                 },
-                "1164": {
+                "5150": {
                     "label": "node_attribute_robot arm",
                     "value": "robot_arm"
                 },
-                "1168": {
+                "5154": {
                     "label": "node_attribute_capper decapper",
                     "value": "capper_decapper"
                 },
-                "1172": {
+                "5158": {
                     "label": "node_attribute_purging volume",
                     "value": "15 mL"
                 },
-                "1176": {
+                "5162": {
                     "label": "node_attribute_bottom clearance withdrawing",
                     "value": "8 mm"
                 },
-                "1180": {
+                "5166": {
                     "label": "node_attribute_bottom clearance dispensing",
                     "value": "45 mm"
                 },
-                "1184": {
+                "5170": {
                     "label": "node_attribute_bottom clearance sonication",
                     "value": "10 mm"
                 },
-                "1188": {
+                "5174": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1189": {
+        "5175": {
             "type": "Transfer Content To Container",
             "pos": [
-                1322,
-                47
+                2338,
+                0
             ],
             "fields": {
-                "1190": {
+                "5176": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1194": {
+                "5180": {
                     "label": "node_attribute_container",
                     "value": "falcon_tube_1"
                 },
-                "1198": {
+                "5184": {
                     "label": "node_attribute_target containers",
                     "value": "Falcon_tube_15mL"
                 },
-                "1202": {
+                "5188": {
                     "label": "node_attribute_transfer hardware",
                     "value": "valve1"
                 },
-                "1206": {
+                "5192": {
                     "label": "node_attribute_volume",
                     "value": "1 mL"
                 },
-                "1210": {
+                "5196": {
                     "label": "node_attribute_dropoff locations",
                     "value": "None"
                 },
-                "1214": {
+                "5200": {
                     "label": "node_attribute_robot arm",
                     "value": "robot_arm"
                 },
-                "1218": {
+                "5204": {
                     "label": "node_attribute_capper decapper",
                     "value": "capper_decapper"
                 },
-                "1222": {
+                "5208": {
                     "label": "node_attribute_purging volume",
                     "value": "10 mL"
                 },
-                "1226": {
+                "5212": {
                     "label": "node_attribute_purging port",
                     "value": "8"
                 },
-                "1230": {
+                "5216": {
                     "label": "node_attribute_bottom clearance withdrawing",
                     "value": "10 mm"
                 },
-                "1234": {
+                "5220": {
                     "label": "node_attribute_bottom clearance dispensing",
                     "value": "1 mm"
                 },
-                "1238": {
+                "5224": {
                     "label": "node_attribute_recap container",
                     "value": true
                 },
-                "1242": {
+                "5228": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1243": {
+        "5229": {
             "type": "Container",
             "pos": [
-                1106,
-                373
+                1918,
+                146
             ],
             "fields": {
-                "1244": {
+                "5230": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1248": {
+                "5234": {
                     "label": "node_attribute_current hardware",
                     "value": "falcon_tube_holder_15mL"
                 },
-                "1252": {
+                "5238": {
                     "label": "node_attribute_deck position",
                     "value": 2
                 },
-                "1256": {
+                "5242": {
                     "label": "node_attribute_slot number",
                     "value": 3
                 },
-                "1260": {
+                "5246": {
                     "label": "node_attribute_name",
                     "value": "Falcon_tube_15mL"
                 },
-                "1264": {
+                "5250": {
                     "label": "node_attribute_current volume",
                     "value": "0 mL"
                 },
-                "1268": {
+                "5254": {
                     "label": "node_attribute_max volume",
                     "value": "15 mL"
                 },
-                "1272": {
+                "5258": {
                     "label": "node_attribute_container type",
                     "value": "FALCON_TUBE_15_ML"
                 },
-                "1276": {
+                "5262": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "1280": {
+                "5266": {
                     "label": "node_attribute_is capped",
                     "value": true
                 },
-                "1284": {
+                "5270": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1285": {
+        "5271": {
             "type": "Add Chemical",
             "pos": [
-                1515,
-                46
+                2725,
+                0
             ],
             "fields": {
-                "1286": {
+                "5272": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1290": {
+                "5276": {
                     "label": "node_attribute_container",
                     "value": "Falcon_tube_15mL"
                 },
-                "1294": {
+                "5280": {
                     "label": "node_attribute_chemical",
                     "value": "Water"
                 },
-                "1298": {
+                "5284": {
                     "label": "node_attribute_withdraw rate",
                     "value": "70 mL/min"
                 },
-                "1302": {
+                "5288": {
                     "label": "node_attribute_addition rate",
                     "value": "70 mL/min"
                 },
-                "1306": {
+                "5292": {
                     "label": "node_attribute_robot arm",
                     "value": "robot_arm"
                 },
-                "1310": {
+                "5296": {
                     "label": "node_attribute_capper decapper",
                     "value": "capper_decapper"
                 },
-                "1314": {
+                "5300": {
                     "label": "node_attribute_return container after addition",
                     "value": false
                 },
-                "1318": {
+                "5304": {
                     "label": "node_attribute_return chemicals after addition",
                     "value": true
                 },
-                "1322": {
+                "5308": {
                     "label": "node_attribute_bottom clearance",
                     "value": "1 mm"
                 },
-                "1326": {
+                "5312": {
                     "label": "node_attribute_purging volume",
                     "value": "30 mL"
                 },
-                "1330": {
+                "5316": {
                     "label": "node_attribute_purging addition rate",
                     "value": "70 mL/min"
                 },
-                "1334": {
+                "5320": {
                     "label": "node_attribute_purging port",
                     "value": "8"
                 },
-                "1338": {
+                "5324": {
                     "label": "node_attribute_priming volume",
                     "value": "None"
                 },
-                "1342": {
+                "5328": {
                     "label": "node_attribute_priming waste container",
                     "value": "None"
                 },
-                "1346": {
+                "5332": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1347": {
+        "5333": {
             "type": "Measure Dls",
             "pos": [
-                1678,
-                47
+                3059,
+                0
             ],
             "fields": {
-                "1348": {
+                "5334": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1352": {
+                "5338": {
                     "label": "node_attribute_container",
                     "value": "Falcon_tube_15mL"
                 },
-                "1356": {
+                "5342": {
                     "label": "node_attribute_dls cell",
                     "value": "dls_cell"
                 },
-                "1360": {
+                "5346": {
                     "label": "node_attribute_waste container",
                     "value": "waste_container_valve_1"
                 },
-                "1364": {
+                "5350": {
                     "label": "node_attribute_sop path",
                     "value": "./Characterization/DLS/SOP/DLS_ZETA_Au_in_Water.zskd"
                 },
-                "1368": {
+                "5354": {
                     "label": "node_attribute_sample name",
                     "value": "Au_NP"
                 },
-                "1372": {
+                "5358": {
                     "label": "node_attribute_dls device",
                     "value": "dls"
                 },
-                "1376": {
+                "5362": {
                     "label": "node_attribute_dls volume",
                     "value": "3 mL"
                 },
-                "1380": {
+                "5366": {
                     "label": "node_attribute_dls infusion rate",
                     "value": "55 mL/min"
                 },
-                "1384": {
+                "5370": {
                     "label": "node_attribute_chemical for cleaning",
                     "value": "Water"
                 },
-                "1388": {
+                "5374": {
                     "label": "node_attribute_purging volume",
                     "value": "30 mL"
                 },
-                "1392": {
+                "5378": {
                     "label": "node_attribute_dead volume valve",
                     "value": "19 mL"
                 },
-                "1396": {
+                "5382": {
                     "label": "node_attribute_dead volume dls",
                     "value": "5.6 mL"
                 },
-                "1400": {
+                "5386": {
                     "label": "node_attribute_robot arm",
                     "value": "robot_arm"
                 },
-                "1404": {
+                "5390": {
                     "label": "node_attribute_capper decapper",
                     "value": "capper_decapper"
                 },
-                "1408": {
+                "5394": {
                     "label": "node_attribute_bottom clearance sampling",
                     "value": "20 mm"
                 },
-                "1412": {
+                "5398": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1413": {
+        "5399": {
             "type": "Container",
             "pos": [
-                1515,
-                139
+                2725,
+                124
             ],
             "fields": {
-                "1414": {
+                "5400": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1418": {
+                "5404": {
                     "label": "node_attribute_current hardware",
                     "value": "valve1"
                 },
-                "1422": {
+                "5408": {
                     "label": "node_attribute_deck position",
                     "value": 0
                 },
-                "1426": {
+                "5412": {
                     "label": "node_attribute_slot number",
                     "value": 0
                 },
-                "1430": {
+                "5416": {
                     "label": "node_attribute_name",
                     "value": "waste_container_valve_1"
                 },
-                "1434": {
+                "5420": {
                     "label": "node_attribute_current volume",
                     "value": "2 L"
                 },
-                "1438": {
+                "5424": {
                     "label": "node_attribute_max volume",
                     "value": "5 L"
                 },
-                "1442": {
+                "5428": {
                     "label": "node_attribute_container type",
                     "value": "None"
                 },
-                "1446": {
+                "5432": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "1450": {
+                "5436": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "1454": {
+                "5440": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1455": {
+        "5441": {
             "type": "Container",
             "pos": [
-                1515,
-                217
+                2725,
+                226
             ],
             "fields": {
-                "1456": {
+                "5442": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1460": {
+                "5446": {
                     "label": "node_attribute_current hardware",
                     "value": "valve1"
                 },
-                "1464": {
+                "5450": {
                     "label": "node_attribute_deck position",
                     "value": 0
                 },
-                "1468": {
+                "5454": {
                     "label": "node_attribute_slot number",
                     "value": 6
                 },
-                "1472": {
+                "5458": {
                     "label": "node_attribute_name",
                     "value": "dls_cell"
                 },
-                "1476": {
+                "5462": {
                     "label": "node_attribute_current volume",
                     "value": "2 L"
                 },
-                "1480": {
+                "5466": {
                     "label": "node_attribute_max volume",
                     "value": "5 L"
                 },
-                "1484": {
+                "5470": {
                     "label": "node_attribute_container type",
                     "value": "None"
                 },
-                "1488": {
+                "5474": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "1492": {
+                "5478": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "1496": {
+                "5482": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1497": {
+        "5483": {
             "type": "Chemical",
             "pos": [
-                1515,
-                296
+                2725,
+                328
             ],
             "fields": {
-                "1498": {
+                "5484": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1502": {
+                "5488": {
                     "label": "node_attribute_container",
                     "value": "Water_container"
                 },
-                "1506": {
+                "5492": {
                     "label": "node_attribute_lookup missing values",
                     "value": true
                 },
-                "1510": {
+                "5496": {
                     "label": "node_attribute_name",
                     "value": "Water"
                 },
-                "1514": {
+                "5500": {
                     "label": "node_attribute_lot number",
                     "value": ""
                 },
-                "1518": {
+                "5504": {
                     "label": "node_attribute_supplier",
                     "value": "Milli-Q"
                 },
-                "1522": {
+                "5508": {
                     "label": "node_attribute_cas",
                     "value": "7732-18-5"
                 },
-                "1526": {
+                "5512": {
                     "label": "node_attribute_smiles",
                     "value": "O"
                 },
-                "1530": {
+                "5516": {
                     "label": "node_attribute_density",
                     "value": "1 g/ccm"
                 },
-                "1534": {
+                "5520": {
                     "label": "node_attribute_molar mass",
                     "value": "18 g/mol"
                 },
-                "1538": {
+                "5524": {
                     "label": "node_attribute_mass",
                     "value": "None"
                 },
-                "1542": {
+                "5528": {
                     "label": "node_attribute_molar amount",
                     "value": "None"
                 },
-                "1546": {
+                "5532": {
                     "label": "node_attribute_concentration",
                     "value": "None"
                 },
-                "1550": {
+                "5536": {
                     "label": "node_attribute_mass concentration",
                     "value": "None"
                 },
-                "1554": {
+                "5540": {
                     "label": "node_attribute_volume",
                     "value": "15 mL"
                 },
-                "1558": {
+                "5544": {
                     "label": "node_attribute_is stock solution",
                     "value": false
                 },
-                "1562": {
+                "5548": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1563": {
+        "5549": {
             "type": "Chemical",
             "pos": [
-                250,
-                203
+                309,
+                204
             ],
             "fields": {
-                "1564": {
+                "5550": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1568": {
+                "5554": {
                     "label": "node_attribute_container",
                     "value": "HAuCl4_container"
                 },
-                "1572": {
+                "5558": {
                     "label": "node_attribute_lookup missing values",
                     "value": true
                 },
-                "1576": {
+                "5562": {
                     "label": "node_attribute_name",
                     "value": "Tetrachloroaureate Trihydrate"
                 },
-                "1580": {
+                "5566": {
                     "label": "node_attribute_lot number",
                     "value": ""
                 },
-                "1584": {
+                "5570": {
                     "label": "node_attribute_supplier",
                     "value": "Merck"
                 },
-                "1588": {
+                "5574": {
                     "label": "node_attribute_cas",
                     "value": "16961-25-4"
                 },
-                "1592": {
+                "5578": {
                     "label": "node_attribute_smiles",
                     "value": "[H+].Cl[Au-](Cl)(Cl)Cl.O.O.O"
                 },
-                "1596": {
+                "5582": {
                     "label": "node_attribute_density",
                     "value": "None"
                 },
-                "1600": {
+                "5586": {
                     "label": "node_attribute_molar mass",
                     "value": "393.83 g/mol"
                 },
-                "1604": {
+                "5590": {
                     "label": "node_attribute_mass",
                     "value": "None"
                 },
-                "1608": {
+                "5594": {
                     "label": "node_attribute_molar amount",
                     "value": "None"
                 },
-                "1612": {
+                "5598": {
                     "label": "node_attribute_concentration",
                     "value": "2.5 mM"
                 },
-                "1616": {
+                "5602": {
                     "label": "node_attribute_mass concentration",
                     "value": "None"
                 },
-                "1620": {
+                "5606": {
                     "label": "node_attribute_volume",
                     "value": "1 mL"
                 },
-                "1624": {
+                "5610": {
                     "label": "node_attribute_is stock solution",
                     "value": false
                 },
-                "1628": {
+                "5614": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1629": {
+        "5615": {
             "type": "Container",
             "pos": [
-                91,
-                48
+                0,
+                0
             ],
             "fields": {
-                "1630": {
+                "5616": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1634": {
+                "5620": {
                     "label": "node_attribute_current hardware",
                     "value": "ot2"
                 },
-                "1638": {
+                "5624": {
                     "label": "node_attribute_deck position",
                     "value": 8
                 },
-                "1642": {
+                "5628": {
                     "label": "node_attribute_slot number",
                     "value": 1
                 },
-                "1646": {
+                "5632": {
                     "label": "node_attribute_name",
                     "value": "HAuCl4_container"
                 },
-                "1650": {
+                "5636": {
                     "label": "node_attribute_current volume",
                     "value": "2.5 mL"
                 },
-                "1654": {
+                "5640": {
                     "label": "node_attribute_max volume",
                     "value": "15 mL"
                 },
-                "1658": {
+                "5644": {
                     "label": "node_attribute_container type",
                     "value": "FALCON_TUBE_15_ML"
                 },
-                "1662": {
+                "5648": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "1666": {
+                "5652": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "1670": {
+                "5656": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1671": {
+        "5657": {
             "type": "Container",
             "pos": [
-                252,
-                391
+                309,
+                452
             ],
             "fields": {
-                "1672": {
+                "5658": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1676": {
+                "5662": {
                     "label": "node_attribute_current hardware",
                     "value": "valve2"
                 },
-                "1680": {
+                "5666": {
                     "label": "node_attribute_deck position",
                     "value": 0
                 },
-                "1684": {
+                "5670": {
                     "label": "node_attribute_slot number",
                     "value": 2
                 },
-                "1688": {
+                "5674": {
                     "label": "node_attribute_name",
                     "value": "Citrate_container"
                 },
-                "1692": {
+                "5678": {
                     "label": "node_attribute_current volume",
                     "value": "3 mL"
                 },
-                "1696": {
+                "5682": {
                     "label": "node_attribute_max volume",
                     "value": ""
                 },
-                "1700": {
+                "5686": {
                     "label": "node_attribute_container type",
                     "value": "None"
                 },
-                "1704": {
+                "5690": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "1708": {
+                "5694": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "1712": {
+                "5698": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1713": {
+        "5699": {
             "type": "Chemical",
             "pos": [
-                438,
-                232
+                643,
+                248
             ],
             "fields": {
-                "1714": {
+                "5700": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1718": {
+                "5704": {
                     "label": "node_attribute_container",
                     "value": "Citrate_container"
                 },
-                "1722": {
+                "5708": {
                     "label": "node_attribute_lookup missing values",
                     "value": false
                 },
-                "1726": {
+                "5712": {
                     "label": "node_attribute_name",
                     "value": "Trisodium Citrate Dihydrate"
                 },
-                "1730": {
+                "5716": {
                     "label": "node_attribute_lot number",
                     "value": ""
                 },
-                "1734": {
+                "5720": {
                     "label": "node_attribute_supplier",
                     "value": "Merck"
                 },
-                "1738": {
+                "5724": {
                     "label": "node_attribute_cas",
                     "value": "6132-04-3"
                 },
-                "1742": {
+                "5728": {
                     "label": "node_attribute_smiles",
                     "value": "C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O.[Na+].[Na+].[Na+].O.O"
                 },
-                "1746": {
+                "5732": {
                     "label": "node_attribute_density",
                     "value": "1.7 g/ccm"
                 },
-                "1750": {
+                "5736": {
                     "label": "node_attribute_molar mass",
                     "value": "294.1 g/mol"
                 },
-                "1754": {
+                "5740": {
                     "label": "node_attribute_mass",
                     "value": "3.5 mg"
                 },
-                "1758": {
+                "5744": {
                     "label": "node_attribute_molar amount",
                     "value": "None"
                 },
-                "1762": {
+                "5748": {
                     "label": "node_attribute_concentration",
                     "value": "None"
                 },
-                "1766": {
+                "5752": {
                     "label": "node_attribute_mass concentration",
                     "value": "10 mg/mL"
                 },
-                "1770": {
+                "5756": {
                     "label": "node_attribute_volume",
                     "value": "350 uL"
                 },
-                "1774": {
+                "5760": {
                     "label": "node_attribute_is stock solution",
                     "value": false
                 },
-                "1778": {
+                "5764": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1779": {
+        "5765": {
             "type": "Chemical",
             "pos": [
-                896,
-                249
+                1511,
+                270
             ],
             "fields": {
-                "1780": {
+                "5766": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1784": {
+                "5770": {
                     "label": "node_attribute_container",
                     "value": "Water_container"
                 },
-                "1788": {
+                "5774": {
                     "label": "node_attribute_lookup missing values",
                     "value": true
                 },
-                "1792": {
+                "5778": {
                     "label": "node_attribute_name",
                     "value": "Water"
                 },
-                "1796": {
+                "5782": {
                     "label": "node_attribute_lot number",
                     "value": ""
                 },
-                "1800": {
+                "5786": {
                     "label": "node_attribute_supplier",
                     "value": "Milli-Q"
                 },
-                "1804": {
+                "5790": {
                     "label": "node_attribute_cas",
                     "value": "7732-18-5"
                 },
-                "1808": {
+                "5794": {
                     "label": "node_attribute_smiles",
                     "value": "O"
                 },
-                "1812": {
+                "5798": {
                     "label": "node_attribute_density",
                     "value": "1 g/ccm"
                 },
-                "1816": {
+                "5802": {
                     "label": "node_attribute_molar mass",
                     "value": "18 g/mol"
                 },
-                "1820": {
+                "5806": {
                     "label": "node_attribute_mass",
                     "value": "None"
                 },
-                "1824": {
+                "5810": {
                     "label": "node_attribute_molar amount",
                     "value": "None"
                 },
-                "1828": {
+                "5814": {
                     "label": "node_attribute_concentration",
                     "value": "None"
                 },
-                "1832": {
+                "5818": {
                     "label": "node_attribute_mass concentration",
                     "value": "None"
                 },
-                "1836": {
+                "5822": {
                     "label": "node_attribute_volume",
                     "value": "10 mL"
                 },
-                "1840": {
+                "5826": {
                     "label": "node_attribute_is stock solution",
                     "value": false
                 },
-                "1844": {
+                "5830": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1845": {
+        "5831": {
             "type": "Container",
             "pos": [
-                663,
-                374
+                1077,
+                438
             ],
             "fields": {
-                "1846": {
+                "5832": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1850": {
+                "5836": {
                     "label": "node_attribute_current hardware",
                     "value": "valve1"
                 },
-                "1854": {
+                "5840": {
                     "label": "node_attribute_deck position",
                     "value": 0
                 },
-                "1858": {
+                "5844": {
                     "label": "node_attribute_slot number",
                     "value": 4
                 },
-                "1862": {
+                "5848": {
                     "label": "node_attribute_name",
                     "value": "Water_container"
                 },
-                "1866": {
+                "5852": {
                     "label": "node_attribute_current volume",
                     "value": "2 L"
                 },
-                "1870": {
+                "5856": {
                     "label": "node_attribute_max volume",
                     "value": "4 L"
                 },
-                "1874": {
+                "5860": {
                     "label": "node_attribute_container type",
                     "value": "None"
                 },
-                "1878": {
+                "5864": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "1882": {
+                "5868": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "1886": {
+                "5872": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1887": {
+        "5873": {
             "type": "Container",
             "pos": [
-                1108,
-                293
+                1918,
+                248
             ],
             "fields": {
-                "1888": {
+                "5874": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1892": {
+                "5878": {
                     "label": "node_attribute_current hardware",
                     "value": "valve1"
                 },
-                "1896": {
+                "5882": {
                     "label": "node_attribute_deck position",
                     "value": 0
                 },
-                "1900": {
+                "5886": {
                     "label": "node_attribute_slot number",
                     "value": 4
                 },
-                "1904": {
+                "5890": {
                     "label": "node_attribute_name",
                     "value": "Water_container"
                 },
-                "1908": {
+                "5894": {
                     "label": "node_attribute_current volume",
                     "value": "2 L"
                 },
-                "1912": {
+                "5898": {
                     "label": "node_attribute_max volume",
                     "value": "4 L"
                 },
-                "1916": {
+                "5902": {
                     "label": "node_attribute_container type",
                     "value": "None"
                 },
-                "1920": {
+                "5906": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "1924": {
+                "5910": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "1928": {
+                "5914": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1929": {
+        "5915": {
             "type": "Chemical",
             "pos": [
-                1329,
-                173
+                2338,
+                124
             ],
             "fields": {
-                "1930": {
+                "5916": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "1934": {
+                "5920": {
                     "label": "node_attribute_container",
                     "value": "Water_container"
                 },
-                "1938": {
+                "5924": {
                     "label": "node_attribute_lookup missing values",
                     "value": true
                 },
-                "1942": {
+                "5928": {
                     "label": "node_attribute_name",
                     "value": "Water"
                 },
-                "1946": {
+                "5932": {
                     "label": "node_attribute_lot number",
                     "value": ""
                 },
-                "1950": {
+                "5936": {
                     "label": "node_attribute_supplier",
                     "value": "Milli-Q"
                 },
-                "1954": {
+                "5940": {
                     "label": "node_attribute_cas",
                     "value": "7732-18-5"
                 },
-                "1958": {
+                "5944": {
                     "label": "node_attribute_smiles",
                     "value": "O"
                 },
-                "1962": {
+                "5948": {
                     "label": "node_attribute_density",
                     "value": "1 g/ccm"
                 },
-                "1966": {
+                "5952": {
                     "label": "node_attribute_molar mass",
                     "value": "18 g/mol"
                 },
-                "1970": {
+                "5956": {
                     "label": "node_attribute_mass",
                     "value": "None"
                 },
-                "1974": {
+                "5960": {
                     "label": "node_attribute_molar amount",
                     "value": "None"
                 },
-                "1978": {
+                "5964": {
                     "label": "node_attribute_concentration",
                     "value": "None"
                 },
-                "1982": {
+                "5968": {
                     "label": "node_attribute_mass concentration",
                     "value": "None"
                 },
-                "1986": {
+                "5972": {
                     "label": "node_attribute_volume",
                     "value": "4 mL"
                 },
-                "1990": {
+                "5976": {
                     "label": "node_attribute_is stock solution",
                     "value": false
                 },
-                "1994": {
+                "5980": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "1995": {
+        "5981": {
             "type": "Container",
             "pos": [
-                252,
-                469
+                309,
+                554
             ],
             "fields": {
-                "1996": {
+                "5982": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "2000": {
+                "5986": {
                     "label": "node_attribute_current hardware",
                     "value": "valve2"
                 },
-                "2004": {
+                "5990": {
                     "label": "node_attribute_deck position",
                     "value": 0
                 },
-                "2008": {
+                "5994": {
                     "label": "node_attribute_slot number",
                     "value": 1
                 },
-                "2012": {
+                "5998": {
                     "label": "node_attribute_name",
                     "value": "Water_container"
                 },
-                "2016": {
+                "6002": {
                     "label": "node_attribute_current volume",
                     "value": "50 mL"
                 },
-                "2020": {
+                "6006": {
                     "label": "node_attribute_max volume",
                     "value": ""
                 },
-                "2024": {
+                "6010": {
                     "label": "node_attribute_container type",
                     "value": "None"
                 },
-                "2028": {
+                "6014": {
                     "label": "node_attribute_has stirbar",
                     "value": false
                 },
-                "2032": {
+                "6018": {
                     "label": "node_attribute_is capped",
                     "value": false
                 },
-                "2036": {
+                "6022": {
                     "label": "node_attribute_output"
                 }
             }
         },
-        "2037": {
+        "6023": {
             "type": "Chemical",
             "pos": [
-                438,
-                327
+                643,
+                372
             ],
             "fields": {
-                "2038": {
+                "6024": {
                     "label": "node_attribute_collapse button",
                     "is_collapsed": true
                 },
-                "2042": {
+                "6028": {
                     "label": "node_attribute_container",
                     "value": "Water_container"
                 },
-                "2046": {
+                "6032": {
                     "label": "node_attribute_lookup missing values",
                     "value": true
                 },
-                "2050": {
+                "6036": {
                     "label": "node_attribute_name",
                     "value": "Water"
                 },
-                "2054": {
+                "6040": {
                     "label": "node_attribute_lot number",
                     "value": ""
                 },
-                "2058": {
+                "6044": {
                     "label": "node_attribute_supplier",
                     "value": "Milli-Q"
                 },
-                "2062": {
+                "6048": {
                     "label": "node_attribute_cas",
                     "value": "7732-18-5"
                 },
-                "2066": {
+                "6052": {
                     "label": "node_attribute_smiles",
                     "value": "O"
                 },
-                "2070": {
+                "6056": {
                     "label": "node_attribute_density",
                     "value": "1 g/ccm"
                 },
-                "2074": {
+                "6060": {
                     "label": "node_attribute_molar mass",
                     "value": "18 g/mol"
                 },
-                "2078": {
+                "6064": {
                     "label": "node_attribute_mass",
                     "value": "None"
                 },
-                "2082": {
+                "6068": {
                     "label": "node_attribute_molar amount",
                     "value": "None"
                 },
-                "2086": {
+                "6072": {
                     "label": "node_attribute_concentration",
                     "value": "None"
                 },
-                "2090": {
+                "6076": {
                     "label": "node_attribute_mass concentration",
                     "value": "None"
                 },
-                "2094": {
+                "6080": {
                     "label": "node_attribute_volume",
                     "value": "2 mL"
                 },
-                "2098": {
+                "6084": {
                     "label": "node_attribute_is stock solution",
                     "value": false
                 },
-                "2102": {
+                "6088": {
                     "label": "node_attribute_output"
+                }
+            }
+        },
+        "6122": {
+            "type": "Process Output",
+            "pos": [
+                2338,
+                248
+            ],
+            "fields": {
+                "6123": {
+                    "label": "node_attribute_collapse button",
+                    "is_collapsed": false
+                },
+                "6127": {
+                    "label": "node_attribute_identifier",
+                    "value": "9e47918d-e029-4255-805d-86dd1fedf3c0"
+                },
+                "6131": {
+                    "label": "node_attribute_date",
+                    "value": "2026-01-02T14:21:51"
+                },
+                "6135": {
+                    "label": "node_attribute_description",
+                    "value": "Au"
                 }
             }
         }
     },
     "links": {
-        "2103": {
+        "6089": {
             "linked_nodes": [
-                457,
-                499
+                4443,
+                4485
             ],
             "linked_fields": [
-                498,
-                504
+                4484,
+                4490
             ]
         },
-        "2104": {
+        "6090": {
             "linked_nodes": [
-                561,
-                499
+                4547,
+                4485
             ],
             "linked_fields": [
-                602,
-                556
+                4588,
+                4542
             ]
         },
-        "2105": {
+        "6091": {
             "linked_nodes": [
-                499,
-                669
+                4485,
+                4655
             ],
             "linked_fields": [
-                560,
-                674
+                4546,
+                4660
             ]
         },
-        "2106": {
+        "6092": {
             "linked_nodes": [
-                755,
-                669
+                4741,
+                4655
             ],
             "linked_fields": [
-                796,
-                722
+                4782,
+                4708
             ]
         },
-        "2107": {
+        "6093": {
             "linked_nodes": [
-                931,
-                973
+                4917,
+                4959
             ],
             "linked_fields": [
-                972,
-                1010
+                4958,
+                4996
             ]
         },
-        "2108": {
+        "6094": {
             "linked_nodes": [
-                1039,
-                973
+                5025,
+                4959
             ],
             "linked_fields": [
-                1080,
-                982
+                5066,
+                4968
             ]
         },
-        "2109": {
+        "6095": {
             "linked_nodes": [
-                1081,
-                603
+                5067,
+                4589
             ],
             "linked_fields": [
-                1122,
-                608
+                5108,
+                4594
             ]
         },
-        "2110": {
+        "6096": {
             "linked_nodes": [
-                1039,
-                1123
+                5025,
+                5109
             ],
             "linked_fields": [
-                1080,
-                1132
+                5066,
+                5118
             ]
         },
-        "2111": {
+        "6097": {
             "linked_nodes": [
-                1243,
-                1189
+                5229,
+                5175
             ],
             "linked_fields": [
-                1284,
-                1198
+                5270,
+                5184
             ]
         },
-        "2112": {
+        "6098": {
             "linked_nodes": [
-                1243,
-                1285
+                5399,
+                5333
             ],
             "linked_fields": [
-                1284,
-                1290
+                5440,
+                5346
             ]
         },
-        "2113": {
+        "6099": {
             "linked_nodes": [
-                1413,
-                1347
+                5441,
+                5333
             ],
             "linked_fields": [
-                1454,
-                1360
+                5482,
+                5342
             ]
         },
-        "2114": {
+        "6100": {
             "linked_nodes": [
-                1455,
-                1347
+                5483,
+                5333
             ],
             "linked_fields": [
-                1496,
-                1356
+                5548,
+                5370
             ]
         },
-        "2115": {
+        "6101": {
             "linked_nodes": [
-                1497,
-                1347
+                4783,
+                4867
             ],
             "linked_fields": [
-                1562,
-                1384
+                4824,
+                4876
             ]
         },
-        "2116": {
+        "6102": {
             "linked_nodes": [
-                797,
-                881
+                4825,
+                4867
             ],
             "linked_fields": [
-                838,
-                890
+                4866,
+                4876
             ]
         },
-        "2117": {
+        "6103": {
             "linked_nodes": [
-                839,
-                881
+                4655,
+                4867
             ],
             "linked_fields": [
-                880,
-                890
+                4740,
+                4872
             ]
         },
-        "2118": {
+        "6104": {
             "linked_nodes": [
-                669,
-                881
+                4867,
+                5109
             ],
             "linked_fields": [
-                754,
-                886
+                4916,
+                5114
             ]
         },
-        "2119": {
+        "6105": {
             "linked_nodes": [
-                881,
-                1123
+                4867,
+                4959
             ],
             "linked_fields": [
-                930,
-                1128
+                4916,
+                4964
             ]
         },
-        "2120": {
+        "6106": {
             "linked_nodes": [
-                881,
-                973
+                5615,
+                5549
             ],
             "linked_fields": [
-                930,
-                978
+                5656,
+                5554
             ]
         },
-        "2121": {
+        "6107": {
             "linked_nodes": [
-                1629,
-                1563
+                5657,
+                5699
             ],
             "linked_fields": [
-                1670,
-                1568
+                5698,
+                5704
             ]
         },
-        "2122": {
+        "6108": {
             "linked_nodes": [
-                1671,
-                1713
+                5549,
+                4485
             ],
             "linked_fields": [
-                1712,
-                1718
+                5614,
+                4494
             ]
         },
-        "2123": {
+        "6109": {
             "linked_nodes": [
-                1563,
-                499
+                5831,
+                5765
             ],
             "linked_fields": [
-                1628,
-                508
+                5872,
+                5770
             ]
         },
-        "2124": {
+        "6110": {
             "linked_nodes": [
-                1845,
-                1779
+                5765,
+                5109
             ],
             "linked_fields": [
-                1886,
-                1784
+                5830,
+                5122
             ]
         },
-        "2125": {
+        "6111": {
             "linked_nodes": [
-                1779,
-                1123
+                5765,
+                4959
             ],
             "linked_fields": [
-                1844,
-                1136
+                5830,
+                4972
             ]
         },
-        "2126": {
+        "6112": {
             "linked_nodes": [
-                1779,
-                973
+                5271,
+                5333
             ],
             "linked_fields": [
-                1844,
-                986
+                5332,
+                5338
             ]
         },
-        "2127": {
+        "6113": {
             "linked_nodes": [
-                1285,
-                1347
+                5873,
+                5915
             ],
             "linked_fields": [
-                1346,
-                1352
+                5914,
+                5920
             ]
         },
-        "2128": {
+        "6114": {
             "linked_nodes": [
-                1887,
-                1929
+                5915,
+                5271
             ],
             "linked_fields": [
-                1928,
-                1934
+                5980,
+                5280
             ]
         },
-        "2129": {
+        "6115": {
             "linked_nodes": [
-                1929,
-                1285
+                5873,
+                5483
             ],
             "linked_fields": [
-                1994,
-                1294
+                5914,
+                5488
             ]
         },
-        "2130": {
+        "6116": {
             "linked_nodes": [
-                1887,
-                1497
+                4589,
+                4485
             ],
             "linked_fields": [
-                1928,
-                1502
+                4654,
+                4494
             ]
         },
-        "2131": {
+        "6117": {
             "linked_nodes": [
-                603,
-                499
+                5699,
+                4655
             ],
             "linked_fields": [
-                668,
-                508
+                5764,
+                4680
             ]
         },
-        "2132": {
+        "6118": {
             "linked_nodes": [
-                1713,
-                669
+                5981,
+                6023
             ],
             "linked_fields": [
-                1778,
-                694
+                6022,
+                6028
             ]
         },
-        "2133": {
+        "6119": {
             "linked_nodes": [
-                1995,
-                2037
+                6023,
+                4655
             ],
             "linked_fields": [
-                2036,
-                2042
+                6088,
+                4712
             ]
         },
-        "2134": {
+        "6120": {
             "linked_nodes": [
-                2037,
-                669
+                5109,
+                5175
             ],
             "linked_fields": [
-                2102,
-                726
+                5174,
+                5180
             ]
         },
-        "2135": {
+        "6121": {
             "linked_nodes": [
-                1123,
-                1189
+                5175,
+                5271
             ],
             "linked_fields": [
-                1188,
-                1194
+                5228,
+                5276
+            ]
+        },
+        "6139": {
+            "linked_nodes": [
+                5109,
+                6122
+            ],
+            "linked_fields": [
+                5174,
+                6127
+            ]
+        },
+        "6140": {
+            "linked_nodes": [
+                4959,
+                6122
+            ],
+            "linked_fields": [
+                5024,
+                6127
             ]
         }
     }
