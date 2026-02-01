@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                ec2c92898aec3b6fec8dd2c196db7a5775f27fd3db0e499879bf0efdf24ea668
+CONFIG_HASH=                64b1184895b32b639d016afd26c9d7641a6a5163e5c901dfaa2e4f92de3c359b
 
 
 # ----------------------------------------
@@ -187,7 +187,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  pmdco
+IMPORTS =  pmdco log_ao
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -464,6 +464,13 @@ ifeq ($(MIR),true)
 .PRECIOUS: $(MIRRORDIR)/pmdco.owl
 mirror-pmdco: | $(TMPDIR)
 	$(ROBOT) convert -I https://w3id.org/pmd/co/3.0.0-rc2 -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: log_ao
+.PHONY: mirror-log_ao
+.PRECIOUS: $(MIRRORDIR)/log_ao.owl
+mirror-log_ao: | $(TMPDIR)
+	$(ROBOT) convert -I https://w3id.org/pmd/ao/log.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
