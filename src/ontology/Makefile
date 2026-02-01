@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                c778e5e4d3a047275ae21cd2b8b64192124967b41c4a201730f54ada9c82a644
+CONFIG_HASH=                662b6dcc2fbe8b77afb018582186c7fe891484c5780780209310cd3b87855a74
 
 
 # ----------------------------------------
@@ -470,7 +470,7 @@ mirror-pmdco: | $(TMPDIR)
 .PHONY: mirror-log_ao
 .PRECIOUS: $(MIRRORDIR)/log_ao.owl
 mirror-log_ao: | $(TMPDIR)
-	$(ROBOT) convert -I https://w3id.org/pmd/log.owl -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -I https://w3id.org/pmd/log/log.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
