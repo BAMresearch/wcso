@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://BAMresearch.github.io/wcso/docs/intro/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Introduction - Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO)</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../assets/stylesheets/mkdocs_d2_plugin.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Introduction";
+        var mkdocs_page_input_path = "intro.md";
+        var mkdocs_page_url = "/wcso/docs/intro/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO)
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Welcome</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Introduction</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#why-wcso-exists">Why WCSO exists</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wcso-in-a-nutshell">WCSO in a nutshell</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#foundations-pmdco-and-bfo-alignment">Foundations: PMDco and BFO alignment</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#what-you-gain-by-using-wcso">What you gain by using WCSO</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-better-reproducibility-and-clarity">1) Better reproducibility and clarity</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-workflow-sharing-across-labs-and-platforms">2) Workflow sharing across labs and platforms</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-fair-and-machine-actionable-representations">3) FAIR and machine-actionable representations</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-queryable-knowledge-graphs-for-planning-and-analysis">4) Queryable knowledge graphs for planning and analysis</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#scope">Scope</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../versions/">Versions</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../cite/">Cite</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../publications/">Publications</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../acknowledgements/">Acknowledgements</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO)</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Introduction</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="background-to-wetchemsyn-ontology-wcso">Background to WetChemSyn Ontology (WCSO)</h1>
+<h2 id="why-wcso-exists">Why WCSO exists</h2>
+<p>Wet-chemical synthesis procedures are traditionally documented in free-text form (e.g., “Experimental” or “Methods” sections). This human-centered style has worked so far, but it often relies on implicit knowledge and uses subjective wording instead of explicit parameters. This makes procedures harder to interpret, reproduce, and compare, which is especially true for machines.</p>
+<p>At the same time, <strong>Materials Acceleration Platforms (MAPs)</strong> and <strong>Self‑Driving Labs (SDLs)</strong> are increasingly used to autonomously design and execute experiments. In these settings, machines need <strong>precise, explicit, machine-interpretable</strong> descriptions of steps and process parameters. When workflows are created or executed by automation, <em>sharing</em> and <em>reusing</em> them across sites becomes a central requirement, not only a side effect.</p>
+<p>Even when two labs run very similar experiments, they often use different:
+- instrument and software stacks,
+- workflow/orchestrator frameworks,
+- naming conventions for the same operation and parameters.</p>
+<p>In distributed SDL environments, this leads to heterogeneous terminology and ad‑hoc metadata practices (“vocabulary drift”), which reduces interoperability and complicates cross-experiment comparison and automated analysis. This motivates a standardized semantic layer that cleanly separates <em>meanings of textual descriptions</em> from <em>implementations on specific platforms</em>.</p>
+<h2 id="wcso-in-a-nutshell">WCSO in a nutshell</h2>
+<p>The <strong>WeChemSyn Ontology (WCSO)</strong> is a <strong>lightweight, use‑case‑driven ontology</strong> to represent wet‑chemical synthesis workflows (especially for nano and advanced materials) as <strong>machine-actionable “recipes”</strong> that can be shared, queried, and interpreted across heterogeneous SDL/MAP environments.</p>
+<h2 id="foundations-pmdco-and-bfo-alignment">Foundations: PMDco and BFO alignment</h2>
+<p>WCSO is grounded in the <strong>PMD Core Ontology (PMDco)</strong>, a mid-level ontology for materials science and engineering (MSE), which itself builds on the <strong>Basic Formal Ontology (BFO)</strong>. This foundation provides:
+- a stable semantic backbone for representing materials, processes, and their context,
+- and an interoperability strategy aligned with a broader ecosystem of BFO‑conformant ontologies and knowledge graphs. </p>
+<p>In practice, this means WCSO does not reinvent general modeling concepts; instead, it specializes them for wet‑chemical synthesis workflows in SDL/MAP contexts while remaining compatible with other semantic assets used in materials science.</p>
+<h2 id="what-you-gain-by-using-wcso">What you gain by using WCSO</h2>
+<blockquote>
+<h3 id="1-better-reproducibility-and-clarity">1) Better reproducibility and clarity</h3>
+<p>WCSO encourages describing syntheses with explicit steps and parameters, reducing ambiguity that can arise from narrative protocols and tacit assumptions.</p>
+<h3 id="2-workflow-sharing-across-labs-and-platforms">2) Workflow sharing across labs and platforms</h3>
+<p>By abstracting workflow meaning away from specific orchestrators and hardware/software backends, WCSO lowers the effort needed to transfer and reuse synthesis procedures across different SDL/MAP installations. </p>
+<h3 id="3-fair-and-machine-actionable-representations">3) FAIR and machine-actionable representations</h3>
+<p>Ontology-based workflow descriptions support FAIR principles - especially interoperability and reuse as procedures become structured, machine-readable research objects rather than isolated text narratives. </p>
+<h3 id="4-queryable-knowledge-graphs-for-planning-and-analysis">4) Queryable knowledge graphs for planning and analysis</h3>
+<p>When synthesis workflows are exported as knowledge graphs aligned with WCSO, they can be queried to retrieve planning- and reuse-relevant information (e.g., required chemicals and amounts, key parameters, outputs). This enables systematic comparison across procedures and supports data-driven decision making.</p>
+</blockquote>
+<h2 id="scope">Scope</h2>
+<p>WCSO is intentionally designed as a <strong>practical ontology for wet‑chemical synthesis workflows</strong> in automation-centered contexts which is focused on representing recipes in a consistent way that can be executed (or at least interpreted) by machines and shared between laboratories. It is openly maintained and meant to be extendable by the community as synthesis knowledge bases and SDL/MAP needs evolve.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Welcome"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../versions/" class="btn btn-neutral float-right" title="Versions">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../versions/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
