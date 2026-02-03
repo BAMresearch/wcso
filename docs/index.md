@@ -1,7 +1,7 @@
-![basic checks](https://github.com/materialdigital/core-ontology/actions/workflows/quality-checks.yaml/badge.svg)
-![Build Status](https://github.com/materialdigital/core-ontology/actions/workflows/qc.yml/badge.svg)
+![Basic Quality Checks](https://github.com/BAMresearch/wcso/actions/workflows/quality-checks.yaml/badge.svg)
+![Build Status](https://github.com/BAMresearch/wcso/actions/workflows/qc.yml/badge.svg)
 
-# Nanoparticle Ontology (wcso)
+# WetChemSyn Ontology (WCSO)
 
 Welcome to the **Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO)**, a semantic framework for the structured representation of knowledge related to the production of (nano)particles by wet-chemical synthesis, focused particularly on a self-driving laboratory (SDL) setting, developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany.
 
@@ -16,4 +16,4 @@ This documentation is designed to guide you through the ontology's structure, fe
 
 - The latest version of the ontology can always be found at: [wcso.ttl](https://github.com/BAMresearch/wcso/blob/main/wcso.ttl) and [wcso.owl](https://github.com/BAMresearch/wcso/blob/main/wcso.owl)
 - [Widoco generated List of Classes and Properties](https://BAMresearch.github.io/wcso/)
-- [Documentation of wcso](https://BAMresearch.github.io/wcso/docs)
+- [This Documentation of WCSO](https://BAMresearch.github.io/wcso/docs)
