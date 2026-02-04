@@ -2,7 +2,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<https://w3id.org/wcso/releases/2026-02-03/wcso-full.owl> a prov:Entity;
+<https://w3id.org/wcso/releases/2026-02-04/wcso-full.owl> a prov:Entity;
 	 dc:title "Wet-Chemical Syntheses (WeChemSyn) Ontology";
 	 prov:wasAttributedTo <https://orcid.org/0000-0002-3717-7104>;
 	 dc:creator <https://orcid.org/0000-0002-3717-7104>;
