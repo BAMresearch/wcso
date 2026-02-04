@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://w3id.org/wcso/imports/log_ao_import.owl>
-<https://w3id.org/wcso/releases/2026-02-02/imports/log_ao_import.owl>
+<https://w3id.org/wcso/releases/2026-02-04/imports/log_ao_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <https://w3id.org/pmd/log/releases/2025-11-20/log-simple.owl>)
-Annotation(owl:versionInfo "2026-02-02")
+Annotation(owl:versionInfo "2026-02-04")
 
 Declaration(Class(<https://w3id.org/pmd/log/LOG_1000011>))
 Declaration(Class(<https://w3id.org/pmd/log/LOG_1000054>))
