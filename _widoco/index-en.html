@@ -17,7 +17,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/wcso/wcso-full.owl","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/wcso/wcso-full.owl","name":"Wet-Chemical Syntheses (WeChemSyn) Ontology", "headline":"Document describing the ontology https://w3id.org/wcso/wcso-full.owl", "dateReleased":"Wed Feb 04 14:33:56 UTC 2026", "version":"2026-02-04", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Bernd Bayerlein","url":"https://orcid.org/0000-0002-3717-7104"},{"@type":"Person","name":"Markus Schilling","url":"https://orcid.org/0000-0002-7094-5371"},{"@type":"Person","name":"https://orcid.org/0000-0003-3383-9999","url":"https://orcid.org/0000-0003-3383-9999"},{"@type":"Person","name":"https://orcid.org/0009-0002-7960-3666","url":"https://orcid.org/0009-0002-7960-3666"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/wcso/wcso-full.owl","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/wcso/wcso-full.owl","name":"Wet-Chemical Syntheses (WeChemSyn) Ontology", "headline":"Document describing the ontology https://w3id.org/wcso/wcso-full.owl", "dateReleased":"Wed Feb 04 14:59:14 UTC 2026", "version":"2026-02-04", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Bernd Bayerlein","url":"https://orcid.org/0000-0002-3717-7104"},{"@type":"Person","name":"Markus Schilling","url":"https://orcid.org/0000-0002-7094-5371"},{"@type":"Person","name":"https://orcid.org/0000-0003-3383-9999","url":"https://orcid.org/0000-0003-3383-9999"},{"@type":"Person","name":"https://orcid.org/0009-0002-7960-3666","url":"https://orcid.org/0009-0002-7960-3666"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -157,6 +157,12 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#https://w3id.org/pmd/co/PMD_0020115" title="https://w3id.org/pmd/co/PMD_0020115">aerosol</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/pmd/log/LOG_1000011" title="https://w3id.org/pmd/log/LOG_1000011">agent</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/pmd/log/LOG_1000054" title="https://w3id.org/pmd/log/LOG_1000054">agent role</a>
    </li>
    <li>
       <a href="#https://w3id.org/pmd/co/PMD_0000512" title="https://w3id.org/pmd/co/PMD_0000512">aggregate state</a>
@@ -3006,6 +3012,9 @@ This ontology has the following classes and properties.</span>
       <a href="#http://purl.obolibrary.org/obo/RO_0009006" title="http://purl.obolibrary.org/obo/RO_0009006">assay measures characteristic</a>
    </li>
    <li>
+      <a href="#http://purl.obolibrary.org/obo/BFO_0000196" title="http://purl.obolibrary.org/obo/BFO_0000196">bearer of</a>
+   </li>
+   <li>
       <a href="#https://w3id.org/pmd/co/PMD_0020021" title="https://w3id.org/pmd/co/PMD_0020021">causally influences</a>
    </li>
    <li>
@@ -3139,6 +3148,9 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#https://w3id.org/pmd/co/PMD_0001028" title="https://w3id.org/pmd/co/PMD_0001028">in response to</a>
+   </li>
+   <li>
+      <a href="#http://purl.obolibrary.org/obo/BFO_0000197" title="http://purl.obolibrary.org/obo/BFO_0000197">inheres in</a>
    </li>
    <li>
       <a href="#http://purl.obolibrary.org/obo/RO_0002352" title="http://purl.obolibrary.org/obo/RO_0002352">input of</a>
@@ -3509,16 +3521,16 @@ This ontology has the following classes and properties.</span>
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     class="hlist">
    <li>
-      <a href="#d4e25170">Rule #1</a>
+      <a href="#d4e25230">Rule #1</a>
    </li>
    <li>
-      <a href="#d4e25243">Rule #2</a>
+      <a href="#d4e25303">Rule #2</a>
    </li>
    <li>
-      <a href="#d4e25316">Rule #3</a>
+      <a href="#d4e25376">Rule #3</a>
    </li>
    <li>
-      <a href="#d4e25389">Rule #4</a>
+      <a href="#d4e25449">Rule #4</a>
    </li>
 </ul><iframe src="webvowl/index.html"></iframe> 
 </div>
@@ -3556,6 +3568,8 @@ This section provides details for each class and property defined by Wet-Chemica
   <li><a href="#https://w3id.org/wcso/WCSO_0000023" title="https://w3id.org/wcso/WCSO_0000023">adjust pH value</a></li>
   <li><a href="#https://w3id.org/pmd/co/PMD_0000510" title="https://w3id.org/pmd/co/PMD_0000510">adjustment device role</a></li>
   <li><a href="#https://w3id.org/pmd/co/PMD_0020115" title="https://w3id.org/pmd/co/PMD_0020115">aerosol</a></li>
+  <li><a href="#https://w3id.org/pmd/log/LOG_1000011" title="https://w3id.org/pmd/log/LOG_1000011">agent</a></li>
+  <li><a href="#https://w3id.org/pmd/log/LOG_1000054" title="https://w3id.org/pmd/log/LOG_1000054">agent role</a></li>
   <li><a href="#https://w3id.org/pmd/co/PMD_0000512" title="https://w3id.org/pmd/co/PMD_0000512">aggregate state</a></li>
   <li><a href="#https://w3id.org/pmd/co/PMD_0020116" title="https://w3id.org/pmd/co/PMD_0020116">aggregate state value</a></li>
   <li><a href="#https://w3id.org/pmd/co/PMD_0000513" title="https://w3id.org/pmd/co/PMD_0000513">aging process</a></li>
@@ -4933,6 +4947,23 @@ This section provides details for each class and property defined by Wet-Chemica
     <a href="#https://w3id.org/pmd/co/PMD_0000891" title="https://w3id.org/pmd/co/PMD_0000891">disconnected material entity aggregate</a> <sup class="type-c" title="class">c</sup>
    </dd>
   </dl>
+ </div>
+ <div class="entity" id="https://w3id.org/pmd/log/LOG_1000011">
+  <h3>agent<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/pmd/log/LOG_1000011</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://w3id.org/pmd/log/LOG_1000054">
+  <h3>agent role<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/pmd/log/LOG_1000054</p>
+  <div class="comment">
+   <span class="markdown">role that someone or something has when they act on behalf of a person, engineered system or a group of agents</span>
+  </div>
  </div>
  <div class="entity" id="https://w3id.org/pmd/co/PMD_0000512">
   <h3>aggregate state<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
@@ -24454,6 +24485,7 @@ The phase boundary between Fe3C and Fe of a pearlite lamellae.</pre>
  <ul class="hlist">
   <li><a href="#http://purl.obolibrary.org/obo/OBI_0000417" title="http://purl.obolibrary.org/obo/OBI_0000417">achieves_planned_objective</a></li>
   <li><a href="#http://purl.obolibrary.org/obo/RO_0009006" title="http://purl.obolibrary.org/obo/RO_0009006">assay measures characteristic</a></li>
+  <li><a href="#http://purl.obolibrary.org/obo/BFO_0000196" title="http://purl.obolibrary.org/obo/BFO_0000196">bearer of</a></li>
   <li><a href="#https://w3id.org/pmd/co/PMD_0020021" title="https://w3id.org/pmd/co/PMD_0020021">causally influences</a></li>
   <li><a href="#https://w3id.org/pmd/co/PMD_0025013" title="https://w3id.org/pmd/co/PMD_0025013">changes quality</a></li>
   <li><a href="#http://purl.obolibrary.org/obo/RO_0009007" title="http://purl.obolibrary.org/obo/RO_0009007">characteristic measured by assay</a></li>
@@ -24499,6 +24531,7 @@ The phase boundary between Fe3C and Fe of a pearlite lamellae.</pre>
   <li><a href="#http://purl.obolibrary.org/obo/OBI_0001938" title="http://purl.obolibrary.org/obo/OBI_0001938">has value specification</a></li>
   <li><a href="#http://purl.obolibrary.org/obo/BFO_0000184" title="http://purl.obolibrary.org/obo/BFO_0000184">history of</a></li>
   <li><a href="#https://w3id.org/pmd/co/PMD_0001028" title="https://w3id.org/pmd/co/PMD_0001028">in response to</a></li>
+  <li><a href="#http://purl.obolibrary.org/obo/BFO_0000197" title="http://purl.obolibrary.org/obo/BFO_0000197">inheres in</a></li>
   <li><a href="#http://purl.obolibrary.org/obo/RO_0002352" title="http://purl.obolibrary.org/obo/RO_0002352">input of</a></li>
   <li><a href="#https://w3id.org/pmd/co/PMD_0020020" title="https://w3id.org/pmd/co/PMD_0020020">interacts with</a></li>
   <li><a href="#http://purl.obolibrary.org/obo/IAO_0000136" title="http://purl.obolibrary.org/obo/IAO_0000136">is about</a></li>
@@ -24607,6 +24640,31 @@ The phase boundary between Fe3C and Fe of a pearlite lamellae.</pre>
     </dt>
     <dd>
      <a href="#http://purl.obolibrary.org/obo/RO_0009007" title="http://purl.obolibrary.org/obo/RO_0009007">characteristic measured by assay</a> <sup class="type-op" title="object property">op</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="http://purl.obolibrary.org/obo/BFO_0000196">
+  <h3>bearer of<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://purl.obolibrary.org/obo/BFO_0000196</p>
+  <div class="comment">
+   <span class="markdown">b bearer of c =Def c inheres in b</span>
+  </div>
+  <dl>
+   <dt>
+    Example
+   </dt>
+   <dd>
+    <pre>A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality</pre>
+   </dd>
+  </dl>
+  <div class="description">
+   <dl>
+    <dt>
+     is inverse of
+    </dt>
+    <dd>
+     <a href="#http://purl.obolibrary.org/obo/BFO_0000197" title="http://purl.obolibrary.org/obo/BFO_0000197">inheres in</a> <sup class="type-op" title="object property">op</sup>
     </dd>
    </dl>
   </div>
@@ -26179,6 +26237,31 @@ The phase boundary between Fe3C and Fe of a pearlite lamellae.</pre>
     </dt>
     <dd>
      <a href="#https://w3id.org/pmd/co/PMD_0001029" title="https://w3id.org/pmd/co/PMD_0001029">responds with</a> <sup class="type-op" title="object property">op</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="http://purl.obolibrary.org/obo/BFO_0000197">
+  <h3>inheres in<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://purl.obolibrary.org/obo/BFO_0000197</p>
+  <div class="comment">
+   <span class="markdown">b inheres in c =Def b is a specifically dependent continuant &amp; c is an independent continuant that is not a spatial region &amp; b specifically depends on c</span>
+  </div>
+  <dl>
+   <dt>
+    Example
+   </dt>
+   <dd>
+    <pre>A shape inheres in a shaped object; a mass inheres in a material entity</pre>
+   </dd>
+  </dl>
+  <div class="description">
+   <dl>
+    <dt>
+     is inverse of
+    </dt>
+    <dd>
+     <a href="#http://purl.obolibrary.org/obo/BFO_0000196" title="http://purl.obolibrary.org/obo/BFO_0000196">bearer of</a> <sup class="type-op" title="object property">op</sup>
     </dd>
    </dl>
   </div>
@@ -28193,24 +28276,24 @@ The phase boundary between Fe3C and Fe of a pearlite lamellae.</pre>
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="swrlrules">
  <h3 id="swrlrules" class="list">SWRL rules</h3>
  <ul class="hlist">
-  <li><a href="#d4e25170">Rule #1</a></li>
-  <li><a href="#d4e25243">Rule #2</a></li>
-  <li><a href="#d4e25316">Rule #3</a></li>
-  <li><a href="#d4e25389">Rule #4</a></li>
+  <li><a href="#d4e25230">Rule #1</a></li>
+  <li><a href="#d4e25303">Rule #2</a></li>
+  <li><a href="#d4e25376">Rule #3</a></li>
+  <li><a href="#d4e25449">Rule #4</a></li>
  </ul>
- <div class="entity" id="d4e25170">
+ <div class="entity" id="d4e25230">
   <h3>Rule #1<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#swrlrules">SWRL ToC</a> </span></h3>
   <p><a href="#http://purl.obolibrary.org/obo/RO_0000053" title="http://purl.obolibrary.org/obo/RO_0000053">has characteristic</a> <sup class="type-op" title="object property">op</sup>(?e,?d) , <a href="#http://purl.obolibrary.org/obo/BFO_0000016" title="http://purl.obolibrary.org/obo/BFO_0000016">disposition</a> <sup class="type-c" title="class">c</sup>(?d) -&gt; <a href="#http://purl.obolibrary.org/obo/RO_0000091" title="http://purl.obolibrary.org/obo/RO_0000091">has disposition</a> <sup class="type-op" title="object property">op</sup>(?e,?d)</p>
  </div>
- <div class="entity" id="d4e25243">
+ <div class="entity" id="d4e25303">
   <h3>Rule #2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#swrlrules">SWRL ToC</a> </span></h3>
   <p><a href="#http://purl.obolibrary.org/obo/RO_0000053" title="http://purl.obolibrary.org/obo/RO_0000053">has characteristic</a> <sup class="type-op" title="object property">op</sup>(?e,?d) , <a href="#http://purl.obolibrary.org/obo/BFO_0000019" title="http://purl.obolibrary.org/obo/BFO_0000019">quality</a> <sup class="type-c" title="class">c</sup>(?d) -&gt; <a href="#http://purl.obolibrary.org/obo/RO_0000086" title="http://purl.obolibrary.org/obo/RO_0000086">has quality</a> <sup class="type-op" title="object property">op</sup>(?e,?d)</p>
  </div>
- <div class="entity" id="d4e25316">
+ <div class="entity" id="d4e25376">
   <h3>Rule #3<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#swrlrules">SWRL ToC</a> </span></h3>
   <p><a href="#http://purl.obolibrary.org/obo/RO_0000053" title="http://purl.obolibrary.org/obo/RO_0000053">has characteristic</a> <sup class="type-op" title="object property">op</sup>(?e,?d) , <a href="#http://purl.obolibrary.org/obo/BFO_0000023" title="http://purl.obolibrary.org/obo/BFO_0000023">role</a> <sup class="type-c" title="class">c</sup>(?d) -&gt; <a href="#http://purl.obolibrary.org/obo/RO_0000087" title="http://purl.obolibrary.org/obo/RO_0000087">has role</a> <sup class="type-op" title="object property">op</sup>(?e,?d)</p>
  </div>
- <div class="entity" id="d4e25389">
+ <div class="entity" id="d4e25449">
   <h3>Rule #4<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#swrlrules">SWRL ToC</a> </span></h3>
   <p><a href="#http://purl.obolibrary.org/obo/RO_0000053" title="http://purl.obolibrary.org/obo/RO_0000053">has characteristic</a> <sup class="type-op" title="object property">op</sup>(?e,?d) , <a href="#http://purl.obolibrary.org/obo/BFO_0000034" title="http://purl.obolibrary.org/obo/BFO_0000034">function</a> <sup class="type-c" title="class">c</sup>(?d) -&gt; <a href="#http://purl.obolibrary.org/obo/RO_0000085" title="http://purl.obolibrary.org/obo/RO_0000085">has function</a> <sup class="type-op" title="object property">op</sup>(?e,?d)</p>
  </div>

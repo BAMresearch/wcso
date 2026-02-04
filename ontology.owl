@@ -643,6 +643,29 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000196 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000196">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+        <rdfs:label xml:lang="en">bearer of</rdfs:label>
+        <skos:definition xml:lang="en">b bearer of c =Def c inheres in b</skos:definition>
+        <skos:example xml:lang="en">A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000197 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000197">
+        <rdfs:label xml:lang="en">inheres in</rdfs:label>
+        <skos:definition xml:lang="en">b inheres in c =Def b is a specifically dependent continuant &amp; c is an independent continuant that is not a spatial region &amp; b specifically depends on c</skos:definition>
+        <skos:example xml:lang="en">A shape inheres in a shaped object; a mass inheres in a material entity</skos:example>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000199 -->
 
 
@@ -15685,6 +15708,31 @@ The phase boundary between Fe3C and Fe of a pearlite lamellae.</skos:example>
         <skos:definition xml:lang="en">A primary shaping process in which a manually workable plastic mass (such as clay, wax, plastiline or gypsum paste) is shaped directly by hand and simple tools into a final or intermediate geometry and subsequently hardened, dried or fired to obtain a solid body.</skos:definition>
         <skos:definition xml:lang="de">Ein Urformverfahren, bei dem eine mit Hand und einfachen Werkzeugen formbare plastische Masse (z. B. Ton, Wachs, Plastilin oder Gipspaste) direkt zur gewünschten Geometrie modelliert und anschließend durch Trocknen, Brennen oder Aushärten zu einem festen Körper verfestigt wird.</skos:definition>
         <skos:example xml:lang="en">Hand modelling of clay prior to firing (e.g. pottery, sculptures); modelling of wax or plasticine for casting patterns.</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/log/LOG_1000011 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/log/LOG_1000011">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/log/LOG_1000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/log/LOG_1000054 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/log/LOG_1000054">
+        <rdfs:label xml:lang="en">agent role</rdfs:label>
+        <skos:definition xml:lang="en-us">role that someone or something has when they act on behalf of a person, engineered system or a group of agents</skos:definition>
     </owl:Class>
     
 

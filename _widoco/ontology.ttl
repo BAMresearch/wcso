@@ -442,6 +442,21 @@ A continuant cannot have an occurrent as part: use 'participates in'. An occurre
                                              <http://www.w3.org/2004/02/skos/core#example> "This organism has history this life"@en .
 
 
+###  http://purl.obolibrary.org/obo/BFO_0000196
+<http://purl.obolibrary.org/obo/BFO_0000196> rdf:type owl:ObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/BFO_0000197> ;
+                                             rdfs:label "bearer of"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "b bearer of c =Def c inheres in b"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000197
+<http://purl.obolibrary.org/obo/BFO_0000197> rdf:type owl:ObjectProperty ;
+                                             rdfs:label "inheres in"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "b inheres in c =Def b is a specifically dependent continuant & c is an independent continuant that is not a spatial region & b specifically depends on c"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "A shape inheres in a shaped object; a mass inheres in a material entity"@en .
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000199
 <http://purl.obolibrary.org/obo/BFO_0000199> rdf:type owl:ObjectProperty ,
                                                       owl:FunctionalProperty ;
@@ -10778,6 +10793,21 @@ The phase boundary between Fe3C and Fe of a pearlite lamellae."""@en .
                                       <http://www.w3.org/2004/02/skos/core#definition> "A primary shaping process in which a manually workable plastic mass (such as clay, wax, plastiline or gypsum paste) is shaped directly by hand and simple tools into a final or intermediate geometry and subsequently hardened, dried or fired to obtain a solid body."@en ,
                                                                                        "Ein Urformverfahren, bei dem eine mit Hand und einfachen Werkzeugen formbare plastische Masse (z. B. Ton, Wachs, Plastilin oder Gipspaste) direkt zur gewünschten Geometrie modelliert und anschließend durch Trocknen, Brennen oder Aushärten zu einem festen Körper verfestigt wird."@de ;
                                       <http://www.w3.org/2004/02/skos/core#example> "Hand modelling of clay prior to firing (e.g. pottery, sculptures); modelling of wax or plasticine for casting patterns."@en .
+
+
+###  https://w3id.org/pmd/log/LOG_1000011
+<https://w3id.org/pmd/log/LOG_1000011> rdf:type owl:Class ;
+                                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000196> ;
+                                                         owl:someValuesFrom <https://w3id.org/pmd/log/LOG_1000054>
+                                                       ] ;
+                                       rdfs:label "agent"@en .
+
+
+###  https://w3id.org/pmd/log/LOG_1000054
+<https://w3id.org/pmd/log/LOG_1000054> rdf:type owl:Class ;
+                                       rdfs:label "agent role"@en ;
+                                       <http://www.w3.org/2004/02/skos/core#definition> "role that someone or something has when they act on behalf of a person, engineered system or a group of agents"@en-us .
 
 
 ###  https://w3id.org/wcso/WCSO_0000000
