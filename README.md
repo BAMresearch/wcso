@@ -2,7 +2,7 @@
 
 ## WeChemSyn Ontology (WCSO)
 
-The Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO) provides a semantic framework for the structured representation of knowledge related to the production of (nano)particles by wet-chemical synthesis. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, WCSO supports the formalization, integration, and consistent reuse of nanoparticle-related data across experimental workflows, synthesis processes, and material properties.
+The Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO) provides a semantic framework for the structured representation of knowledge related to the production of (nano)particles by wet chemical synthesis. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, WCSO supports the formalization, integration, and consistent reuse of wet chemical synthesis descriptions and nanoparticle-related data across experimental workflows, synthesis processes, and Self-Driving Labs.
 
 WCSO builds upon the [PMD Core Ontology (PMDco)](https://github.com/materialdigital/core-ontology), a mid-level ontology developed within the Platform MaterialDigital (PMD) project and grounded in the Basic Formal Ontology (BFO). By adhering to BFO as its foundational ontology, WCSO ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs, both within and beyond the materials science and engineering domain, thereby supporting data-driven and automated research workflows.
 
@@ -11,6 +11,10 @@ Technical documentation of the ontology is available at:
 
 A complementary documentation optimized for human readability can be found at:
 [https://BAMresearch.github.io/wcso/docs/](https://BAMresearch.github.io/wcso/docs/)
+
+More information is also available from the pre-print on ChemRxiv:
+
+**Markus Schilling, Harald Bresch, Bernd Bayerlein, Bastian Rühle**, *WeChemSynOntology: Semantic Modeling of Wet Chemical Syntheses in a Self-Driving Lab for Nano-and Advanced Materials*, 2026, preprint on ChemRxiv, [DOI: 10.26434/chemrxiv.10001869/v1](https://doi.org/10.26434/chemrxiv.10001869/v1) 
 
 ## Versions
 
@@ -31,7 +35,13 @@ Please use this GitHub repository's [Issue tracker](https://github.com/BAMresear
 ## Bibliographic Citation
 
 When using wcso, please cite it as:
+
+*Markus Schilling, Harald Bresch, Bernd Bayerlein, Bastian Rühle.*, WeChemSynOntology: Semantic Modeling of Wet Chemical Syntheses in a Self-Driving Lab for Nano-and Advanced Materials, preprint on ChemRxiv, *[DOI: 10.26434/chemrxiv.10001869/v1](https://doi.org/10.26434/chemrxiv.10001869/v1)* 
+
+AND
+
 *Markus Schilling, Harald Bresch, Bernd Bayerlein, Bastian Rühle. (January 31st, 2026) WCSO: Wet-Chemical Syntheses (WeChemSyn) Ontology. Version 1.0.0, https://w3id.org/wcso*
+
 
 ## Acknowledgements
 
