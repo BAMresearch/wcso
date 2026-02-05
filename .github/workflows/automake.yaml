@@ -6,17 +6,15 @@ on:
       - main
   workflow_dispatch:
 
-# Wir committen/pushen -> braucht Schreibrechte
 permissions:
   contents: write
 
 jobs:
   make:
-    # Verhindert Endlos-Loop: Wenn CI als Bot etwas pusht, soll MAKE NICHT nochmal laufen
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
-    # Zentral definieren, damit du nur hier den Tag anpassen musst
+
     container: obolibrary/odkfull:v1.6
 
     env:
@@ -27,7 +25,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # nötig für git diff über zwei SHAs
+          fetch-depth: 0
 
       - name: Decide whether odk.py update is needed
         id: odkcheck
@@ -95,8 +93,7 @@ jobs:
         with:
           message: "ODK build: refresh imports + artifacts"
           default_author: github_actions
-          # explizit nur relevante Pfade, damit tmp/reports nicht aus Versehen reinkommen
-          # (auch wenn sie oft per .gitignore ausgeschlossen sind)
+
           add: >-
             src/ontology/Makefile
             src/ontology/*.Makefile

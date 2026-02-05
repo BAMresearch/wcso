@@ -6,6 +6,6 @@ SELECT ?prefix (COUNT(DISTINCT ?cls) AS ?numberOfClasses) WHERE
 {
   ?cls a owl:Class .
   FILTER (!isBlank(?cls))
-  BIND( STRBEFORE(STRAFTER(str(?cls),"https://w3id.org/wcso"), "_") AS ?prefix)
+  BIND( STRBEFORE(STRAFTER(str(?cls),"https://w3id.org/wcso/"), "_") AS ?prefix)
 }
 GROUP BY ?prefix
