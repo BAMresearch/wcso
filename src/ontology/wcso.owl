@@ -18,7 +18,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://w3id.org/wcso.owl">
-        <owl:versionIRI rdf:resource="https://w3id.org/wcso/releases/2026-03-24/wcso.owl"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/wcso/releases/2026-04-20/wcso.owl"/>
         <dce:identifier rdf:resource="https://w3id.org/wcso/"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0002-3717-7104"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7094-5371"/>
@@ -28,7 +28,7 @@
         <dcterms:description xml:lang="en">The Wet-Chemical Syntheses (WeChemSyn) Ontology (WCSO) provides a semantic framework for the structured representation of knowledge related to the wet-chemical syntheses of (nano) particles. Developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) / Federal Institute for Materials Research and Testing in Berlin, Germany, WCSO supports the formalization and integration of data related to wet-chemical synthesis across experimental workflows, processes, and material properties. It builds upon the PMD Core Ontology (PMDco), a mid-level ontology created within the Platform MaterialDigital (PMD) project which is grounded in the Basic Formal Ontology (BFO). By adhering to BFO as a foundational (top-level) ontology, WCSO ensures semantic interoperability with a wide range of BFO-aligned ontologies and knowledge graphs in the materials science and engineering domain.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title xml:lang="en">Wet-Chemical Syntheses (WeChemSyn) Ontology</dcterms:title>
-        <owl:versionInfo>2026-03-24</owl:versionInfo>
+        <owl:versionInfo>2026-04-20</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -690,22 +690,13 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000196 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000196">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
-        <rdfs:label xml:lang="en">bearer of</rdfs:label>
-        <skos:definition xml:lang="en">b bearer of c =Def c inheres in b</skos:definition>
-        <skos:example xml:lang="en">A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality</skos:example>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000196"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000197 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000197">
-        <rdfs:label xml:lang="en">inheres in</rdfs:label>
-        <skos:definition xml:lang="en">b inheres in c =Def b is a specifically dependent continuant &amp; c is an independent continuant that is not a spatial region &amp; b specifically depends on c</skos:definition>
-        <skos:example xml:lang="en">A shape inheres in a shaped object; a mass inheres in a material entity</skos:example>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000197"/>
     
 
 
@@ -1528,6 +1519,33 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://www.w3.org/ns/org#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasMember">
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/org#memberOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:label xml:lang="it">ha membro</rdfs:label>
+        <rdfs:label xml:lang="en">has member</rdfs:label>
+        <rdfs:label xml:lang="fr">possède un membre</rdfs:label>
+        <rdfs:label xml:lang="es">tiene miembro</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#memberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#memberOf">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:label xml:lang="es">es miembro de</rdfs:label>
+        <rdfs:label xml:lang="en">member of</rdfs:label>
+        <rdfs:label xml:lang="fr">membre de</rdfs:label>
+        <rdfs:label xml:lang="it">membro di</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/pmd/co/PMD_0000004 -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0000004">
@@ -1729,6 +1747,42 @@ RO&apos;s &apos;quality of&apos; is functional i.e., a-&gt;b, a-&gt;c =&gt; b=c.
         <rdfs:label xml:lang="en">relational quality of</rdfs:label>
         <skos:definition xml:lang="en">a relation between a relational quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence</skos:definition>
         <skos:example xml:lang="en">mass proportion m is relational qualitiy of material, and the same mass proportion m is relational qualitiy of portion of iron</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/pmd/log/LOG_1900001 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/log/LOG_1900001">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:Description rdf:about="https://w3id.org/pmd/log/LOG_1000050"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">acts on behalf of</rdfs:label>
+        <skos:definition>relation from a material entity to a person or a group of agents or engineered system that holds when the material entity participates in some planned process in order to fulfill an objective for the person or group of agents or engineered system</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -4622,6 +4676,113 @@ for now.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.org/dc/terms/Agent -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Agent">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/ns/org#FormalOrganization -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#FormalOrganization">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label xml:lang="en">Formal Organization</rdfs:label>
+        <rdfs:label xml:lang="fr">Organisation Formelle</rdfs:label>
+        <rdfs:label xml:lang="it">Organizzazione formale</rdfs:label>
+        <rdfs:label xml:lang="es">organización formal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/org#Organization -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#Organization">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/ns/org#Role"/>
+        <rdfs:label xml:lang="fr">Organisation</rdfs:label>
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
+        <rdfs:label xml:lang="it">Organizzazione</rdfs:label>
+        <rdfs:label xml:lang="es">organización</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/org#OrganizationalCollaboration -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#OrganizationalCollaboration">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/org#Organization"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/ns/org#hasMember"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/org#Organization"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label xml:lang="it">Collaborazione</rdfs:label>
+        <rdfs:label xml:lang="en">Endeavour</rdfs:label>
+        <rdfs:label xml:lang="fr">Partenariat</rdfs:label>
+        <rdfs:label xml:lang="es">proyecto de cooperación empresarial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/org#Role -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#Role">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:label xml:lang="en">Role</rdfs:label>
+        <rdfs:label xml:lang="it">Ruolo</rdfs:label>
+        <rdfs:label xml:lang="fr">Rôle</rdfs:label>
+        <rdfs:label xml:lang="es">actividad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:label>Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000027 -->
 
     <owl:Class rdf:about="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000027">
@@ -4723,7 +4884,7 @@ granularity. At these coarser levels, the individual molecules cannot be differe
                 <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/co/PMD_0000950"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf rdf:nodeID="genid177"/>
+        <rdfs:subClassOf rdf:nodeID="genid193"/>
         <rdfs:comment xml:lang="en">A property is a material trait in terms of the kind and magnitude of response to a specific imposed stimulus. Generally, definitions of properties are made independent of material shape and size.
 (Callister, W.D., Rethwisch, D.G., Materials Science and Engineering, Wiley, 2014)
 
@@ -4736,7 +4897,7 @@ Extensive properties that depend on the object being tested rather than on the p
         <skos:definition xml:lang="en">a disposition of a portion of matter that is realized in a compatible process and whose realization is grounded in the portions intensive qualities</skos:definition>
         <co:PMD_0000060 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</co:PMD_0000060>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid177">
+    <owl:Restriction rdf:nodeID="genid193">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -4753,7 +4914,7 @@ Extensive properties that depend on the object being tested rather than on the p
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://w3id.org/pmd/co/PMD_0000005"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid177"/>
+        <owl:annotatedTarget rdf:nodeID="genid193"/>
         <rdfs:comment xml:lang="en">Due to the duality of object and portion of matter this axiom can not be an equivalent class axiom.</rdfs:comment>
     </owl:Axiom>
     
@@ -13433,21 +13594,21 @@ Depending on the interconnectedness of the pores the foam is open- or closed-cel
 
     <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0020131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <rdfs:subClassOf rdf:nodeID="genid918"/>
+        <rdfs:subClassOf rdf:nodeID="genid934"/>
         <owl:disjointWith rdf:resource="https://w3id.org/pmd/co/PMD_0020148"/>
         <rdfs:label xml:lang="en">intensive quality</rdfs:label>
         <skos:altLabel xml:lang="en">Point property</skos:altLabel>
         <skos:definition xml:lang="en">An intensive quality is a quality that inheres in only portion of matter and thus is independent of the bearers (system-) size.</skos:definition>
         <co:PMD_0000060 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</co:PMD_0000060>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid918">
+    <owl:Restriction rdf:nodeID="genid934">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
         <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/co/PMD_0000001"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid918"/>
+        <owl:annotatedTarget rdf:nodeID="genid934"/>
         <rdfs:comment xml:lang="en">Due to the duality of object and portion of matter this axiom can not be an equivalent class axiom.</rdfs:comment>
     </owl:Axiom>
     
@@ -18473,9 +18634,58 @@ European Commission: Directorate-General for Research and Innovation, Biodegrada
     
 
 
+    <!-- https://w3id.org/pmd/log/LOG_1000006 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/log/LOG_1000006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/log/LOG_1000050"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/log/LOG_1000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">organization identifier</rdfs:label>
+        <skos:definition xml:lang="en-us">identifier that identifies an organization</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/log/LOG_1000010 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/log/LOG_1000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label xml:lang="en">location identification scheme</rdfs:label>
+        <skos:definition>identification scheme that prescribes how unique identifiers of physical locations are formulated</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/pmd/log/LOG_1000011 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/log/LOG_1000011">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/log/LOG_1000054"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
@@ -18487,9 +18697,79 @@ European Commission: Directorate-General for Research and Innovation, Biodegrada
     
 
 
+    <!-- https://w3id.org/pmd/log/LOG_1000050 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/log/LOG_1000050">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/log/LOG_1000006"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                        <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/log/LOG_1000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119 rdf:resource="http://openenergy-platform.org/ontology/oeo/OEO_00030022"/>
+        <rdfs:label xml:lang="en">organization</rdfs:label>
+        <skos:definition xml:lang="en">An organization is an immaterial entity that has the organisation role and there exists some sort of legal framework that recognises the entity and its continued existence.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/pmd/log/LOG_1000054 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/log/LOG_1000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://w3id.org/pmd/log/LOG_1900001"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+                                            <rdf:Description rdf:about="https://w3id.org/pmd/log/LOG_1000050"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">agent role</rdfs:label>
         <skos:definition xml:lang="en-us">role that someone or something has when they act on behalf of a person, engineered system or a group of agents</skos:definition>
     </owl:Class>
@@ -19233,6 +19513,19 @@ What it does not necessarily mean: it is not automatically “net increase” of
     
 
 
+    <!-- http://www.w3.org/ns/org#Head -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/org#Head">
+        <rdf:type rdf:resource="http://www.w3.org/ns/org#Role"/>
+        <rdfs:label xml:lang="es">director ejecutivo</rdfs:label>
+        <rdfs:label xml:lang="es">directora ejecutiva</rdfs:label>
+        <rdfs:label xml:lang="en">head</rdfs:label>
+        <rdfs:label xml:lang="it">responsabile</rdfs:label>
+        <rdfs:label xml:lang="fr">responsable</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/pmd/co/PMD_0020006 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/pmd/co/PMD_0020006">
@@ -19544,6 +19837,17 @@ What it does not necessarily mean: it is not automatically “net increase” of
     <owl:NamedIndividual rdf:about="https://w3id.org/pmd/co/PMD_0020242">
         <rdfs:label xml:lang="en">no range order</rdfs:label>
         <skos:definition xml:lang="en">no periodic arrangement of structural features of entites</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0040128 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/co/PMD_0040128">
+        <rdf:type rdf:resource="https://w3id.org/pmd/log/LOG_1000010"/>
+        <rdfs:comment>https://www.gs1.org/standards/id-keys/gln</rdfs:comment>
+        <rdfs:label xml:lang="en">GS1 GLN Specifications</rdfs:label>
+        <skos:definition>identification scheme that specifies constraints on the structure of a GLN (global location number)</skos:definition>
     </owl:NamedIndividual>
     
 
@@ -19902,10 +20206,10 @@ What it does not necessarily mean: it is not automatically “net increase” of
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="urn:swrl:var#e">
+    <rdf:Description rdf:about="urn:swrl:var#d">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl:var#d">
+    <rdf:Description rdf:about="urn:swrl:var#e">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -19915,10 +20219,9 @@ What it does not necessarily mean: it is not automatically “net increase” of
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -19926,9 +20229,10 @@ What it does not necessarily mean: it is not automatically “net increase” of
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -19958,10 +20262,9 @@ What it does not necessarily mean: it is not automatically “net increase” of
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -19969,9 +20272,10 @@ What it does not necessarily mean: it is not automatically “net increase” of
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -20001,10 +20305,9 @@ What it does not necessarily mean: it is not automatically “net increase” of
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -20012,9 +20315,10 @@ What it does not necessarily mean: it is not automatically “net increase” of
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -20044,10 +20348,9 @@ What it does not necessarily mean: it is not automatically “net increase” of
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -20055,9 +20358,10 @@ What it does not necessarily mean: it is not automatically “net increase” of
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
